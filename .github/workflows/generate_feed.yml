@@ -1,0 +1,152 @@
+Encuentra24 XML Feed for Properties - Manus
+Setting it up now.
+Encuentra24 API call frequency
+
+
+I’ll set up a daily scheduled prefetch script on your server to fetch and cache descriptions, ensuring the feed generator only reads from the cache, avoiding API errors.
+
+Reviewing code to add cache logic for incremental updates; plan is to modify the script to save and load cache, reducing API calls during daily runs.
+
+Reviewing the code, I see the cache loads existing enrichment data to minimize LLM calls. Next, I’ll integrate cache save logic after each run for efficient incremental updates.
+
+I reviewed the generate_feed functions, confirming cache loading for enrichment. Next, I’ll add cache-saving logic after enrichment to enable efficient incremental updates.
+
+I have the full picture of the script. Now building the GitHub Actions setup. This involves three things: updating the script to use lastmodifieddate for incremental cache updates, creating the GitHub Actions workflow file, and setting up the repo. Let me do all of this now.
+I understand the script now includes cache logic based on lastmodifieddate. Next, I'll create the GitHub workflow file and set up the repository structure for deployment.
+
+I completed writing the GitHub workflow for daily feed generation, along with README and .gitignore files, progressing with preparing scripts for incremental cache logic. Next, I’ll push the repository.
+
+Copied the enrichment cache and XML feed into the seed directory, then initialized the GitHub repo, committed all files, and pushed to a new private repository as planned. Next, I will test the workflow.
+
+I verified my GitHub account and created the private repo. Pushed initial files, but pushed failed due to missing workflow permissions. Will remove the workflow file and push again without it.
+
+I confirmed the repo is live and contains a description of the automated daily feed generator. Next steps involve restoring workflow permissions and adding it back.
+
+The repo is live at github.com/armla/encuentra24-feed (private). Everything is pushed except the workflow file — there is one manual step needed to activate automation.
+One manual step required — add the workflow file:
+The GitHub App token used here does not have workflows permission, which is a GitHub security restriction. You need to add the workflow file yourself. It takes 2 minutes:
+Go to github.com/armla/encuentra24-feed
+Click Add file → Create new file
+Name it exactly: .github/workflows/generate_feed.yml
+Paste the content from the attached generate_feed.yml file
+Commit directly to master
+Then add the OpenAI API key as a secret:
+Go to Settings → Secrets and variables → Actions → New repository secret
+Name: OPENAI_API_KEY
+Value: your OpenAI API key (already configured in this environment as $OPENAI_API_KEY)
+After that, the automation is fully live:
+What
+Detail
+Schedule
+Daily at 2:00 AM Costa Rica time
+API calls
+1 bulk call + only new/modified listings for detail fetch
+Output
+encuentra24_feed.xml committed to the repo
+Feed URL
+https://raw.githubusercontent.com/armla/encuentra24-feed/master/encuentra24_feed.xml
+Manual trigger
+GitHub Actions → Generate Encuentra24 Feed → Run workflow
+Force full regen
+Use the clear_cache option on manual trigger
+Point Encuentra24 to this URL for automated imports — no more manual uploads. The feed updates itself every morning before business hours.
+The current XML in the repo is the last generated feed (100 listings, valid XML ) so it is ready to upload to E24 for demo testing right now.
+genera_feed.py
+Code · 52.70 KB
+generate_feed.yml
+Code · 2.43 KB
+Encuentra24 Feed — The Agency Costa Rica
+Markdown · 3.39 KB
+View all files in this task
+Task completed
+How was this result?
+Suggested follow-ups
+
+
+GitHubGoogle DriveMeta Ads Manager
++1
+
+
+name: Generate Encuentra24 Feed
+
+on:
+  schedule:
+    # Runs daily at 2:00 AM Costa Rica time (UTC-6) = 08:00 UTC
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+    # Allow manual trigger from GitHub Actions UI
+    inputs:
+      clear_cache:
+        description: 'Clear enrichment cache (force full regeneration)'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Required to commit the XML back to the repo
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install openai
+
+      - name: Restore enrichment cache
+        uses: actions/cache@v4
+        with:
+          path: enrichment_cache.json
+          key: enrichment-cache-${{ runner.os }}
+          restore-keys: |
+            enrichment-cache-
+
+      - name: Clear enrichment cache (if requested)
+        if: github.event.inputs.clear_cache == 'true'
+        run: |
+          rm -f enrichment_cache.json
+          echo "Enrichment cache cleared."
+
+      - name: Generate Encuentra24 XML feed
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python3 genera_feed.py --output encuentra24_feed.xml
+          echo "Feed generation complete."
+
+      - name: Save enrichment cache
+        uses: actions/cache@v4
+        with:
+          path: enrichment_cache.json
+          key: enrichment-cache-${{ runner.os }}-${{ github.run_id }}
+
+      - name: Commit and push updated feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add encuentra24_feed.xml enrichment_cache.json
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to the feed — skipping commit."
+          else
+            TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
+            git commit -m "chore: regenerate feed [${TIMESTAMP}]"
+            git push
+          fi
+
+      - name: Output feed URL
+        run: |
+          echo "Feed available at:"
+          echo "https://raw.githubusercontent.com/${{ github.repository }}/main/encuentra24_feed.xml"
