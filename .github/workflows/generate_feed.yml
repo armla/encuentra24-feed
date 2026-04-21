@@ -1,0 +1,83 @@
+name: Generate Encuentra24 Feed
+
+on:
+  schedule:
+    # Runs daily at 2:00 AM Costa Rica time (UTC-6) = 08:00 UTC
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+    # Allow manual trigger from GitHub Actions UI
+    inputs:
+      clear_cache:
+        description: 'Clear enrichment cache (force full regeneration)'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Required to commit the XML back to the repo
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install openai
+
+      - name: Restore enrichment cache
+        uses: actions/cache@v4
+        with:
+          path: enrichment_cache.json
+          key: enrichment-cache-${{ runner.os }}
+          restore-keys: |
+            enrichment-cache-
+
+      - name: Clear enrichment cache (if requested)
+        if: github.event.inputs.clear_cache == 'true'
+        run: |
+          rm -f enrichment_cache.json
+          echo "Enrichment cache cleared."
+
+      - name: Generate Encuentra24 XML feed
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python3 genera_feed.py --output encuentra24_feed.xml
+          echo "Feed generation complete."
+
+      - name: Save enrichment cache
+        uses: actions/cache@v4
+        with:
+          path: enrichment_cache.json
+          key: enrichment-cache-${{ runner.os }}-${{ github.run_id }}
+
+      - name: Commit and push updated feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add encuentra24_feed.xml enrichment_cache.json
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to the feed — skipping commit."
+          else
+            TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
+            git commit -m "chore: regenerate feed [${TIMESTAMP}]"
+            git push
+          fi
+
+      - name: Output feed URL
+        run: |
+          echo "Feed available at:"
+          echo "https://raw.githubusercontent.com/${{ github.repository }}/main/encuentra24_feed.xml"
