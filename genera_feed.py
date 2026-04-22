@@ -615,7 +615,7 @@ def enrich_listings(eligible, use_llm=True):
 
     for i, (prop, listing, ad_type) in enumerate(eligible):
         mls = listing.get("lx_mls_id") or listing.get("id") or str(i)
-        listing_id = prop.get("id")
+        listing_id = listing.get("id")  # Use listing ID (not property ID) for the detail endpoint
 
         # Skip if already cached
         if mls in cache:
