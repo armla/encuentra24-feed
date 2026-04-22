@@ -273,7 +273,7 @@
           <sourceid><![CDATA[LXSF13753]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[176]]></categoryid>
-          <regionid><![CDATA[48]]></regionid>
+          <regionid><![CDATA[2075]]></regionid>
           <type><![CDATA[lot]]></type>
           <title><![CDATA[Propiedad con Vista al Valle]]></title>
           <currency><![CDATA[USD]]></currency>
@@ -311,10 +311,10 @@
     <item>
       <required>
         <ad>
-          <sourceid><![CDATA[LXER13634]]></sourceid>
+          <sourceid><![CDATA[LXSR13634]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[173]]></categoryid>
-          <regionid><![CDATA[48]]></regionid>
+          <regionid><![CDATA[2075]]></regionid>
           <type><![CDATA[property]]></type>
           <title><![CDATA[Retiro junto al mar en Santa Teresa]]></title>
           <currency><![CDATA[USD]]></currency>
@@ -329,14 +329,14 @@
           <email><![CDATA[korneel.glorieux@theagencyre.com]]></email>
           <phone><![CDATA[+506 4001-4398]]></phone>
           <contact><![CDATA[Korneel Glorieux]]></contact>
-          <city><![CDATA[Puntarenas]]></city>
+          <city><![CDATA[North Santa Teresa, Santa Teresa]]></city>
         </contact>
       </required>
       <optional>
         <ad>
           <title1><![CDATA[UNDER CONTRACT: Surfside Retreat in Santa Teresa]]></title1>
-          <descr><![CDATA[Retiro junto al mar en Santa Teresa. Ubicación: Puntarenas, Puntarenas. 2 habitaciones | 1 baños | 120 m² de construcción | 209 m² de terreno. Características: Natural light, Open Design, Balcony, A/C Splits. Exteriores: Pool, Private Water Source, Mountain views, Beach & Coastal Living. MLS LXER13634 The Agency Costa Rica.]]></descr>
-          <descr1><![CDATA[UNDER CONTRACT: Surfside Retreat in Santa Teresa. Location: Puntarenas, Puntarenas. 2 bedrooms | 1 bathrooms | 120 m² built area | 209 m² lot. Features: Natural light, Open Design, Balcony, A/C Splits. Exterior: Pool, Private Water Source, Mountain views, Beach & Coastal Living. MLS LXER13634 The Agency Costa Rica.]]></descr1>
+          <descr><![CDATA[Retiro junto al mar en Santa Teresa. Ubicación: North Santa Teresa, Santa Teresa, Puntarenas. 2 habitaciones | 1 baños | 120 m² de construcción | 209 m² de terreno. Características: Natural light, Open Design, Balcony, A/C Splits. Exteriores: Pool, Private Water Source, Mountain views, Beach & Coastal Living. MLS LXSR13634 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[UNDER CONTRACT: Surfside Retreat in Santa Teresa. Location: North Santa Teresa, Santa Teresa, Puntarenas. 2 bedrooms | 1 bathrooms | 120 m² built area | 209 m² lot. Features: Natural light, Open Design, Balcony, A/C Splits. Exterior: Pool, Private Water Source, Mountain views, Beach & Coastal Living. MLS LXSR13634 The Agency Costa Rica.]]></descr1>
           <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008Z0HMG/nrnlgnpfh/1277x640/Revamp-Opportunity-and-Walking-Distance-to-central-Beaches-of-Santa-Teresa-1.jpg]]></picture>
           <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008Z0HMG/33frwtuhr/1277x640/DJI_0837.JPG]]></picture>
           <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008Z0HMG/y1s2gul8z/1277x640/DJI_0840.JPG]]></picture>
@@ -353,7 +353,7 @@
           <balcon><![CDATA[balcón]]></balcon>
           <benefits><![CDATA[Vista a las Montañas]]></benefits>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXER13634]]></sourceid>
+          <sourceid><![CDATA[LXSR13634]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
@@ -1222,7 +1222,7 @@
           <sourceid><![CDATA[LXSR13699]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[173]]></categoryid>
-          <regionid><![CDATA[48]]></regionid>
+          <regionid><![CDATA[2075]]></regionid>
           <type><![CDATA[property]]></type>
           <title><![CDATA[Casa Brisas de Montezuma]]></title>
           <currency><![CDATA[USD]]></currency>
@@ -1915,7 +1915,7 @@
           <sourceid><![CDATA[LXER23725]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[156]]></categoryid>
-          <regionid><![CDATA[48]]></regionid>
+          <regionid><![CDATA[2155]]></regionid>
           <type><![CDATA[rent]]></type>
           <title><![CDATA[Apartamento ParkVue en Rohrmoser]]></title>
           <currency><![CDATA[USD]]></currency>
@@ -2046,7 +2046,7 @@
           <sourceid><![CDATA[LXER22958]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[157]]></categoryid>
-          <regionid><![CDATA[1]]></regionid>
+          <regionid><![CDATA[117]]></regionid>
           <type><![CDATA[rent]]></type>
           <title><![CDATA[The Cactus Home Escazú]]></title>
           <currency><![CDATA[USD]]></currency>
@@ -2331,7 +2331,7 @@
           <sourceid><![CDATA[LXSC13809]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[170]]></categoryid>
-          <regionid><![CDATA[48]]></regionid>
+          <regionid><![CDATA[2075]]></regionid>
           <type><![CDATA[property]]></type>
           <title><![CDATA[Espacio comercial en el corazón de Santa Teresa]]></title>
           <currency><![CDATA[USD]]></currency>
@@ -2426,7 +2426,7 @@
           <sourceid><![CDATA[LXSR14126]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[173]]></categoryid>
-          <regionid><![CDATA[48]]></regionid>
+          <regionid><![CDATA[2075]]></regionid>
           <type><![CDATA[property]]></type>
           <title><![CDATA[Las Delicias Preciosa Casa Tropical]]></title>
           <currency><![CDATA[USD]]></currency>
@@ -2577,7 +2577,7 @@
           <sourceid><![CDATA[LXSR13693]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[173]]></categoryid>
-          <regionid><![CDATA[48]]></regionid>
+          <regionid><![CDATA[2075]]></regionid>
           <type><![CDATA[property]]></type>
           <title><![CDATA[Joya Escondida con Vista al Mar]]></title>
           <currency><![CDATA[USD]]></currency>
@@ -2919,7 +2919,7 @@
           <sourceid><![CDATA[LXER13507]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[179]]></categoryid>
-          <regionid><![CDATA[1]]></regionid>
+          <regionid><![CDATA[139]]></regionid>
           <type><![CDATA[property]]></type>
           <title><![CDATA[Apartamento Velo en Nunciatura]]></title>
           <currency><![CDATA[USD]]></currency>
@@ -3497,7 +3497,7 @@
           <sourceid><![CDATA[LXHR12502]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[179]]></categoryid>
-          <regionid><![CDATA[48]]></regionid>
+          <regionid><![CDATA[2155]]></regionid>
           <type><![CDATA[property]]></type>
           <title><![CDATA[The View Apartment en Nunciatura]]></title>
           <currency><![CDATA[USD]]></currency>
@@ -3560,7 +3560,7 @@
           <sourceid><![CDATA[LXSR14097]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[173]]></categoryid>
-          <regionid><![CDATA[48]]></regionid>
+          <regionid><![CDATA[2075]]></regionid>
           <type><![CDATA[property]]></type>
           <title><![CDATA[Residencia Moderna con Vista a la Jungla en Santiago con Potencial de Expansión]]></title>
           <currency><![CDATA[USD]]></currency>
@@ -4133,7 +4133,7 @@
           <sourceid><![CDATA[LXSR14052]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[173]]></categoryid>
-          <regionid><![CDATA[48]]></regionid>
+          <regionid><![CDATA[2075]]></regionid>
           <type><![CDATA[property]]></type>
           <title><![CDATA[Propiedad de Doble Vivienda en la Jungla de Santa Teresa]]></title>
           <currency><![CDATA[USD]]></currency>
@@ -4359,7 +4359,7 @@
           <sourceid><![CDATA[LXCR12882]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[173]]></categoryid>
-          <regionid><![CDATA[62]]></regionid>
+          <regionid><![CDATA[5172]]></regionid>
           <type><![CDATA[property]]></type>
           <title><![CDATA[Santa Lucia Family Home]]></title>
           <currency><![CDATA[USD]]></currency>
@@ -4538,7 +4538,7 @@
           <sourceid><![CDATA[LXSR13830]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[173]]></categoryid>
-          <regionid><![CDATA[48]]></regionid>
+          <regionid><![CDATA[2075]]></regionid>
           <type><![CDATA[property]]></type>
           <title><![CDATA[Unmatched Valley View Home Near Playa Hermosa]]></title>
           <currency><![CDATA[USD]]></currency>
@@ -4586,7 +4586,7 @@
           <sourceid><![CDATA[LXER13429]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[179]]></categoryid>
-          <regionid><![CDATA[48]]></regionid>
+          <regionid><![CDATA[2155]]></regionid>
           <type><![CDATA[property]]></type>
           <title><![CDATA[Apartamento One Green View en Rohrmoser]]></title>
           <currency><![CDATA[USD]]></currency>
@@ -4772,7 +4772,7 @@
           <sourceid><![CDATA[LXSR13637]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[173]]></categoryid>
-          <regionid><![CDATA[48]]></regionid>
+          <regionid><![CDATA[2075]]></regionid>
           <type><![CDATA[property]]></type>
           <title><![CDATA[Tres Búngalos estilo Balinés  a pasos de la Playa]]></title>
           <currency><![CDATA[USD]]></currency>
@@ -4839,7 +4839,7 @@
           <sourceid><![CDATA[LXER10103]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[173]]></categoryid>
-          <regionid><![CDATA[2]]></regionid>
+          <regionid><![CDATA[117]]></regionid>
           <type><![CDATA[property]]></type>
           <title><![CDATA[Acogedora Casa Estilo Colonial]]></title>
           <currency><![CDATA[USD]]></currency>
@@ -5111,7 +5111,7 @@
           <sourceid><![CDATA[LXSR13816]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[173]]></categoryid>
-          <regionid><![CDATA[48]]></regionid>
+          <regionid><![CDATA[2075]]></regionid>
           <type><![CDATA[property]]></type>
           <title><![CDATA[Casa Boho Tropical en Playa Hermosa, Santa Teresa]]></title>
           <currency><![CDATA[USD]]></currency>
@@ -5148,72 +5148,6 @@
           <benefits><![CDATA[Vista a las Montañas]]></benefits>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXSR13816]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
-          <sourceid><![CDATA[LXCR10816]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[173]]></categoryid>
-          <regionid><![CDATA[22]]></regionid>
-          <type><![CDATA[property]]></type>
-          <title><![CDATA[Casa Water Mirror]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <price><![CDATA[650000]]></price>
-          <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[3]]></bath>
-          <square><![CDATA[420]]></square>
-          <parking><![CDATA[2]]></parking>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[mariaalexandra@lxcostarica.com]]></email>
-          <phone><![CDATA[+506 4001-4398]]></phone>
-          <contact><![CDATA[Maria Alexandra Gutierrez]]></contact>
-          <city><![CDATA[Curridabat]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[The Water Mirror Home]]></title1>
-          <descr><![CDATA[Casa Water Mirror. Ubicación: Verde Vista, Curridabat, San Jose. 3 habitaciones | 3 baños | 420 m² de construcción | 1050 m² de terreno. Características: Brick/Stone detailing, Contemporary Design, Cross-ventilation, Fireplace / Chimney, High-ceilings, Internal Garden, Natural light, Office Space, Open Design, Maid’s Quarters. Exteriores: Terrace/Patio, City views, Mountain views. MLS LXCR10816 The Agency Costa Rica.]]></descr>
-          <descr1><![CDATA[The Water Mirror Home. Location: Verde Vista, Curridabat, San Jose. 3 bedrooms | 3 bathrooms | 420 m² built area | 1050 m² lot. Features: Brick/Stone detailing, Contemporary Design, Cross-ventilation, Fireplace / Chimney, High-ceilings, Internal Garden, Natural light, Office Space, Open Design, Maid’s Quarters. Exterior: Terrace/Patio, City views, Mountain views. MLS LXCR10816 The Agency Costa Rica.]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000c0Lpg/zhmv3akpv/1277x640/LX-Verde-Vista-21.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000c0Lpg/y58wyqxdx/1277x640/LX-Verde-Vista-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000c0Lpg/zd6y3cocr/1277x640/LX-Verde-Vista-15.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000c0Lpg/b29zmcv6t/1277x640/LX-Verde-Vista-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000c0Lpg/mpxxflazv/1277x640/LX-Verde-Vista-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000c0Lpg/g25kxjl42/1277x640/LX-Verde-Vista-4.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000c0Lpg/gra6uz8zz/1277x640/LX-Verde-Vista-14.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000c0Lpg/dcxh3knav/1277x640/LX-Verde-Vista-5.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000c0Lpg/d3dicme6z/1277x640/LX-Verde-Vista-9.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000c0Lpg/rvmar4ors/1277x640/LX-Verde-Vista-10.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000c0Lpg/o2x81d5mr/1277x640/LX-Verde-Vista-13.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000c0Lpg/fowoipk22/1277x640/LX-Verde-Vista-16.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000c0Lpg/ai8ugs9jt/1277x640/LX-Verde-Vista-17.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000c0Lpg/zwowc1sxe/1277x640/LX-Verde-Vista-18.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000c0Lpg/ew3glk4ed/1277x640/LX-Verde-Vista-19.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000c0Lpg/8e2429n19/1277x640/LX-Verde-Vista-20.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000c0Lpg/5gwr7d5i9/1277x640/LX-Verde-Vista-22.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000c0Lpg/82qicswcj/1277x640/LX-Verde-Vista-23.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000c0Lpg/tslm7kff4/1277x640/LX-Verde-Vista-24.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000c0Lpg/g329r30ws/1277x640/LX-Verde-Vista-25.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000c0Lpg/9mu26dwgm/1277x640/LX-Verde-Vista-27.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000c0Lpg/s7ieombn6/1277x640/LX-Verde-Vista-26.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000c0Lpg/ruzpcxsk0/1277x640/LX-Verde-Vista-28.jpg]]></picture>
-          <lotsize><![CDATA[1050]]></lotsize>
-          <balcon><![CDATA[terraza]]></balcon>
-          <benefits><![CDATA[Patio,Vista a las Montañas,Seguridad 24 Horas,Pet Friendly]]></benefits>
-          <building><![CDATA[Verde Vista]]></building>
-          <youtube1><![CDATA[https://www.youtube.com/embed/2cCva-tRgE8]]></youtube1>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXCR10816]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
@@ -5544,7 +5478,7 @@
           <sourceid><![CDATA[LXCR13245]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[173]]></categoryid>
-          <regionid><![CDATA[1]]></regionid>
+          <regionid><![CDATA[5172]]></regionid>
           <type><![CDATA[property]]></type>
           <title><![CDATA[La Casa Lakota Terrace]]></title>
           <currency><![CDATA[USD]]></currency>
@@ -5612,7 +5546,7 @@
           <sourceid><![CDATA[LXER12922]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[173]]></categoryid>
-          <regionid><![CDATA[1]]></regionid>
+          <regionid><![CDATA[117]]></regionid>
           <type><![CDATA[property]]></type>
           <title><![CDATA[The Cactus Home Escazú]]></title>
           <currency><![CDATA[USD]]></currency>
@@ -5666,7 +5600,7 @@
           <sourceid><![CDATA[LXR13403]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[179]]></categoryid>
-          <regionid><![CDATA[60]]></regionid>
+          <regionid><![CDATA[5172]]></regionid>
           <type><![CDATA[property]]></type>
           <title><![CDATA[Apartamento Sunset Spot Olivar]]></title>
           <currency><![CDATA[USD]]></currency>
@@ -5720,6 +5654,73 @@
           <youtube1><![CDATA[https://www.youtube.com/embed/mYbvm7bqS_0]]></youtube1>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXR13403]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
+          <sourceid><![CDATA[LXCR13106]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[179]]></categoryid>
+          <regionid><![CDATA[5172]]></regionid>
+          <type><![CDATA[property]]></type>
+          <title><![CDATA[Pura Vista Apartamento El Olivar]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[680000]]></price>
+          <rooms><![CDATA[3]]></rooms>
+          <bath><![CDATA[3.5]]></bath>
+          <square><![CDATA[275]]></square>
+          <parking><![CDATA[2]]></parking>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[mariaalexandra@lxcostarica.com]]></email>
+          <phone><![CDATA[+506 4001-4398]]></phone>
+          <contact><![CDATA[Maria Alexandra Gutierrez]]></contact>
+          <city><![CDATA[Tres Ríos]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Pura Vista Apartment at El Olivar]]></title1>
+          <descr><![CDATA[Pura Vista Apartamento El Olivar. Ubicación: El Olivar, Tres Ríos, Cartago. 3 habitaciones | 3 baños + 1 medio baño | 275 m² de construcción. Características: Classical Design, Cross-ventilation, Elevator, High-ceilings, Multi-level distribution, Natural light, Wood detailing, Storage Area, Wood Floors, Balcony. Exteriores: Panoramic views, Landscaped Gardens, City views, Mountain views, City Living, High-rise Living, Classical design. MLS LXCR13106 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Pura Vista Apartment at El Olivar. Location: El Olivar, Tres Ríos, Cartago. 3 bedrooms | 3 bathrooms + 1 half bath | 275 m² built area. Features: Classical Design, Cross-ventilation, Elevator, High-ceilings, Multi-level distribution, Natural light, Wood detailing, Storage Area, Wood Floors, Balcony. Exterior: Panoramic views, Landscaped Gardens, City views, Mountain views, City Living, High-rise Living, Classical design. MLS LXCR13106 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001Vmaez/v6r6lhxny/1277x640/Dining-room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001Vmaez/az1wifa1j/1277x640/Living-room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001Vmaez/sb1xg7xiv/1277x640/Living-room-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001Vmaez/byh8w1s50/1277x640/Terrace-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001Vmaez/nupe47yem/1277x640/Terrace-4.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001Vmaez/d0abzlpau/1277x640/Balcony-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001Vmaez/zjuuuikb1/1277x640/Social-Area-11.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001Vmaez/n530yzxvx/1277x640/Dining-room-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001Vmaez/dovzlry9d/1277x640/Terrace-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001Vmaez/g1xsh9k80/1277x640/Master-Bedroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001Vmaez/1hz4mvzus/1277x640/Master-Bedroom-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001Vmaez/s98ne31ee/1277x640/Master-Bathroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001Vmaez/jpp29axba/1277x640/Secondary-bedroom-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001Vmaez/xj0i3uozq/1277x640/Secondary-bedroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001Vmaez/v61i74hye/1277x640/Kitchen-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001Vmaez/a7fna1i91/1277x640/Social-Area-16.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001Vmaez/yeojpn6at/1277x640/Social-Area-15.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001Vmaez/6gfaa1pk4/1277x640/Social-Area-18.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001Vmaez/rhfpi9zam/1277x640/Social-Area-22.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001Vmaez/wv0kr9m91/1277x640/Social-Area-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001Vmaez/omf7esztz/1277x640/Social-Area-12.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001Vmaez/shg27sleo/1277x640/Social-Area-17.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001Vmaez/hge9veybz/1277x640/Social-Area-21.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001Vmaez/fa436d12y/1277x640/Social-Area-4.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001Vmaez/l6nffzq8i/1277x640/Social-Area-7.jpg]]></picture>
+          <balcon><![CDATA[balcón]]></balcon>
+          <benefits><![CDATA[2 o más elevadores,Vista a las Montañas,Seguridad 24 Horas,Pet Friendly]]></benefits>
+          <building><![CDATA[El Olivar]]></building>
+          <youtube1><![CDATA[https://www.youtube.com/embed/NAYQ_rpixFE]]></youtube1>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXCR13106]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>

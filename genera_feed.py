@@ -7,13 +7,11 @@ Pulls property data from the LX Costa Rica API and generates an
 Encuentra24-compliant XML import file.
 
 Usage:
-    python3 genera_feed.py [--output feed.xml] [--limit 100]
+    python3 genera_feed.py [--output feed.xml] [--type all|sale|lot] [--limit 100]
     python3 genera_feed.py --no-enrich   # skip LLM enrichment, use fast fallback descriptions
-    python3 genera_feed.py --clear-cache # force regenerate all LLM descriptions
 
 LLM Enrichment (enabled by default):
     - Fetches full marketing descriptions + highlights from the detail API
-      ONLY for listings that are new or modified since last run (incremental)
     - Generates optimized 70-char bilingual titles (Type + Beds + Location - Community - Hook)
     - Generates two-paragraph bilingual descriptions (highlights-led P1, details P2)
     - Results are cached in enrichment_cache.json to avoid redundant API calls
@@ -21,6 +19,7 @@ LLM Enrichment (enabled by default):
 
 import argparse
 import json
+import math
 import os
 import sys
 import time
@@ -29,7 +28,7 @@ from datetime import datetime
 from xml.sax.saxutils import escape
 
 # ─────────────────────────────────────────────────────────────────────
-# CONFIGURATION
+# CONFIGURATION — edit these values to match your account
 # ─────────────────────────────────────────────────────────────────────
 
 API_URL        = "https://api.lxcostarica.com/api/v1/listings"
@@ -53,8 +52,7 @@ MAX_PHOTOS = 25
 # Maximum number of listings in the feed (Encuentra24 plan limit)
 MAX_LISTINGS = 100
 
-# Exclusives at or below this price are guaranteed a slot
-# Exclusive flag overrides EPP priority — all exclusives included
+# Exclusives at or below this price are guaranteed a slot (exclusive flag overrides EPP priority)
 EXCLUSIVE_PRICE_CAP = 1_100_000  # USD
 
 # Maximum monthly rent for Tier B rentals
@@ -70,7 +68,7 @@ EPP_PRIORITIES = {18, 19, 20}
 # LLM model for enrichment
 LLM_MODEL = "gpt-4.1-mini"
 
-# Cache file for LLM enrichment results
+# Cache file for LLM enrichment results (avoids re-generating on every run)
 ENRICHMENT_CACHE_FILE = "enrichment_cache.json"
 
 # ─────────────────────────────────────────────────────────────────────
@@ -111,8 +109,6 @@ LOT_DEFAULT_CATEGORY = 178  # Lotes y Terrenos
 # ─────────────────────────────────────────────────────────────────────
 # COSTA RICA REGION ID MAP
 # ─────────────────────────────────────────────────────────────────────
-
-DEFAULT_REGION_ID = 1  # San José (fallback)
 
 REGION_MAP = {
     # San José province
@@ -209,33 +205,39 @@ REGION_MAP = {
     "nandayure":        56,
     "la cruz":          57,
     "hojancha":         58,
-    # Guanacaste beach towns
+    # Guanacaste beach areas
     "tamarindo":        50,
-    "flamingo":         52,
-    "playa flamingo":   52,
-    "potrero":          52,
-    "playa potrero":    52,
-    "conchal":          52,
-    "playa conchal":    52,
-    "brasilito":        52,
-    "avellanas":        50,
-    "playa avellanas":  50,
     "nosara":           48,
     "sámara":           48,
     "samara":           48,
-    "playa negra":      50,
-    "playa grande":     50,
-    "langosta":         50,
-    "junquillal":       50,
-    "ostional":         48,
-    "ocotal":           52,
-    "playa ocotal":     52,
-    "hermosa guanacaste": 52,
+    "playa flamingo":   52,
+    "flamingo":         52,
+    "playa potrero":    1496,
+    "potrero":          1496,
     "playa hermosa guanacaste": 52,
-    "coco":             52,
     "playa del coco":   52,
-    "papagayo":         47,
-    "peninsula papagayo": 47,
+    "coco":             52,
+    "el coco":          52,
+    "playa conchal":    52,
+    "conchal":          52,
+    "playa avellanas":  50,
+    "avellanas":        50,
+    "playa negra guanacaste": 50,
+    "playa grande":     50,
+    "playa junquillal":  50,
+    "junquillal":       50,
+    "playa langosta":   50,
+    "langosta":         50,
+    "peninsula papagayo": 52,
+    "papagayo":         52,
+    "playas del coco":  52,
+    "sardinal":         52,
+    "brasilito":        52,
+    "huacas":           52,
+    "villareal":        50,
+    "villa real":       50,
+    "27 de abril":      50,
+    "veintisiete de abril": 50,
     # Puntarenas province
     "puntarenas":       73,
     "esparza":          74,
@@ -243,98 +245,118 @@ REGION_MAP = {
     "montes de oro":    76,
     "osa":              77,
     "quepos":           78,
+    "manuel antonio":   78,
     "golfito":          79,
     "coto brus":        80,
     "parrita":          81,
     "corredores":       82,
     "garabito":         83,
-    # Puntarenas beach towns
-    "jacó":             83,
     "jaco":             83,
-    "playa hermosa":    83,
-    "playa herradura":  83,
+    "jacó":             83,
+    "playa jaco":       83,
     "herradura":        83,
-    "manuel antonio":   78,
     "dominical":        77,
     "uvita":            77,
     "ojochal":          77,
-    "montezuma":        73,
-    "santa teresa":     73,
-    "malpais":          73,
-    "mal pais":         73,
-    "cabuya":           73,
-    "tambor":           73,
-    "playa tambor":     73,
-    "cobano":           73,
-    "peninsula de osa": 77,
-    "drake":            77,
-    "bahia drake":      77,
+    "bahia ballena":    77,
+    "bahía ballena":    77,
+    "playa hermosa puntarenas": 83,
+    "playa bejuco":     81,
+    "playa esterillos":  81,
+    "santa teresa":     2075,  # Cóbano, Puntarenas (NOT Guanacaste)
+    "mal pais":         2075,
+    "mal país":         2075,
+    "montezuma":        2075,
+    "cobano":           2075,
+    "cóbano":           2075,
+    "peninsula de nicoya": 48,
+    "nicoya peninsula": 48,
     # Limón province
-    "limón":            84,
-    "limon":            84,
-    "pococí":           85,
-    "pococi":           85,
-    "siquirres":        86,
-    "talamanca":        87,
-    "matina":           88,
-    "guácimo":          89,
-    "guacimo":          89,
-    # Limón beach towns
-    "puerto viejo":     87,
-    "cahuita":          87,
-    "manzanillo":       87,
-    "tortuguero":       85,
-    "playa negra limon": 87,
-    # Central Valley
-    "valle del sol":    9,
-    "hacienda espinal": 36,
-    "espinal":          36,
-    "santa barbara heredia": 41,
-    "san rafael heredia": 40,
-    "la guácima":       21,
-    "la guacima":       21,
-    "ciudad quesada":   30,
-    "la fortuna":       30,
-    "arenal":           30,
+    "limon":            100,
+    "limón":            100,
+    "pococi":           101,
+    "siquirres":        102,
+    "talamanca":        103,
+    "matina":           104,
+    "guácimo":          105,
+    "guacimo":          105,
+    "puerto viejo":     111,
+    "puerto viejo de talamanca": 111,
+    "cahuita":          103,
+    "manzanillo":       103,
+    "playa negra limon": 111,
+    "playa negra":      111,
+    # Cartago province
+    "cartago":          60,
+    "paraíso":          61,
+    "paraiso":          61,
+    "la unión":         62,
+    "la union":         62,
+    "jiménez":          63,
+    "jimenez":          63,
+    "turrialba":        64,
+    "alvarado":         65,
+    "oreamuno":         66,
+    "el guarco":        67,
+    # San José Capital districts
+    "san jose":         139,  # San José Capital (not province)
+    "san josé":         139,
+    "nunciatura":       139,
+    "barrio escalante":  5211,
+    "rohrmoser":        2155,
+    # Escazú districts
+    "guachipelín":      117,
+    "guachipelin":      117,
+    # Cartago districts
+    "tres ríos":        5172,
+    "tres rios":        5172,
+    # Default fallback
+    "costa rica":       116,  # San José provincia (valid for country 2)
 }
+
+DEFAULT_REGION_ID = 116  # San José provincia (valid fallback for country 2)
 
 
 # ─────────────────────────────────────────────────────────────────────
-# OPENAI CLIENT
+# LLM ENRICHMENT MODULE
 # ─────────────────────────────────────────────────────────────────────
 
 def _get_openai_client():
+    """Lazy-load OpenAI client."""
     try:
         from openai import OpenAI
         return OpenAI()
     except ImportError:
+        print("WARNING: openai package not installed. Run: pip3 install openai", file=sys.stderr)
         return None
 
 
-# ─────────────────────────────────────────────────────────────────────
-# DETAIL API FETCH
-# ─────────────────────────────────────────────────────────────────────
-
-def fetch_listing_detail(property_id):
-    """Fetch full detail for a single property from the detail API."""
-    url = API_DETAIL_URL.format(id=property_id)
+def fetch_listing_detail(listing_id):
+    """
+    Fetch the detail endpoint for a single listing.
+    Returns the detail dict or None on failure.
+    """
+    url = API_DETAIL_URL.format(id=listing_id)
     try:
         req = urllib.request.Request(url)
         req.add_header("User-Agent", "Encuentra24FeedGenerator/1.0")
-        with urllib.request.urlopen(req, timeout=30) as resp:
+        with urllib.request.urlopen(req, timeout=15) as resp:
             data = json.loads(resp.read().decode("utf-8"))
         # Detail endpoint returns a property object with a listings array
-        prop = data if isinstance(data, dict) else {}
-        listings = prop.get("listings") or []
-        detail_listing = listings[0] if listings else None
-        return prop, detail_listing
+        listings = data.get("listings") or []
+        if listings:
+            return data, listings[0]
+        return data, None
     except Exception as e:
-        print(f"    WARNING: Could not fetch detail for {property_id}: {e}", file=sys.stderr)
+        print(f"    WARNING: Could not fetch detail for {listing_id}: {e}", file=sys.stderr)
         return None, None
 
 
 def extract_detail_fields(detail_prop, detail_listing):
-    """Extract description and highlights from detail API response."""
+    """
+    Extract enrichment fields from the detail API response.
+    Returns: (en_description, es_description, highlights)
+    """
     en_description = ""
     es_description = ""
     highlights = []
@@ -342,22 +364,20 @@ def extract_detail_fields(detail_prop, detail_listing):
     if detail_listing:
         en_description = detail_listing.get("description") or ""
 
+        # Spanish description from multilingual array
         multilingual = detail_prop.get("multilingual") or []
         for ml in multilingual:
             if ml.get("language_code") == "es_ES":
                 es_description = ml.get("description") or ""
                 break
 
+        # Highlights — semicolon-delimited string
         raw_highlights = detail_listing.get("highlights_listings") or ""
         if raw_highlights:
             highlights = [h.strip() for h in raw_highlights.split(";") if h.strip()]
 
     return en_description, es_description, highlights
 
-
-# ─────────────────────────────────────────────────────────────────────
-# LLM ENRICHMENT
-# ─────────────────────────────────────────────────────────────────────
 
 def generate_llm_title(client, prop, listing, en_description, es_description, highlights, mls):
     """
@@ -421,9 +441,6 @@ RULES:
 
 Output ONLY the title text, nothing else. No quotes, no explanation."""
 
-    es_title = ""
-    en_title = ""
-
     try:
         es_resp = client.chat.completions.create(
             model=LLM_MODEL,
@@ -435,10 +452,12 @@ Output ONLY the title text, nothing else. No quotes, no explanation."""
             max_tokens=80,
         )
         es_title = es_resp.choices[0].message.content.strip().strip('"')
+        # Enforce hard limit
         if len(es_title) > 70:
             es_title = es_title[:70].rsplit(" ", 1)[0]
     except Exception as e:
         print(f"    WARNING: ES title LLM failed for {mls}: {e}", file=sys.stderr)
+        es_title = ""
 
     time.sleep(0.3)
 
@@ -457,6 +476,7 @@ Output ONLY the title text, nothing else. No quotes, no explanation."""
             en_title = en_title[:70].rsplit(" ", 1)[0]
     except Exception as e:
         print(f"    WARNING: EN title LLM failed for {mls}: {e}", file=sys.stderr)
+        en_title = ""
 
     time.sleep(0.3)
     return es_title, en_title
@@ -530,9 +550,6 @@ REGLAS:
 - El resultado total debe ser de 800-1200 caracteres
 - Use tono formal (usted)"""
 
-    descr_en = ""
-    descr_es = ""
-
     try:
         en_resp = client.chat.completions.create(
             model=LLM_MODEL,
@@ -546,6 +563,7 @@ REGLAS:
         descr_en = en_resp.choices[0].message.content.strip()
     except Exception as e:
         print(f"    WARNING: EN description LLM failed for {mls}: {e}", file=sys.stderr)
+        descr_en = ""
 
     time.sleep(0.3)
 
@@ -562,6 +580,7 @@ REGLAS:
         descr_es = es_resp.choices[0].message.content.strip()
     except Exception as e:
         print(f"    WARNING: ES description LLM failed for {mls}: {e}", file=sys.stderr)
+        descr_es = ""
 
     time.sleep(0.3)
     return descr_en, descr_es
@@ -570,12 +589,11 @@ REGLAS:
 def enrich_listings(eligible, use_llm=True):
     """
     For each eligible (prop, listing, ad_type) tuple:
-      1. Fetch detail API ONLY if listing is new or modified since last cache entry
+      1. Fetch detail API for full description + highlights
       2. Generate optimized titles via LLM
       3. Generate two-paragraph descriptions via LLM
     Returns a dict keyed by MLS ID with enrichment data.
-
-    Incremental logic: uses lastmodifieddate to skip unchanged listings.
+    Uses a cache file to avoid redundant LLM calls.
     """
     # Load existing cache
     cache = {}
@@ -594,25 +612,14 @@ def enrich_listings(eligible, use_llm=True):
 
     total = len(eligible)
     new_entries = 0
-    skipped_unchanged = 0
 
     for i, (prop, listing, ad_type) in enumerate(eligible):
         mls = listing.get("lx_mls_id") or listing.get("id") or str(i)
         listing_id = prop.get("id")
 
-        # Incremental check: skip if cached AND listing hasn't been modified
+        # Skip if already cached
         if mls in cache:
-            cached_entry = cache[mls]
-            last_modified = prop.get("lastmodifieddate") or ""
-            cached_modified = cached_entry.get("lastmodifieddate") or ""
-            # If modification date matches, skip (no changes)
-            if last_modified and cached_modified and last_modified == cached_modified:
-                skipped_unchanged += 1
-                continue
-            # If no modification date available, skip if cache has content
-            if not last_modified and cached_entry.get("descr_en"):
-                skipped_unchanged += 1
-                continue
+            continue
 
         print(f"  Enriching [{i+1}/{total}] {mls} ...", end=" ", flush=True)
 
@@ -641,7 +648,6 @@ def enrich_listings(eligible, use_llm=True):
             )
 
         cache[mls] = {
-            "lastmodifieddate": prop.get("lastmodifieddate") or "",
             "en_description_full": en_description,
             "es_description_full": es_description,
             "highlights": highlights,
@@ -662,9 +668,9 @@ def enrich_listings(eligible, use_llm=True):
     if new_entries > 0:
         with open(ENRICHMENT_CACHE_FILE, "w") as f:
             json.dump(cache, f, indent=2, ensure_ascii=False)
-        print(f"  Enrichment complete: {new_entries} new/updated, {skipped_unchanged} unchanged (served from cache).")
+        print(f"  Enrichment complete: {new_entries} new entries cached.")
     else:
-        print(f"  All {total} listings served from cache (no changes detected).")
+        print(f"  All {total} listings served from cache.")
 
     return cache
 
@@ -751,46 +757,59 @@ def determine_ad_type(prop, listing):
     return "property"
 
 
-def format_bedrooms(bedrooms):
-    """Convert bedrooms float to Encuentra24 rooms value."""
-    if not bedrooms:
-        return "0"
-    n = int(bedrooms)
-    if n >= 10:
-        return "10+"
-    return str(n)
-
-
 def format_bathrooms(full, half):
     """Convert fullbathrooms + halfbathrooms to Encuentra24 bath value."""
     full = full or 0
     half = half or 0
-    total = int(full) + (1 if int(half) > 0 else 0)
-    if total >= 10:
-        return "10"
-    return str(total)
+    total = full + (0.5 * half)
+    if total <= 0:
+        return "0"
+    if total > 20:
+        return "20+"
+    if total == int(total):
+        return str(int(total))
+    if total <= 5.5:
+        return str(total)
+    return str(int(math.ceil(total)))
+
+
+def format_bedrooms(bedrooms):
+    """Convert bedrooms to Encuentra24 rooms value. Accepts 0-15, 15+."""
+    if bedrooms is None:
+        return "0"
+    b = int(bedrooms)
+    return "15+" if b > 15 else str(b)
 
 
 def format_parking(spaces):
-    """Convert parking spaces to Encuentra24 parking value."""
-    if not spaces:
-        return "1"
-    n = int(spaces)
-    if n >= 10:
-        return "Más"
-    return str(max(1, n))
+    """Convert parking spaces to Encuentra24 parking value. Accepts 0-10, Más."""
+    if spaces is None:
+        return "0"
+    p = int(spaces)
+    return "Más" if p > 10 else str(p)
 
 
 def get_image_urls(prop):
-    """Get sorted image URLs from property media array."""
+    """Extract sorted image URLs from the media array."""
     media = prop.get("media") or []
-    photos = [m for m in media if m.get("type") == "Photo" and m.get("baseurl")]
-    photos.sort(key=lambda m: m.get("order") or 999)
-    return [m["baseurl"] for m in photos[:MAX_PHOTOS]]
+    website_media = [m for m in media if m.get("isonwebsite")]
+    website_media.sort(key=lambda m: m.get("sortonwebsite", 0))
+    urls = []
+    for m in website_media:
+        url = m.get("url") or m.get("midresurl") or m.get("baseurl")
+        if url:
+            urls.append(url)
+    if not urls:
+        all_media = sorted(media, key=lambda m: m.get("sortonportalfeed", 0))
+        for m in all_media:
+            url = m.get("url") or m.get("midresurl")
+            if url:
+                urls.append(url)
+    return urls[:MAX_PHOTOS]
 
 
 def get_spanish_title(prop, listing):
-    """Get the Spanish title from multilingual array or listing name."""
+    """Get the Spanish title from multilingual data, or fall back to listing name."""
     multilingual = prop.get("multilingual") or []
     for ml in multilingual:
         if ml.get("language_code") == "es_ES":
@@ -898,7 +917,7 @@ def has_balcony_terrace(listing):
 
 
 # ─────────────────────────────────────────────────────────────────────
-# FALLBACK DESCRIPTION GENERATORS
+# FALLBACK DESCRIPTION GENERATORS (used when LLM enrichment is off)
 # ─────────────────────────────────────────────────────────────────────
 
 def _fallback_description_es(prop, listing, ad_type):
@@ -1138,9 +1157,13 @@ def generate_item_xml(prop, listing, ad_type, enrichment=None):
 # FEED ORCHESTRATION
 # ─────────────────────────────────────────────────────────────────────
 
-def generate_feed(properties, max_listings=MAX_LISTINGS, use_llm=True):
+def generate_feed(properties, filter_type="all", max_listings=MAX_LISTINGS, use_llm=True):
     """
     Generate the complete Encuentra24 XML feed.
+
+    filter_type:  'all', 'sale', 'rent', or 'lot'
+    max_listings: cap on total listings (default: MAX_LISTINGS)
+    use_llm:      enable LLM enrichment for titles and descriptions
 
     Prioritization (3-tier system):
 
@@ -1163,7 +1186,7 @@ def generate_feed(properties, max_listings=MAX_LISTINGS, use_llm=True):
     def get_priority(prop):
         try:
             return int(prop.get("priority") or 0)
-        except Exception:
+        except:
             return 0
 
     def is_lot_listing(prop, listing):
@@ -1194,6 +1217,7 @@ def generate_feed(properties, max_listings=MAX_LISTINGS, use_llm=True):
             all_items.append((prop, listing, ad_type, price, is_exclusive, is_epp, priority))
 
     # ── Step 2: Build Tier A — Exclusive sales ≤ EXCLUSIVE_PRICE_CAP ──
+    # Exclusive flag overrides EPP — all exclusives included regardless of priority
     tier_a = [
         (prop, listing, ad_type)
         for prop, listing, ad_type, price, is_exclusive, is_epp, priority in all_items
@@ -1222,9 +1246,9 @@ def generate_feed(properties, max_listings=MAX_LISTINGS, use_llm=True):
         (prop, listing, ad_type)
         for prop, listing, ad_type, price, is_exclusive, is_epp, priority in all_items
         if ad_type in ("property", "lot")
-        and listing.get("lx_mls_id") not in tier_a_mls
-        and not is_epp
-        and not is_lot_listing(prop, listing)
+        and listing.get("lx_mls_id") not in tier_a_mls  # not already in Tier A
+        and not is_epp                                    # no EPP
+        and not is_lot_listing(prop, listing)             # no lots/land/farm
         and price <= SALE_PRICE_CAP
     ]
     tier_c_pool.sort(key=lambda x: x[1].get("listingprice") or float("inf"))
@@ -1235,26 +1259,27 @@ def generate_feed(properties, max_listings=MAX_LISTINGS, use_llm=True):
     n_tier_a = len(tier_a)
     n_tier_b = len(tier_b)
     n_tier_c = len(tier_c)
+    total_eligible = len(all_items)
 
-    print(f"  Total active published listings: {len(all_items)}")
-    print(f"  Tier A — Exclusives <= ${EXCLUSIVE_PRICE_CAP:,.0f} (excl overrides priority): {n_tier_a}")
-    print(f"  Tier B — Rentals <= ${RENTAL_PRICE_CAP:,.0f}/mo (no EPP): {n_tier_b} of {len(tier_b_pool)}")
+    print(f"  Total active published listings: {total_eligible}")
+    print(f"  Tier A — Exclusives ≤ ${EXCLUSIVE_PRICE_CAP:,.0f} (excl overrides priority): {n_tier_a}")
+    print(f"  Tier B — Rentals ≤ ${RENTAL_PRICE_CAP:,.0f}/mo (no EPP): {n_tier_b} of {len(tier_b_pool)}")
     print(f"  Tier C — Sale, no lots, no EPP, cheapest up: {n_tier_c} of {len(tier_c_pool)}")
     print(f"  TOTAL: {len(final)}")
     if tier_c:
-        cutoff = tier_c[-1][1].get("listingprice", 0)
+        cutoff = tier_c[-1][1].get('listingprice', 0)
         print(f"  Tier C price ceiling: ${cutoff:,.0f}")
         if len(tier_c_pool) > len(tier_c):
             nxt = tier_c_pool[len(tier_c)]
-            print(f"  First excluded (Tier C): ${nxt[1].get('listingprice',0):,.0f} -- {nxt[1].get('name','')}")
+            print(f"  First excluded (Tier C): ${nxt[1].get('listingprice',0):,.0f} — {nxt[1].get('name','')}")
     if skipped:
         print(f"  Skipped (inactive/no price): {skipped}")
 
-    # ── Step 5: LLM Enrichment (incremental) ──
+    # ── Step 3: LLM Enrichment ──
     print(f"\nEnriching {len(final)} listings ...")
     enrichment_cache = enrich_listings(final, use_llm=use_llm)
 
-    # ── Step 6: Generate XML ──
+    # ── Step 4: Generate XML ──
     lines = []
     lines.append('<?xml version="1.0" encoding="UTF-8"?>')
     lines.append("<import>")
@@ -1267,7 +1292,6 @@ def generate_feed(properties, max_listings=MAX_LISTINGS, use_llm=True):
     lines.append("  <items>")
 
     count = 0
-    xml_skipped = 0
     for prop, listing, ad_type in final:
         mls = listing.get("lx_mls_id") or listing.get("id") or prop.get("id")
         enrich = enrichment_cache.get(str(mls)) or {}
@@ -1276,28 +1300,49 @@ def generate_feed(properties, max_listings=MAX_LISTINGS, use_llm=True):
             lines.append(item_xml)
             count += 1
         except Exception as e:
-            print(f"  WARNING: Skipped {mls} -- {e}", file=sys.stderr)
-            xml_skipped += 1
+            print(f"  WARNING: Skipped {mls} — {e}", file=sys.stderr)
+            skipped += 1
 
     lines.append("  </items>")
     lines.append("")
     lines.append("</import>")
 
-    return "\n".join(lines), count, xml_skipped
+    return "\n".join(lines), count, skipped
 
 
 # ─────────────────────────────────────────────────────────────────────
 # MAIN
 # ─────────────────────────────────────────────────────────────────────
 
-def fetch_properties():
-    """Fetch all properties from the LX Costa Rica API."""
+API_SNAPSHOT_FILE = "api_snapshot.json"
+API_SNAPSHOT_MAX_AGE = 23 * 3600  # 23 hours
+
+
+def fetch_properties(force_refresh=False):
+    """
+    Fetch all properties from the LX Costa Rica API.
+    Results are cached in api_snapshot.json for up to 23 hours to avoid
+    hammering the API on every run.
+    """
+    if not force_refresh and os.path.exists(API_SNAPSHOT_FILE):
+        age = time.time() - os.path.getmtime(API_SNAPSHOT_FILE)
+        if age < API_SNAPSHOT_MAX_AGE:
+            print(f"Loading properties from snapshot (age: {int(age/60)}m) ...")
+            with open(API_SNAPSHOT_FILE) as f:
+                data = json.load(f)
+            print(f"  Loaded {len(data)} properties from cache.")
+            return data
+
     print(f"Fetching properties from {API_URL} ...")
     req = urllib.request.Request(API_URL)
     req.add_header("User-Agent", "Encuentra24FeedGenerator/1.0")
     with urllib.request.urlopen(req, timeout=120) as resp:
         data = json.loads(resp.read().decode("utf-8"))
     print(f"  Received {len(data)} properties from API.")
+
+    with open(API_SNAPSHOT_FILE, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False)
+    print(f"  Saved API snapshot to {API_SNAPSHOT_FILE}.")
     return data
 
 
@@ -1307,6 +1352,8 @@ def main():
     )
     parser.add_argument("--output", "-o", default="encuentra24_feed.xml",
                         help="Output XML file path (default: encuentra24_feed.xml)")
+    parser.add_argument("--type", "-t", choices=["all", "sale", "rent", "lot"], default="all",
+                        help="Filter by listing type (default: all)")
     parser.add_argument("--input", "-i", default=None,
                         help="Use a local JSON file instead of fetching from API")
     parser.add_argument("--limit", "-l", type=int, default=MAX_LISTINGS,
@@ -1314,7 +1361,9 @@ def main():
     parser.add_argument("--no-enrich", action="store_true",
                         help="Skip LLM enrichment and use fast fallback descriptions")
     parser.add_argument("--clear-cache", action="store_true",
-                        help="Delete the enrichment cache before running (forces full regeneration)")
+                        help="Delete the enrichment cache before running")
+    parser.add_argument("--refresh-api", action="store_true",
+                        help="Force re-fetch from API even if snapshot is fresh")
     args = parser.parse_args()
 
     if args.clear_cache and os.path.exists(ENRICHMENT_CACHE_FILE):
@@ -1328,14 +1377,14 @@ def main():
             properties = json.load(f)
         print(f"  Loaded {len(properties)} properties.")
     else:
-        properties = fetch_properties()
+        properties = fetch_properties(force_refresh=args.refresh_api)
 
     limit = args.limit if args.limit > 0 else None
     use_llm = not args.no_enrich
 
-    print(f"\nGenerating feed (limit={limit or 'unlimited'}, llm={'on' if use_llm else 'off'}) ...")
+    print(f"\nGenerating feed (type={args.type}, limit={limit or 'unlimited'}, llm={'on' if use_llm else 'off'}) ...")
     xml_content, count, skipped = generate_feed(
-        properties, max_listings=limit, use_llm=use_llm
+        properties, args.type, max_listings=limit, use_llm=use_llm
     )
 
     with open(args.output, "w", encoding="utf-8") as f:
