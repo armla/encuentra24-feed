@@ -758,7 +758,12 @@ def determine_ad_type(prop, listing):
 
 
 def format_bathrooms(full, half):
-    """Convert fullbathrooms + halfbathrooms to Encuentra24 bath value."""
+    """Convert fullbathrooms + halfbathrooms to Encuentra24 bath value.
+    Encuentra24 requires bath as a whole integer. The LX API can return
+    fractional values (e.g. 3.25 from quarter-bath counting), which are
+    rejected by Encuentra24 with a field validation error. We round to
+    the nearest integer to avoid this.
+    """
     full = full or 0
     half = half or 0
     total = full + (0.5 * half)
@@ -766,11 +771,7 @@ def format_bathrooms(full, half):
         return "0"
     if total > 20:
         return "20+"
-    if total == int(total):
-        return str(int(total))
-    if total <= 5.5:
-        return str(total)
-    return str(int(math.ceil(total)))
+    return str(int(round(total)))
 
 
 def format_bedrooms(bedrooms):
