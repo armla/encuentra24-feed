@@ -1345,12 +1345,11 @@ def get_published_ids(xml_path):
 def notify_zapier_new_listings(new_listings, webhook_url):
     """
     Fire a POST to the Zapier webhook for each newly added listing.
-    Each payload contains: date, listing_id, title_en, title_es, price, type, city.
+    Payload includes all available geographic fields from the LX API.
     Failures are logged as warnings but do not abort the feed generation.
     """
     if not webhook_url:
         return
-    import urllib.parse
     today = datetime.utcnow().strftime("%Y-%m-%d")
     success = 0
     for item in new_listings:
@@ -1358,19 +1357,38 @@ def notify_zapier_new_listings(new_listings, webhook_url):
         mls = listing.get("lx_mls_id") or listing.get("id") or prop.get("id") or ""
         name = listing.get("name") or prop.get("address") or ""
         price = listing.get("listingprice") or 0
-        city = prop.get("city") or ""
         prop_type = listing.get("propertytype") or ""
+        prop_subtype = listing.get("property_subtype") or ""
         permalink = listing.get("permalink") or ""
         listing_url = f"https://theagency.cr/listings/{permalink}" if permalink else ""
+        # Geographic fields
+        address     = prop.get("address") or ""
+        community   = listing.get("community") or prop.get("address") or ""
+        city        = prop.get("city") or ""
+        state       = prop.get("state") or ""          # e.g. "San Jose"
+        country     = prop.get("country") or "Costa Rica"
+        region      = listing.get("region") or prop.get("region") or ""  # e.g. "CENTRAL VALLEY EAST"
+        region_desc = listing.get("region_description") or prop.get("region_description") or ""  # e.g. "Curridabat, Tres Rios"
+        latitude    = prop.get("latitude") or prop.get("lat") or ""
+        longitude   = prop.get("longitude") or prop.get("lng") or ""
         payload = json.dumps({
             "date": today,
             "listing_id": mls,
             "name": name,
             "price_usd": price,
-            "type": prop_type,
+            "listing_type": ad_type,
+            "property_type": prop_type,
+            "property_subtype": prop_subtype,
+            "address": address,
+            "community": community,
             "city": city,
+            "state": state,
+            "country": country,
+            "region": region,
+            "region_description": region_desc,
+            "latitude": latitude,
+            "longitude": longitude,
             "url": listing_url,
-            "ad_type": ad_type,
         }).encode("utf-8")
         try:
             req = urllib.request.Request(
