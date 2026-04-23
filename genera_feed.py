@@ -71,6 +71,13 @@ LLM_MODEL = "gpt-4.1-mini"
 # Cache file for LLM enrichment results (avoids re-generating on every run)
 ENRICHMENT_CACHE_FILE = "enrichment_cache.json"
 
+# Zapier webhook URL — fires once per NEW listing added to the feed
+# Set to empty string to disable. Override via ZAPIER_WEBHOOK_URL env var.
+ZAPIER_WEBHOOK_URL = os.environ.get(
+    "ZAPIER_WEBHOOK_URL",
+    "https://hooks.zapier.com/hooks/catch/3798504/uj79jgd/"
+)
+
 # ─────────────────────────────────────────────────────────────────────
 # ENCUENTRA24 CATEGORY MAPPING
 # ─────────────────────────────────────────────────────────────────────
@@ -1308,7 +1315,78 @@ def generate_feed(properties, filter_type="all", max_listings=MAX_LISTINGS, use_
     lines.append("")
     lines.append("</import>")
 
-    return "\n".join(lines), count, skipped
+    return "\n".join(lines), count, skipped, final
+
+
+# ─────────────────────────────────────────────────────────────────────
+# ZAPIER WEBHOOK — NEW LISTING NOTIFICATION
+# ─────────────────────────────────────────────────────────────────────
+
+def get_published_ids(xml_path):
+    """
+    Parse the existing XML feed file and return the set of sourceid values
+    (LX MLS IDs) currently published. Used to detect newly added listings.
+    Returns an empty set if the file does not exist or cannot be parsed.
+    """
+    if not os.path.exists(xml_path):
+        return set()
+    try:
+        import re
+        with open(xml_path, "r", encoding="utf-8") as f:
+            content = f.read()
+        # Extract all sourceid values from CDATA blocks
+        ids = re.findall(r'<sourceid><!\[CDATA\[(.*?)\]\]></sourceid>', content)
+        return set(ids)
+    except Exception as e:
+        print(f"  WARNING: Could not parse existing feed for new-listing detection: {e}", file=sys.stderr)
+        return set()
+
+
+def notify_zapier_new_listings(new_listings, webhook_url):
+    """
+    Fire a POST to the Zapier webhook for each newly added listing.
+    Each payload contains: date, listing_id, title_en, title_es, price, type, city.
+    Failures are logged as warnings but do not abort the feed generation.
+    """
+    if not webhook_url:
+        return
+    import urllib.parse
+    today = datetime.utcnow().strftime("%Y-%m-%d")
+    success = 0
+    for item in new_listings:
+        prop, listing, ad_type = item
+        mls = listing.get("lx_mls_id") or listing.get("id") or prop.get("id") or ""
+        name = listing.get("name") or prop.get("address") or ""
+        price = listing.get("listingprice") or 0
+        city = prop.get("city") or ""
+        prop_type = listing.get("propertytype") or ""
+        permalink = listing.get("permalink") or ""
+        listing_url = f"https://theagency.cr/listings/{permalink}" if permalink else ""
+        payload = json.dumps({
+            "date": today,
+            "listing_id": mls,
+            "name": name,
+            "price_usd": price,
+            "type": prop_type,
+            "city": city,
+            "url": listing_url,
+            "ad_type": ad_type,
+        }).encode("utf-8")
+        try:
+            req = urllib.request.Request(
+                webhook_url,
+                data=payload,
+                headers={"Content-Type": "application/json"},
+                method="POST"
+            )
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                status = resp.status
+            print(f"  Zapier notified: {mls} — HTTP {status}")
+            success += 1
+        except Exception as e:
+            print(f"  WARNING: Zapier notification failed for {mls}: {e}", file=sys.stderr)
+    if new_listings:
+        print(f"  Zapier: {success}/{len(new_listings)} notifications sent.")
 
 
 # ─────────────────────────────────────────────────────────────────────
@@ -1383,8 +1461,14 @@ def main():
     limit = args.limit if args.limit > 0 else None
     use_llm = not args.no_enrich
 
+    # Capture the set of MLS IDs already in the feed BEFORE regenerating
+    # so we can detect which listings are newly added in this run.
+    previously_published = get_published_ids(args.output)
+    if previously_published:
+        print(f"  Previously published listings: {len(previously_published)}")
+
     print(f"\nGenerating feed (type={args.type}, limit={limit or 'unlimited'}, llm={'on' if use_llm else 'off'}) ...")
-    xml_content, count, skipped = generate_feed(
+    xml_content, count, skipped, final_listings = generate_feed(
         properties, args.type, max_listings=limit, use_llm=use_llm
     )
 
@@ -1398,6 +1482,19 @@ def main():
     print(f"  File size:         {os.path.getsize(args.output) / 1024:.1f} KB")
     if use_llm:
         print(f"  Enrichment cache:  {ENRICHMENT_CACHE_FILE}")
+
+    # Detect new listings and notify Zapier
+    if ZAPIER_WEBHOOK_URL and previously_published:
+        new_listings = [
+            (prop, listing, ad_type)
+            for prop, listing, ad_type in final_listings
+            if (listing.get("lx_mls_id") or listing.get("id") or prop.get("id")) not in previously_published
+        ]
+        if new_listings:
+            print(f"\nNew listings detected: {len(new_listings)} — notifying Zapier ...")
+            notify_zapier_new_listings(new_listings, ZAPIER_WEBHOOK_URL)
+        else:
+            print("\nNo new listings detected — Zapier not triggered.")
 
 
 if __name__ == "__main__":

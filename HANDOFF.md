@@ -76,7 +76,34 @@ python3 genera_feed.py --clear-cache
 **To fix a wrong region mapping:**
 If Encuentra24 reports a "region 1 not found" error, it means a city or address from the API is not mapped to an E24 region ID. Edit the `LX_TO_E24_REGION_MAP` dictionary in `genera_feed.py` to add the missing city and map it to the correct Encuentra24 region ID (found in their documentation).
 
-## 6. Known Constraints & Edge Cases
+## 6. Zapier Webhook — New Listing Notifications
+
+Every time the feed runs and detects a listing that was **not present in the previous feed**, it fires a POST to the Zapier webhook. Zapier then logs the event to Salesforce (or any connected app).
+
+**Webhook URL:** `https://hooks.zapier.com/hooks/catch/3798504/uj79jgd/`
+Override at runtime via the `ZAPIER_WEBHOOK_URL` environment variable.
+
+**Payload per new listing:**
+```json
+{
+  "date": "2026-04-23",
+  "listing_id": "LXAR13746",
+  "name": "Casa Volare in Puerto Viejo",
+  "price_usd": 595000,
+  "type": "Residential",
+  "city": "Puerto Viejo",
+  "url": "https://theagency.cr/listings/casa-volare-puerto-viejo",
+  "ad_type": "property"
+}
+```
+
+**How detection works:** Before regenerating the feed, the script reads the current `encuentra24_feed.xml` and extracts all `<sourceid>` values. After generation, any MLS ID in the new feed that was not in the old feed triggers a webhook call. Webhook failures are logged as warnings and do not abort the feed.
+
+**To disable:** Set `ZAPIER_WEBHOOK_URL` to an empty string in the environment, or clear the constant in `genera_feed.py`.
+
+---
+
+## 7. Known Constraints & Edge Cases
 - **Detail API Rate Limits:** The script is designed to fetch the detail API (`/api/v1/listings/{id}`) only when necessary. If the API returns 500 errors, the script gracefully falls back to generating descriptions using the bulk structured data.
 - **Encuentra24 Import Modes:** When uploading the feed manually for testing, always use **Demo Mode** first. A live upload will deactivate any existing listings on your account that are not present in the XML.
 - **Single YouTube Video:** Encuentra24 only supports one YouTube video per listing. The script prioritizes the `virtual_tour_video_url`, followed by the `live_tour_url`, and finally `vertical_video_1`.
