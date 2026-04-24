@@ -187,7 +187,7 @@ The compact 40 square meter space is optimized for streamlined management and sc
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[225000]]></price>
           <rooms><![CDATA[8]]></rooms>
-          <bath><![CDATA[9]]></bath>
+          <bath><![CDATA[8]]></bath>
           <square><![CDATA[370]]></square>
           <parking><![CDATA[4]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -401,7 +401,7 @@ The 120 square meter home rests on a 209 square meter lot and includes an open p
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[499000]]></price>
           <rooms><![CDATA[4]]></rooms>
-          <bath><![CDATA[3.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <square><![CDATA[303]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -474,7 +474,7 @@ The property comprises four bedrooms and three and a half bathrooms across 303 s
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[549000]]></price>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[3.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <square><![CDATA[139]]></square>
           <parking><![CDATA[3]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -709,7 +709,7 @@ Spanning 2593 square meters of flat, build-ready terrain, this titled parcel is 
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[650000]]></price>
           <rooms><![CDATA[4]]></rooms>
-          <bath><![CDATA[4.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <square><![CDATA[448]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -779,7 +779,7 @@ This four-bedroom, four and a half bathroom home encompasses 448 square meters o
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[680000]]></price>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[2.5]]></bath>
+          <bath><![CDATA[2]]></bath>
           <square><![CDATA[160]]></square>
           <parking><![CDATA[4]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -1102,7 +1102,7 @@ The property features three bedrooms and two full bathrooms within approximately
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[780000]]></price>
           <rooms><![CDATA[4]]></rooms>
-          <bath><![CDATA[3.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <square><![CDATA[260]]></square>
           <parking><![CDATA[4]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -1240,7 +1240,7 @@ Situated on a generous 1699 square meter lot with 565 square meters of built are
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[850000]]></price>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[2.5]]></bath>
+          <bath><![CDATA[2]]></bath>
           <square><![CDATA[426]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -1443,7 +1443,7 @@ Situated on a 750 square meter lot with 500 square meters of built area, this ho
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[988713]]></price>
           <rooms><![CDATA[4]]></rooms>
-          <bath><![CDATA[3.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <square><![CDATA[400]]></square>
           <parking><![CDATA[0]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -1795,7 +1795,7 @@ Covering 93 square meters of interior space within a 123 square meter lot, this 
           <currency><![CDATA[USD]]></currency>
           <rent><![CDATA[2486]]></rent>
           <rooms><![CDATA[2]]></rooms>
-          <bath><![CDATA[2.5]]></bath>
+          <bath><![CDATA[2]]></bath>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
         </ad>
@@ -1905,7 +1905,7 @@ Covering 123 square meters of built area on a 158 square meter lot, this apartme
           <currency><![CDATA[USD]]></currency>
           <rent><![CDATA[2995]]></rent>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[2.5]]></bath>
+          <bath><![CDATA[2]]></bath>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
         </ad>
@@ -1954,7 +1954,7 @@ This 143 square meter single level apartment features a classic design with an e
           <currency><![CDATA[USD]]></currency>
           <rent><![CDATA[3200]]></rent>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[3.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
         </ad>
@@ -2014,7 +2014,7 @@ Spanning 191 square meters, the apartment offers three full bathrooms plus a hal
           <currency><![CDATA[USD]]></currency>
           <rent><![CDATA[3560]]></rent>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[2.5]]></bath>
+          <bath><![CDATA[2]]></bath>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
         </ad>
@@ -2066,7 +2066,7 @@ Spanning 166 square meters, the apartment includes two full bathrooms and a half
           <currency><![CDATA[USD]]></currency>
           <rent><![CDATA[3600]]></rent>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[2.5]]></bath>
+          <bath><![CDATA[2]]></bath>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
         </ad>
@@ -2133,7 +2133,7 @@ Featuring three bedrooms and two full plus one half bathrooms, the apartment inc
           <currency><![CDATA[USD]]></currency>
           <rent><![CDATA[3700]]></rent>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[2.5]]></bath>
+          <bath><![CDATA[2]]></bath>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
         </ad>
@@ -2254,64 +2254,6 @@ Spanning 440 square meters on a 950 square meter lot, this four bedroom, three b
     <item>
       <required>
         <ad>
-          <sourceid><![CDATA[LXER22869]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[156]]></categoryid>
-          <regionid><![CDATA[9]]></regionid>
-          <type><![CDATA[rent]]></type>
-          <title><![CDATA[Condominio 3 habs en Santa Ana - Dendera - diseño vanguardista único]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <rent><![CDATA[4000]]></rent>
-          <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[3.5]]></bath>
-          <parking><![CDATA[3]]></parking>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[vicki@lxcostarica.com]]></email>
-          <phone><![CDATA[+506 4001-4398]]></phone>
-          <contact><![CDATA[Vicki Klunk]]></contact>
-          <city><![CDATA[Santa Ana]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Condo 3BR in Santa Ana - Dendera - Single Level with Private Terrace]]></title1>
-          <descr><![CDATA[Esta residencia de un solo nivel en Lindora destaca por su diseño vanguardista, obra del reconocido arquitecto catalán Joan Puigcorbé. La arquitectura irregular, basada en líneas paralelas y formas geométricas, se manifiesta en cada espacio, creando un ambiente sofisticado y contemporáneo. La casa integra una terraza y un patio privado que amplían la sensación de amplitud y conexión con el entorno, mientras que los detalles en mármol y la iluminación LED añaden un toque de elegancia discreta.
-
-Con 372 metros cuadrados construidos, esta propiedad ofrece tres dormitorios, tres baños completos y un medio baño, distribuidos para maximizar la comodidad y privacidad. La cocina equipada con electrodomésticos en acero inoxidable y una isla de cuarzo se conecta fluidamente con la sala y el comedor, que a su vez se abren hacia el patio. Ubicada en un exclusivo condominio con seguridad 24 horas, áreas verdes, gimnasio y piscina, esta vivienda combina diseño innovador con un estilo de vida tranquilo y accesible en Santa Ana. MLS LXER22869 The Agency Costa Rica]]></descr>
-          <descr1><![CDATA[This single-level residence in the Dendera community of Santa Ana exemplifies avant-garde architecture, masterfully crafted by Spanish architect Joan Puigcorbé. The home’s distinctive design features an interplay of parallel lines and geometric forms, creating an irregular yet harmonious structure. Private terrace and patio spaces extend the living area outdoors, incorporating a veneered marble firepit and stainless steel LED lighting that enhance the home's modern aesthetic and invite serene moments of relaxation.
-
-Spanning 372 square meters, the property offers three bedrooms, including a master suite with expansive closets and en suite bathroom, alongside three full and one half bathroom. Interior spaces flow seamlessly through sliding glass doors to the outdoor areas, fostering natural light and ventilation. Additional amenities include a fully equipped kitchen with quartz island, built-in wine cellar, and a secure three-car garage with advanced monitoring. Residents benefit from gated community security, recreational facilities, and proximity to urban conveniences. MLS LXER22869 The Agency Costa Rica]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/3geh5d3o2/1277x640/Living-room-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/ra3ihmwax/1277x640/Dining-room-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/bhs7h4hx4/1277x640/Kitchen-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/15yxvrliy/1277x640/Secondary-Bedroom-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/kzbak3n5s/1277x640/Secondary-Bedroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/7dvu8ps1i/1277x640/Master-Bedroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/uhej7xcm1/1277x640/Master-Bathroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/4u43ltyzp/1277x640/Terrace-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/8vmvq9hzi/1277x640/Terrace-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/cjs30kb0b/1277x640/Social-Area-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/himbrsfkk/1277x640/Social-Area-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/mci3b6gex/1277x640/Social-Area-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/smfc7npdq/1277x640/Social-Area-4.jpg]]></picture>
-          <square><![CDATA[372]]></square>
-          <balcon><![CDATA[terraza]]></balcon>
-          <benefits><![CDATA[Patio]]></benefits>
-          <building><![CDATA[Dendera]]></building>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXER22869]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
           <sourceid><![CDATA[LXCR23597]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[156]]></categoryid>
@@ -2321,7 +2263,7 @@ Spanning 372 square meters, the property offers three bedrooms, including a mast
           <currency><![CDATA[USD]]></currency>
           <rent><![CDATA[4000]]></rent>
           <rooms><![CDATA[4]]></rooms>
-          <bath><![CDATA[4.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
         </ad>
@@ -2377,6 +2319,64 @@ Spanning 330 square meters on a 478 square meter lot, the residence is thoughtfu
     <item>
       <required>
         <ad>
+          <sourceid><![CDATA[LXER22869]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[156]]></categoryid>
+          <regionid><![CDATA[9]]></regionid>
+          <type><![CDATA[rent]]></type>
+          <title><![CDATA[Condominio 3 habs en Santa Ana - Dendera - diseño vanguardista único]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <rent><![CDATA[4000]]></rent>
+          <rooms><![CDATA[3]]></rooms>
+          <bath><![CDATA[4]]></bath>
+          <parking><![CDATA[3]]></parking>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[vicki@lxcostarica.com]]></email>
+          <phone><![CDATA[+506 4001-4398]]></phone>
+          <contact><![CDATA[Vicki Klunk]]></contact>
+          <city><![CDATA[Santa Ana]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Condo 3BR in Santa Ana - Dendera - Single Level with Private Terrace]]></title1>
+          <descr><![CDATA[Esta residencia de un solo nivel en Lindora destaca por su diseño vanguardista, obra del reconocido arquitecto catalán Joan Puigcorbé. La arquitectura irregular, basada en líneas paralelas y formas geométricas, se manifiesta en cada espacio, creando un ambiente sofisticado y contemporáneo. La casa integra una terraza y un patio privado que amplían la sensación de amplitud y conexión con el entorno, mientras que los detalles en mármol y la iluminación LED añaden un toque de elegancia discreta.
+
+Con 372 metros cuadrados construidos, esta propiedad ofrece tres dormitorios, tres baños completos y un medio baño, distribuidos para maximizar la comodidad y privacidad. La cocina equipada con electrodomésticos en acero inoxidable y una isla de cuarzo se conecta fluidamente con la sala y el comedor, que a su vez se abren hacia el patio. Ubicada en un exclusivo condominio con seguridad 24 horas, áreas verdes, gimnasio y piscina, esta vivienda combina diseño innovador con un estilo de vida tranquilo y accesible en Santa Ana. MLS LXER22869 The Agency Costa Rica]]></descr>
+          <descr1><![CDATA[This single-level residence in the Dendera community of Santa Ana exemplifies avant-garde architecture, masterfully crafted by Spanish architect Joan Puigcorbé. The home’s distinctive design features an interplay of parallel lines and geometric forms, creating an irregular yet harmonious structure. Private terrace and patio spaces extend the living area outdoors, incorporating a veneered marble firepit and stainless steel LED lighting that enhance the home's modern aesthetic and invite serene moments of relaxation.
+
+Spanning 372 square meters, the property offers three bedrooms, including a master suite with expansive closets and en suite bathroom, alongside three full and one half bathroom. Interior spaces flow seamlessly through sliding glass doors to the outdoor areas, fostering natural light and ventilation. Additional amenities include a fully equipped kitchen with quartz island, built-in wine cellar, and a secure three-car garage with advanced monitoring. Residents benefit from gated community security, recreational facilities, and proximity to urban conveniences. MLS LXER22869 The Agency Costa Rica]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/3geh5d3o2/1277x640/Living-room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/ra3ihmwax/1277x640/Dining-room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/bhs7h4hx4/1277x640/Kitchen-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/15yxvrliy/1277x640/Secondary-Bedroom-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/kzbak3n5s/1277x640/Secondary-Bedroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/7dvu8ps1i/1277x640/Master-Bedroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/uhej7xcm1/1277x640/Master-Bathroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/4u43ltyzp/1277x640/Terrace-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/8vmvq9hzi/1277x640/Terrace-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/cjs30kb0b/1277x640/Social-Area-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/himbrsfkk/1277x640/Social-Area-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/mci3b6gex/1277x640/Social-Area-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/smfc7npdq/1277x640/Social-Area-4.jpg]]></picture>
+          <square><![CDATA[372]]></square>
+          <balcon><![CDATA[terraza]]></balcon>
+          <benefits><![CDATA[Patio]]></benefits>
+          <building><![CDATA[Dendera]]></building>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXER22869]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
           <sourceid><![CDATA[LXER20083]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[156]]></categoryid>
@@ -2386,7 +2386,7 @@ Spanning 330 square meters on a 478 square meter lot, the residence is thoughtfu
           <currency><![CDATA[USD]]></currency>
           <rent><![CDATA[4200]]></rent>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[2.5]]></bath>
+          <bath><![CDATA[2]]></bath>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
         </ad>
@@ -2439,7 +2439,7 @@ The home features three bedrooms, including a master suite with two walk in clos
           <currency><![CDATA[USD]]></currency>
           <rent><![CDATA[4300]]></rent>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[3.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
         </ad>
@@ -2665,7 +2665,7 @@ Set on a 5006 square meter lot, the property is surrounded by a diverse array of
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[325000]]></price>
           <rooms><![CDATA[2]]></rooms>
-          <bath><![CDATA[2.5]]></bath>
+          <bath><![CDATA[2]]></bath>
           <square><![CDATA[240]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -2723,7 +2723,7 @@ Situated in the Condominio Vistara en Rivergrand within Bello Horizonte, this ho
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[390000]]></price>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[2.5]]></bath>
+          <bath><![CDATA[2]]></bath>
           <square><![CDATA[240]]></square>
           <parking><![CDATA[4]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -2831,7 +2831,7 @@ Situated on a generous 5025 square meter lot, the 280 square meter built area in
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[420000]]></price>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[2.5]]></bath>
+          <bath><![CDATA[2]]></bath>
           <square><![CDATA[243]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -2888,7 +2888,7 @@ This refined home encompasses three bedrooms, two full bathrooms, and a half bat
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[450000]]></price>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[2.5]]></bath>
+          <bath><![CDATA[2]]></bath>
           <square><![CDATA[210]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -2954,7 +2954,7 @@ Spanning 210 square meters, the penthouse includes air-conditioned bedrooms and 
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[450000]]></price>
           <rooms><![CDATA[2]]></rooms>
-          <bath><![CDATA[2.5]]></bath>
+          <bath><![CDATA[2]]></bath>
           <square><![CDATA[190]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -3015,7 +3015,7 @@ The apartment encompasses 190 square meters, including two bedrooms, two full ba
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[450000]]></price>
           <rooms><![CDATA[4]]></rooms>
-          <bath><![CDATA[3.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <square><![CDATA[320]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -3081,7 +3081,7 @@ Spanning 320 square meters on a 237 square meter lot, this four bedroom, three a
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[465000]]></price>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[3.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <square><![CDATA[313]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -3143,7 +3143,7 @@ Spanning 313 square meters, the residence comprises three bedrooms and three ful
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[480000]]></price>
           <rooms><![CDATA[2]]></rooms>
-          <bath><![CDATA[3.25]]></bath>
+          <bath><![CDATA[3]]></bath>
           <square><![CDATA[127]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -3202,7 +3202,7 @@ Spanning 127 square meters, this residence offers two bedrooms, each with full b
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[480000]]></price>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[2.5]]></bath>
+          <bath><![CDATA[2]]></bath>
           <square><![CDATA[230]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -3265,7 +3265,7 @@ Spanning 230 square meters, this residence features two full bathrooms and a hal
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[485000]]></price>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[3.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <square><![CDATA[282]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -3324,7 +3324,7 @@ The property encompasses 282 square meters of built area on a 600 square meter l
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[485000]]></price>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[3.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <square><![CDATA[253]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -3386,7 +3386,7 @@ The property encompasses 253 square meters of built space on a 282 square meter 
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[485000]]></price>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[3.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <square><![CDATA[191]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -3446,7 +3446,7 @@ Spanning 191 square meters, the apartment includes three full bathrooms and one 
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[490000]]></price>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[2.5]]></bath>
+          <bath><![CDATA[2]]></bath>
           <square><![CDATA[234]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -3581,7 +3581,7 @@ The property comprises three bedrooms and two full bathrooms, all designed to ma
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[500000]]></price>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[3.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <square><![CDATA[300]]></square>
           <parking><![CDATA[3]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -3643,7 +3643,7 @@ Spanning 300 square meters, this residence includes three bedrooms, three full b
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[525000]]></price>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[2.5]]></bath>
+          <bath><![CDATA[2]]></bath>
           <square><![CDATA[252]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -3704,7 +3704,7 @@ This sophisticated apartment encompasses 252 square meters of built area, includ
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[525000]]></price>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[3.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <square><![CDATA[242]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -3761,7 +3761,7 @@ Spanning 242 square meters, the apartment integrates classic wooden details with
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[530000]]></price>
           <rooms><![CDATA[2]]></rooms>
-          <bath><![CDATA[2.5]]></bath>
+          <bath><![CDATA[2]]></bath>
           <square><![CDATA[164]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -3886,7 +3886,7 @@ Spanning 144 square meters, this modern home features two bedrooms and two full 
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[535000]]></price>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[2.5]]></bath>
+          <bath><![CDATA[2]]></bath>
           <square><![CDATA[389]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -3945,7 +3945,7 @@ The two-level home offers three bedrooms, including a master suite with a walk-i
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[541500]]></price>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[3.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <square><![CDATA[270]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -4127,7 +4127,7 @@ Spanning 113 square meters, each condo includes two full bathrooms, a fully equi
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[550000]]></price>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[2.5]]></bath>
+          <bath><![CDATA[2]]></bath>
           <square><![CDATA[250]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -4176,6 +4176,62 @@ Located within the exclusive gated community of Ribera Laureles in Escazú, this
     <item>
       <required>
         <ad>
+          <sourceid><![CDATA[LXCR12826]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[179]]></categoryid>
+          <regionid><![CDATA[132]]></regionid>
+          <type><![CDATA[property]]></type>
+          <title><![CDATA[Apartamento 3 habs en Curridabat - Colinas de Montealegre - Vista]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[550000]]></price>
+          <rooms><![CDATA[3]]></rooms>
+          <bath><![CDATA[4]]></bath>
+          <square><![CDATA[417]]></square>
+          <parking><![CDATA[2]]></parking>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[tere@lxcostarica.com]]></email>
+          <phone><![CDATA[+506 4001-4398]]></phone>
+          <contact><![CDATA[Tere Silva]]></contact>
+          <city><![CDATA[Curridabat]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Apartment 3BR in Curridabat - Colinas de Montealegre - Panoramic Views]]></title1>
+          <descr><![CDATA[Este espacioso apartamento de una planta en Colinas de Montealegre destaca por sus vistas panorámicas inigualables de la ciudad y las montañas, accesibles desde varias áreas del inmueble. Ubicado en un exclusivo condominio cerrado, ofrece privacidad y seguridad, además de acceso a amenidades como cancha de tenis, casa club y jardines paisajísticos que enriquecen la experiencia residencial. La propiedad se entrega en obra gris, brindando la oportunidad de personalizar cada detalle según sus preferencias y estilo de vida.
+
+Con una superficie construida de 417 metros cuadrados, el apartamento cuenta con tres dormitorios y tres baños completos más un medio baño, ideal para familias que buscan amplitud y confort. Situado en Curridabat, cerca de importantes instituciones educativas, restaurantes y centros comerciales, combina la tranquilidad de un entorno natural con la conveniencia urbana. El edificio dispone de ascensor y estacionamiento cubierto para dos vehículos, complementando un estilo de vida sofisticado y funcional. MLS LXCR12826 The Agency Costa Rica]]></descr>
+          <descr1><![CDATA[This spacious fourth-floor apartment in the exclusive gated community of Colinas de Montealegre offers fantastic panoramic views of the city and surrounding mountains from multiple vantage points. The residence is delivered with shell and core completion, providing a blank canvas for personalized interior design. Set within a building that features a tennis court, clubhouse, and lush landscaped gardens, this one-floor home combines privacy and luxury in a serene environment. Its location near prominent educational institutions, restaurants, and commercial centers enhances its appeal for discerning buyers.
+
+Covering 417 square meters, the apartment includes three bedrooms, three full bathrooms, and one half bathroom, designed to accommodate family living with comfort and style. High ceilings and cross ventilation create a bright and airy atmosphere, while elevator access ensures convenience. Residents benefit from double 24-hour security, two covered parking spaces, and an external parking spot. The community’s amenities, including a lake and BBQ-equipped clubhouse, enrich the lifestyle experience. Situated in Curridabat, San José, this property offers a refined urban setting with natural beauty. MLS LXCR12826 The Agency Costa Rica]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/ls3wk6e31/1277x640/Aerial-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/f10ijyk77/1277x640/Aerial-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/bdymdm8yl/1277x640/Aerial-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/gc63lsp0p/1277x640/Aerial-5.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/9grxsm33h/1277x640/Aerial-6.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/htdz1txbw/1277x640/El-Olivar-Curridabat-LX-4.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/he21k132h/1277x640/El-Olivar-Curridabat-LX-8.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/noi629oy5/1277x640/El-Olivar-Curridabat-LX-9.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/o8wks47ze/1277x640/View-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/obm6752ao/1277x640/View-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/wfi2rhcgk/1277x640/Garden-1.jpg]]></picture>
+          <balcon><![CDATA[balcón]]></balcon>
+          <benefits><![CDATA[2 o más elevadores,Vista a las Montañas,Seguridad 24 Horas,Pet Friendly]]></benefits>
+          <building><![CDATA[Colinas de Montealegre]]></building>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXCR12826]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
           <sourceid><![CDATA[LXER12714]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[179]]></categoryid>
@@ -4185,7 +4241,7 @@ Located within the exclusive gated community of Ribera Laureles in Escazú, this
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[550000]]></price>
           <rooms><![CDATA[4]]></rooms>
-          <bath><![CDATA[3.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <square><![CDATA[375]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -4247,62 +4303,6 @@ The property encompasses 375 square meters of built space on a 611 square meter 
     <item>
       <required>
         <ad>
-          <sourceid><![CDATA[LXCR12826]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[179]]></categoryid>
-          <regionid><![CDATA[132]]></regionid>
-          <type><![CDATA[property]]></type>
-          <title><![CDATA[Apartamento 3 habs en Curridabat - Colinas de Montealegre - Vista]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <price><![CDATA[550000]]></price>
-          <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[3.5]]></bath>
-          <square><![CDATA[417]]></square>
-          <parking><![CDATA[2]]></parking>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[tere@lxcostarica.com]]></email>
-          <phone><![CDATA[+506 4001-4398]]></phone>
-          <contact><![CDATA[Tere Silva]]></contact>
-          <city><![CDATA[Curridabat]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Apartment 3BR in Curridabat - Colinas de Montealegre - Panoramic Views]]></title1>
-          <descr><![CDATA[Este espacioso apartamento de una planta en Colinas de Montealegre destaca por sus vistas panorámicas inigualables de la ciudad y las montañas, accesibles desde varias áreas del inmueble. Ubicado en un exclusivo condominio cerrado, ofrece privacidad y seguridad, además de acceso a amenidades como cancha de tenis, casa club y jardines paisajísticos que enriquecen la experiencia residencial. La propiedad se entrega en obra gris, brindando la oportunidad de personalizar cada detalle según sus preferencias y estilo de vida.
-
-Con una superficie construida de 417 metros cuadrados, el apartamento cuenta con tres dormitorios y tres baños completos más un medio baño, ideal para familias que buscan amplitud y confort. Situado en Curridabat, cerca de importantes instituciones educativas, restaurantes y centros comerciales, combina la tranquilidad de un entorno natural con la conveniencia urbana. El edificio dispone de ascensor y estacionamiento cubierto para dos vehículos, complementando un estilo de vida sofisticado y funcional. MLS LXCR12826 The Agency Costa Rica]]></descr>
-          <descr1><![CDATA[This spacious fourth-floor apartment in the exclusive gated community of Colinas de Montealegre offers fantastic panoramic views of the city and surrounding mountains from multiple vantage points. The residence is delivered with shell and core completion, providing a blank canvas for personalized interior design. Set within a building that features a tennis court, clubhouse, and lush landscaped gardens, this one-floor home combines privacy and luxury in a serene environment. Its location near prominent educational institutions, restaurants, and commercial centers enhances its appeal for discerning buyers.
-
-Covering 417 square meters, the apartment includes three bedrooms, three full bathrooms, and one half bathroom, designed to accommodate family living with comfort and style. High ceilings and cross ventilation create a bright and airy atmosphere, while elevator access ensures convenience. Residents benefit from double 24-hour security, two covered parking spaces, and an external parking spot. The community’s amenities, including a lake and BBQ-equipped clubhouse, enrich the lifestyle experience. Situated in Curridabat, San José, this property offers a refined urban setting with natural beauty. MLS LXCR12826 The Agency Costa Rica]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/ls3wk6e31/1277x640/Aerial-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/f10ijyk77/1277x640/Aerial-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/bdymdm8yl/1277x640/Aerial-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/gc63lsp0p/1277x640/Aerial-5.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/9grxsm33h/1277x640/Aerial-6.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/htdz1txbw/1277x640/El-Olivar-Curridabat-LX-4.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/he21k132h/1277x640/El-Olivar-Curridabat-LX-8.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/noi629oy5/1277x640/El-Olivar-Curridabat-LX-9.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/o8wks47ze/1277x640/View-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/obm6752ao/1277x640/View-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/wfi2rhcgk/1277x640/Garden-1.jpg]]></picture>
-          <balcon><![CDATA[balcón]]></balcon>
-          <benefits><![CDATA[2 o más elevadores,Vista a las Montañas,Seguridad 24 Horas,Pet Friendly]]></benefits>
-          <building><![CDATA[Colinas de Montealegre]]></building>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXCR12826]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
           <sourceid><![CDATA[LXER13952]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[179]]></categoryid>
@@ -4312,7 +4312,7 @@ Covering 417 square meters, the apartment includes three bedrooms, three full ba
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[550000]]></price>
           <rooms><![CDATA[2]]></rooms>
-          <bath><![CDATA[2.5]]></bath>
+          <bath><![CDATA[2]]></bath>
           <square><![CDATA[149]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -4498,7 +4498,7 @@ Situated on a generous 5000 square meter lot in Santiago, Puntarenas, the estate
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[558000]]></price>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[2.5]]></bath>
+          <bath><![CDATA[2]]></bath>
           <square><![CDATA[188]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -4554,7 +4554,7 @@ This three bedroom, two full and one half bathroom penthouse spans 188 square me
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[560000]]></price>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[3.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <square><![CDATA[221]]></square>
           <parking><![CDATA[3]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -4624,7 +4624,7 @@ Offering 221 square meters of thoughtfully designed living space, this residence
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[575000]]></price>
           <rooms><![CDATA[2]]></rooms>
-          <bath><![CDATA[2.5]]></bath>
+          <bath><![CDATA[2]]></bath>
           <square><![CDATA[262]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -4683,7 +4683,7 @@ Spanning 262 square meters, this residence includes two bedrooms, two full bathr
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[575000]]></price>
           <rooms><![CDATA[4]]></rooms>
-          <bath><![CDATA[3.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <square><![CDATA[450]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -4746,7 +4746,7 @@ The property features four bedrooms, including a spacious master suite with a wa
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[575000]]></price>
           <rooms><![CDATA[4]]></rooms>
-          <bath><![CDATA[3.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <square><![CDATA[480]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -4802,7 +4802,7 @@ Spanning 480 square meters on a 640 square meter lot, the property offers four b
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[590000]]></price>
           <rooms><![CDATA[4]]></rooms>
-          <bath><![CDATA[4.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <square><![CDATA[494]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -4926,7 +4926,7 @@ Encompassing 120 square meters of built space on a 1000 square meter lot, this o
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[600000]]></price>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[2.5]]></bath>
+          <bath><![CDATA[2]]></bath>
           <square><![CDATA[196]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -4991,7 +4991,7 @@ This spacious 196 square meter apartment features three bedrooms, including a pr
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[600000]]></price>
           <rooms><![CDATA[4]]></rooms>
-          <bath><![CDATA[3.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <square><![CDATA[363]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -5195,7 +5195,7 @@ Set on a generous 1263 square meter lot in Santa Teresa, Puntarenas, the 140 squ
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[625000]]></price>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[2.5]]></bath>
+          <bath><![CDATA[2]]></bath>
           <square><![CDATA[633]]></square>
           <parking><![CDATA[4]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -5254,7 +5254,7 @@ The property includes three bedrooms, two full bathrooms, and a half bath, compl
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[630000]]></price>
           <rooms><![CDATA[2]]></rooms>
-          <bath><![CDATA[2.5]]></bath>
+          <bath><![CDATA[2]]></bath>
           <square><![CDATA[281]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -5312,7 +5312,7 @@ Spanning 281 square meters, the apartment comprises two bedrooms, two full bathr
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[630000]]></price>
           <rooms><![CDATA[4]]></rooms>
-          <bath><![CDATA[3.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <square><![CDATA[300]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -5375,7 +5375,7 @@ Spanning 300 square meters on a 700 square meter lot, this residence balances op
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[630000]]></price>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[2.5]]></bath>
+          <bath><![CDATA[2]]></bath>
           <square><![CDATA[341]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -5422,13 +5422,13 @@ Spanning 341 square meters on a 777 square meter lot, the home features three be
           <sourceid><![CDATA[LXHR10962]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[179]]></categoryid>
-          <regionid><![CDATA[21]]></regionid>
+          <regionid><![CDATA[40]]></regionid>
           <type><![CDATA[property]]></type>
           <title><![CDATA[Condominio 3 habs en Alajuela - Hacienda Espinal - con piscina y club]]></title>
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[640000]]></price>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[2.5]]></bath>
+          <bath><![CDATA[2]]></bath>
           <square><![CDATA[290]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -5437,7 +5437,7 @@ Spanning 341 square meters on a 777 square meter lot, the home features three be
           <email><![CDATA[vicki@lxcostarica.com]]></email>
           <phone><![CDATA[+506 4001-4398]]></phone>
           <contact><![CDATA[Vicki Klunk]]></contact>
-          <city><![CDATA[Alajuela]]></city>
+          <city><![CDATA[San Rafael]]></city>
         </contact>
       </required>
       <optional>
@@ -5466,6 +5466,7 @@ This property features three bedrooms, two full bathrooms, and one half bathroom
           <balcon><![CDATA[terraza]]></balcon>
           <benefits><![CDATA[Bar,Patio,Seguridad 24 Horas,Pet Friendly,Gimnasio,Parque Infantil]]></benefits>
           <building><![CDATA[Hacienda Espinal]]></building>
+          <youtube1><![CDATA[https://www.youtube.com/embed/pOTLlpZ3ue4]]></youtube1>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXHR10962]]></sourceid>
         </ad>
@@ -5532,66 +5533,6 @@ Spanning 140 square meters, the property includes two bedrooms and two full bath
     <item>
       <required>
         <ad>
-          <sourceid><![CDATA[LXER13113]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[179]]></categoryid>
-          <regionid><![CDATA[9]]></regionid>
-          <type><![CDATA[property]]></type>
-          <title><![CDATA[Condominio 4 habs en Santa Ana - Novu - Espacio de trabajo dedicado]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <price><![CDATA[650000]]></price>
-          <rooms><![CDATA[4]]></rooms>
-          <bath><![CDATA[4.5]]></bath>
-          <square><![CDATA[385]]></square>
-          <parking><![CDATA[2]]></parking>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[melissa@lxcostarica.com]]></email>
-          <phone><![CDATA[+506 4001-4398]]></phone>
-          <contact><![CDATA[Melissa Lacayo]]></contact>
-          <city><![CDATA[Santa Ana]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Condo 4BR in Santa Ana - Novu - Fully Furnished with Workspace]]></title1>
-          <descr><![CDATA[Esta residencia completamente amueblada en Santa Ana destaca por su diseño contemporáneo y luminosidad, ofreciendo una experiencia de vida inmediata y sin complicaciones. Ubicada en la comunidad familiar Novu, la propiedad brinda un ambiente privado y tranquilo, con fácil acceso a la Ruta 27 que conecta con San José y la costa pacífica. Un espacio de trabajo dedicado favorece la concentración y productividad, ideal para quienes requieren un entorno funcional para el teletrabajo o estudio.
-
-Distribuida en tres niveles, la casa cuenta con cuatro dormitorios y cuatro baños completos más un medio baño, en un área construida de 385 metros cuadrados sobre un lote de 576 metros cuadrados. Las áreas sociales integran sala, comedor y cocina equipada con electrodomésticos modernos. La terraza y piscina climatizada complementan el espacio exterior, mientras que las amenidades del condominio incluyen casa club, parque infantil y piscina comunitaria. Santa Ana ofrece un estilo de vida sofisticado con acceso a centros comerciales, restaurantes y escuelas internacionales. MLS LXER13113 The Agency Costa Rica]]></descr>
-          <descr1><![CDATA[Santa Ana Fresh Bliss Home presents a fully furnished residence designed for immediate convenience, featuring a bright and contemporary aesthetic throughout. Nestled in the family-oriented Novu community, this corner property offers privacy across three levels and includes a dedicated workspace tailored for productivity, ideal for remote work or study. Its strategic location in Santa Ana ensures seamless connectivity to Route 27, facilitating easy access to San José and nearby Escazú.
-
-This 385 square meter home on a 576 square meter lot comprises four bedrooms, four full bathrooms, and one half bathroom, with each bedroom boasting an ensuite. The modern kitchen is equipped with premium appliances and a sophisticated color palette, complemented by multiple terraces offering mountain views. Outdoor amenities include a heated pool, terrace, and gazebo, enhancing the living experience. Residents benefit from community facilities such as a clubhouse and playground, all within a vibrant expat-friendly area known for upscale shopping and dining. MLS LXER13113 The Agency Costa Rica]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001YObo6/kjy52bekv/1277x640/Dining-room-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001YObo6/e1uq6bloe/1277x640/Dining-room-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001YObo6/u3u2jyx3c/1277x640/Dining-room-5.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001YObo6/bvebzgsh9/1277x640/TV-Room-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001YObo6/3sahnweg9/1277x640/Living-Room-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001YObo6/hczspdclg/1277x640/Secondary-Bedroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001YObo6/4kbjnhzj4/1277x640/Kitchen-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001YObo6/8v3xk2ved/1277x640/Master-Bedroom-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001YObo6/kokgaax33/1277x640/Secondary-Bathroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001YObo6/m2dc9qhpa/1277x640/Half-Bathroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001YObo6/ydsl8pjwp/1277x640/Social-area-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001YObo6/bxjh34ale/1277x640/Social-area-1.jpg]]></picture>
-          <lotsize><![CDATA[576]]></lotsize>
-          <swimmingpool><![CDATA[si]]></swimmingpool>
-          <balcon><![CDATA[balcón]]></balcon>
-          <benefits><![CDATA[Patio,Seguridad 24 Horas,Pet Friendly,Área de BBQ,Parque Infantil]]></benefits>
-          <building><![CDATA[Novu]]></building>
-          <youtube1><![CDATA[https://www.youtube.com/embed/00zJb1lNgec]]></youtube1>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXER13113]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
           <sourceid><![CDATA[LXHR13180]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[173]]></categoryid>
@@ -5601,7 +5542,7 @@ This 385 square meter home on a 576 square meter lot comprises four bedrooms, fo
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[650000]]></price>
           <rooms><![CDATA[4]]></rooms>
-          <bath><![CDATA[3.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <square><![CDATA[465]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -5659,6 +5600,66 @@ Situated on a 976 square meter lot in Heredia, this 465 square meter home combin
     <item>
       <required>
         <ad>
+          <sourceid><![CDATA[LXER13113]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[179]]></categoryid>
+          <regionid><![CDATA[9]]></regionid>
+          <type><![CDATA[property]]></type>
+          <title><![CDATA[Condominio 4 habs en Santa Ana - Novu - Espacio de trabajo dedicado]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[650000]]></price>
+          <rooms><![CDATA[4]]></rooms>
+          <bath><![CDATA[4]]></bath>
+          <square><![CDATA[385]]></square>
+          <parking><![CDATA[2]]></parking>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[melissa@lxcostarica.com]]></email>
+          <phone><![CDATA[+506 4001-4398]]></phone>
+          <contact><![CDATA[Melissa Lacayo]]></contact>
+          <city><![CDATA[Santa Ana]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Condo 4BR in Santa Ana - Novu - Fully Furnished with Workspace]]></title1>
+          <descr><![CDATA[Esta residencia completamente amueblada en Santa Ana destaca por su diseño contemporáneo y luminosidad, ofreciendo una experiencia de vida inmediata y sin complicaciones. Ubicada en la comunidad familiar Novu, la propiedad brinda un ambiente privado y tranquilo, con fácil acceso a la Ruta 27 que conecta con San José y la costa pacífica. Un espacio de trabajo dedicado favorece la concentración y productividad, ideal para quienes requieren un entorno funcional para el teletrabajo o estudio.
+
+Distribuida en tres niveles, la casa cuenta con cuatro dormitorios y cuatro baños completos más un medio baño, en un área construida de 385 metros cuadrados sobre un lote de 576 metros cuadrados. Las áreas sociales integran sala, comedor y cocina equipada con electrodomésticos modernos. La terraza y piscina climatizada complementan el espacio exterior, mientras que las amenidades del condominio incluyen casa club, parque infantil y piscina comunitaria. Santa Ana ofrece un estilo de vida sofisticado con acceso a centros comerciales, restaurantes y escuelas internacionales. MLS LXER13113 The Agency Costa Rica]]></descr>
+          <descr1><![CDATA[Santa Ana Fresh Bliss Home presents a fully furnished residence designed for immediate convenience, featuring a bright and contemporary aesthetic throughout. Nestled in the family-oriented Novu community, this corner property offers privacy across three levels and includes a dedicated workspace tailored for productivity, ideal for remote work or study. Its strategic location in Santa Ana ensures seamless connectivity to Route 27, facilitating easy access to San José and nearby Escazú.
+
+This 385 square meter home on a 576 square meter lot comprises four bedrooms, four full bathrooms, and one half bathroom, with each bedroom boasting an ensuite. The modern kitchen is equipped with premium appliances and a sophisticated color palette, complemented by multiple terraces offering mountain views. Outdoor amenities include a heated pool, terrace, and gazebo, enhancing the living experience. Residents benefit from community facilities such as a clubhouse and playground, all within a vibrant expat-friendly area known for upscale shopping and dining. MLS LXER13113 The Agency Costa Rica]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001YObo6/kjy52bekv/1277x640/Dining-room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001YObo6/e1uq6bloe/1277x640/Dining-room-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001YObo6/u3u2jyx3c/1277x640/Dining-room-5.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001YObo6/bvebzgsh9/1277x640/TV-Room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001YObo6/3sahnweg9/1277x640/Living-Room-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001YObo6/hczspdclg/1277x640/Secondary-Bedroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001YObo6/4kbjnhzj4/1277x640/Kitchen-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001YObo6/8v3xk2ved/1277x640/Master-Bedroom-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001YObo6/kokgaax33/1277x640/Secondary-Bathroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001YObo6/m2dc9qhpa/1277x640/Half-Bathroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001YObo6/ydsl8pjwp/1277x640/Social-area-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00001YObo6/bxjh34ale/1277x640/Social-area-1.jpg]]></picture>
+          <lotsize><![CDATA[576]]></lotsize>
+          <swimmingpool><![CDATA[si]]></swimmingpool>
+          <balcon><![CDATA[balcón]]></balcon>
+          <benefits><![CDATA[Patio,Seguridad 24 Horas,Pet Friendly,Área de BBQ,Parque Infantil]]></benefits>
+          <building><![CDATA[Novu]]></building>
+          <youtube1><![CDATA[https://www.youtube.com/embed/00zJb1lNgec]]></youtube1>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXER13113]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
           <sourceid><![CDATA[LXCR10401]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[173]]></categoryid>
@@ -5668,7 +5669,7 @@ Situated on a 976 square meter lot in Heredia, this 465 square meter home combin
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[650000]]></price>
           <rooms><![CDATA[5]]></rooms>
-          <bath><![CDATA[3.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <square><![CDATA[1065]]></square>
           <parking><![CDATA[6]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -5738,7 +5739,7 @@ The property offers five spacious bedrooms, including a master suite with bronze
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[660000]]></price>
           <rooms><![CDATA[4]]></rooms>
-          <bath><![CDATA[3.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <square><![CDATA[409]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -5811,7 +5812,7 @@ This four-bedroom, three full and one half bathroom home spans 409 square meters
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[660000]]></price>
           <rooms><![CDATA[4]]></rooms>
-          <bath><![CDATA[3.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <square><![CDATA[250]]></square>
           <parking><![CDATA[4]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -5878,7 +5879,7 @@ This residence encompasses 250 square meters of built space on a 604 square mete
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[670000]]></price>
           <rooms><![CDATA[4]]></rooms>
-          <bath><![CDATA[3.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <square><![CDATA[475]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -6079,7 +6080,7 @@ This sophisticated two-bedroom, two-bathroom apartment encompasses 418 square me
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[680000]]></price>
           <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[3.5]]></bath>
+          <bath><![CDATA[4]]></bath>
           <square><![CDATA[275]]></square>
           <parking><![CDATA[2]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
