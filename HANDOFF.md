@@ -74,7 +74,7 @@ python3 genera_feed.py --clear-cache
 *Note: A full regeneration of 100 listings takes approximately 10-15 minutes and will make 100 calls to the LX detail API.*
 
 **To fix a wrong region mapping:**
-If Encuentra24 reports a "region 1 not found" error, it means a city or address from the API is not mapped to an E24 region ID. Edit the `LX_TO_E24_REGION_MAP` dictionary in `genera_feed.py` to add the missing city and map it to the correct Encuentra24 region ID (found in their documentation).
+If Encuentra24 reports a region error, add the city to the `REGION_MAP` dictionary in `genera_feed.py` with the correct Encuentra24 region ID. The full official region list for Costa Rica is stored at `/home/ubuntu/upload/pasted_content_4.txt`. The map was fully rebuilt in May 2026 against this official list — all 100 active listings resolve to canton- or district-level IDs with zero province-level fallbacks.
 
 ## 6. Zapier Webhook — New Listing Notifications
 
