@@ -220,6 +220,8 @@ REGION_MAP = {
     "tambor alajuela":       2093,
     "coyol":                 2080,
     "carrizal":              2095,
+    "san rafael alajuela":   2113,   # San Rafael district, Alajuela canton
+    "san rafael de alajuela": 2113,
     # ── Heredia provincia (ID: 35) ────────────────────────────────────
     "heredia":               36,
     "barva":                 37,
@@ -820,9 +822,12 @@ def resolve_region_id(prop, listing):
         if not key:
             continue
 
-        # Special case: 'san rafael' in a non-Heredia context → Escazú canton
+        # Special case: 'san rafael' disambiguation by province
         if "san rafael" in key and not is_heredia:
-            return 2138  # San Rafael de Escazú district (or use 117 for canton level)
+            if state_raw in ("alajuela",):
+                return 2113  # San Rafael de Alajuela
+            else:
+                return 2138  # San Rafael de Escazú (San Jose province default)
 
         # Exact match
         if key in REGION_MAP:
