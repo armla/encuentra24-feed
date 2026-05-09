@@ -757,11 +757,51 @@ def cdata(value):
     return f"<![CDATA[{str(value)}]]>"
 
 
+# Region IDs that belong exclusively to Heredia province — never assign these
+# to a listing whose state is San Jose, Alajuela, Guanacaste, etc.
+_HEREDIA_REGION_IDS = {
+    35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 68,
+    1459, 1460, 1543, 24,
+}
+
+# Province name → set of region IDs that are valid for that province
+# Used to filter out cross-province mismatches
+_PROVINCE_WHITELIST = {
+    "san jose":   None,   # No restriction — San José has many districts
+    "alajuela":   None,
+    "cartago":    None,
+    "guanacaste": None,
+    "puntarenas": None,
+    "limon":      None,
+    "limón":      None,
+    "heredia":    _HEREDIA_REGION_IDS,  # Only allow Heredia IDs when province=Heredia
+}
+
+
 def resolve_region_id(prop, listing):
     """
     Resolve the Encuentra24 region ID from property location fields.
-    Tries address → community → city → state in order for best specificity.
+
+    Strategy:
+    1. Build a province context from prop['state'] to avoid cross-province mismatches.
+    2. Try candidates in specificity order: address → community → city → state.
+    3. For each candidate, first try exact match, then partial match.
+    4. If a candidate resolves to a Heredia region ID but the province is NOT Heredia,
+       skip that match and continue to the next candidate.
+    5. Special case: if address/community contains 'san rafael' and city/state
+       indicates Escazú or San Jose province, return Escazú canton ID (117) instead
+       of San Rafael de Heredia (40).
     """
+    state_raw  = (prop.get("state") or "").strip().lower()
+    city_raw   = (prop.get("city") or "").strip().lower()
+    is_heredia = (state_raw == "heredia")
+
+    # Detect Escazú context: city says Escazú, or state is San Jose with address San Rafael
+    is_escazu_context = (
+        "escaz" in city_raw or
+        (state_raw in ("san jose", "san josé") and "escaz" not in city_raw and city_raw == "")
+    )
+
     candidates = [
         prop.get("address") or "",
         listing.get("community") or "",
@@ -769,14 +809,32 @@ def resolve_region_id(prop, listing):
         prop.get("state") or "",
     ]
 
+    def is_valid(region_id):
+        """Return True if this region_id is compatible with the listing's province."""
+        if region_id in _HEREDIA_REGION_IDS and not is_heredia:
+            return False
+        return True
+
     for candidate in candidates:
         key = candidate.strip().lower()
+        if not key:
+            continue
+
+        # Special case: 'san rafael' in a non-Heredia context → Escazú canton
+        if "san rafael" in key and not is_heredia:
+            return 2138  # San Rafael de Escazú district (or use 117 for canton level)
+
+        # Exact match
         if key in REGION_MAP:
-            return REGION_MAP[key]
-        # Partial match: check if any known region key is contained in the candidate
-        for region_key, region_id in REGION_MAP.items():
+            rid = REGION_MAP[key]
+            if is_valid(rid):
+                return rid
+
+        # Partial match
+        for region_key, rid in REGION_MAP.items():
             if region_key in key and len(region_key) > 4:
-                return region_id
+                if is_valid(rid):
+                    return rid
 
     return DEFAULT_REGION_ID
 
