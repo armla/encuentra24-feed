@@ -11,24 +11,35 @@ This project automates the generation of an XML property feed for Encuentra24. I
 The feed is generated automatically every day at 2:00 AM Costa Rica time via GitHub Actions, and the resulting XML file is committed directly to the repository where Encuentra24 can pull it.
 
 ## 2. Business Rules & Tier Logic
-The Encuentra24 plan allows for exactly 100 listings. The generator uses a three-tier prioritization system to fill these slots:
 
-### Tier A: Exclusives (Top Priority)
-- **Rule:** All exclusive listings priced at or below $1,100,000 USD.
-- **Exceptions:** The "exclusive" flag overrides the EPP priority filter and the "no lots" rule. Exclusive lots and exclusive EPP listings are included.
+The Encuentra24 plan currently allows **250 listings** (temporary expanded plan). The generator uses a **five-tier prioritization system**:
+
+### Tier A: Exclusive Residential Sales
+- **Rule:** All exclusive sale listings (no lots/land/farms) priced ≤ $1,250,000 USD.
+- **Note:** Exclusive flag overrides EPP priority. Sorted cheapest first.
+- **Current count:** ~25
 
 ### Tier B: Rentals
-- **Rule:** All rental listings priced at or below $4,750 USD/month.
-- **Filter:** Excludes any listing with an EPP priority number (18, 19, or 20).
+- **Rule:** All rental listings priced ≤ $4,950 USD/month.
+- **Filter:** Excludes EPP priorities (18, 19, 20). Sorted cheapest first.
+- **Current count:** ~15
 
-### Tier C: Residential Sales (Fill to 100)
-- **Rule:** Fills the remaining slots (typically ~55-60) with non-exclusive sale listings, sorted from cheapest to most expensive.
-- **Filters:** 
-  - Strictly **no lots, land, or farms** (residential properties only).
-  - Excludes any listing with an EPP priority number (18, 19, or 20).
-- **Ceiling:** The price ceiling floats dynamically based on how many slots are left. It typically lands around $650,000 - $680,000 USD.
+### Tier C: Exclusive Lots, Farms & Land
+- **Rule:** All exclusive lot/farm/land listings at any price (exclusive flag overrides price cap).
+- **Note:** Sorted cheapest first. Fills slots after Tiers A+B.
+- **Current count:** ~12
 
-*Note on Priorities:* Priority 18 = EPP High-end Houses, 19 = EPP Normal Houses, 20 = EPP Lots. These are excluded from Tiers B and C to maintain feed quality.
+### Tier D: Non-Exclusive Residential Sales
+- **Rule:** Non-exclusive sale listings, no lots/land/farms, no EPP. Price ceiling ≤ $980,000 USD.
+- **Note:** Sorted cheapest first. Fills slots after Tiers A+B+C.
+- **Current count:** ~132
+
+### Tier E: Non-Exclusive Lots, Farms & Land
+- **Rule:** Non-exclusive lot/farm/land listings, no EPP, no price cap.
+- **Note:** Sorted cheapest first. Fills remaining slots after Tiers A–D.
+- **Current count:** ~66
+
+*Note on Priorities:* Priority 18 = EPP High-end Houses, 19 = EPP Normal Houses, 20 = EPP Lots. These are excluded from Tiers B, D, and E to maintain feed quality.
 
 ## 3. LLM Enrichment
 To optimize the listings for Encuentra24's search algorithms and user behavior, the script uses OpenAI to rewrite the raw API data:

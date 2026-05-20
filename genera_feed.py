@@ -50,16 +50,23 @@ LANGUAGE = "es"  # Primary language for Encuentra24 settings block
 MAX_PHOTOS = 25
 
 # Maximum number of listings in the feed (Encuentra24 plan limit)
-MAX_LISTINGS = 100
+MAX_LISTINGS = 250
 
-# Exclusives at or below this price are guaranteed a slot (exclusive flag overrides EPP priority)
-EXCLUSIVE_PRICE_CAP = 1_100_000  # USD
+# ── Five-Tier Structure ────────────────────────────────────────────────────────
+# Tier A: Exclusive residential sales (no lots) at or below this price
+EXCLUSIVE_PRICE_CAP = 1_250_000  # USD
 
-# Maximum monthly rent for Tier B rentals
-RENTAL_PRICE_CAP = 4_750  # USD/month
+# Tier B: Rentals at or below this monthly price (no EPP)
+RENTAL_PRICE_CAP = 4_950  # USD/month
 
-# Maximum sale price for Tier C pool
-SALE_PRICE_CAP = 1_500_000  # USD
+# Tier C: ALL exclusive lots, farms & land (no price cap — exclusive flag overrides)
+# (no constant needed — all exclusive lots included regardless of price)
+
+# Tier D: Non-exclusive residential sales (no lots) up to this price (no EPP)
+SALE_PRICE_CAP = 980_000  # USD  — Tier D ceiling
+
+# Tier E: Non-exclusive lots, farms & land, cheapest first (no EPP, no price cap)
+# (fills remaining slots after Tiers A–D)
 
 # EPP priority numbers — excluded from ALL non-exclusive listings
 # 18 = EPP Casas High-end, 19 = EPP Casas normales, 20 = EPP Lotes
@@ -1300,22 +1307,26 @@ def generate_feed(properties, filter_type="all", max_listings=MAX_LISTINGS, use_
     max_listings: cap on total listings (default: MAX_LISTINGS)
     use_llm:      enable LLM enrichment for titles and descriptions
 
-    Prioritization (3-tier system):
+    Prioritization (5-tier system):
 
-      TIER A — All exclusive sale listings under EXCLUSIVE_PRICE_CAP.
-               Exclusive flag overrides EPP priority — all exclusives included.
+      TIER A — Exclusive residential sales (no lots) ≤ EXCLUSIVE_PRICE_CAP ($1,250,000).
+               Exclusive flag overrides EPP priority.
                Sorted by price ascending.
 
-      TIER B — Rental listings under RENTAL_PRICE_CAP/month.
-               EPP priorities (18, 19, 20) excluded.
-               Sorted by price ascending.
-               Fills slots after Tier A.
+      TIER B — Rentals ≤ RENTAL_PRICE_CAP/month ($4,950). No EPP.
+               Sorted by price ascending. Fills slots after Tier A.
 
-      TIER C — Non-exclusive sale listings, residential only (no lots/land/farm).
-               EPP priorities (18, 19, 20) excluded.
-               Price cap: SALE_PRICE_CAP.
+      TIER C — ALL exclusive lots, farms & land (any price).
+               Exclusive flag overrides price cap.
+               Sorted by price ascending. Fills slots after Tiers A+B.
+
+      TIER D — Non-exclusive residential sales (no lots) ≤ SALE_PRICE_CAP ($980,000). No EPP.
                Sorted by price ascending (cheapest first).
-               Fills remaining slots after Tiers A and B.
+               Fills slots after Tiers A+B+C.
+
+      TIER E — Non-exclusive lots, farms & land. No EPP. No price cap.
+               Sorted by price ascending (cheapest first).
+               Fills remaining slots after Tiers A+B+C+D.
     """
 
     def get_priority(prop):
@@ -1351,13 +1362,13 @@ def generate_feed(properties, filter_type="all", max_listings=MAX_LISTINGS, use_
             is_epp = priority in EPP_PRIORITIES
             all_items.append((prop, listing, ad_type, price, is_exclusive, is_epp, priority))
 
-    # ── Step 2: Build Tier A — Exclusive sales ≤ EXCLUSIVE_PRICE_CAP ──
-    # Exclusive flag overrides EPP — all exclusives included regardless of priority
+    # ── Step 2: Build Tier A — Exclusive residential sales (no lots) ≤ EXCLUSIVE_PRICE_CAP ──
     tier_a = [
         (prop, listing, ad_type)
         for prop, listing, ad_type, price, is_exclusive, is_epp, priority in all_items
         if ad_type in ("property", "lot")
         and is_exclusive
+        and not is_lot_listing(prop, listing)
         and price <= EXCLUSIVE_PRICE_CAP
     ]
     tier_a.sort(key=lambda x: x[1].get("listingprice") or float("inf"))
@@ -1374,39 +1385,76 @@ def generate_feed(properties, filter_type="all", max_listings=MAX_LISTINGS, use_
     ]
     tier_b_pool.sort(key=lambda x: x[1].get("listingprice") or float("inf"))
     tier_b = tier_b_pool[:remaining_after_a]
+    tier_b_mls = {listing.get("lx_mls_id") for _, listing, _ in tier_b}
 
-    # ── Step 4: Build Tier C — Non-exclusive sales, no lots, no EPP ──
+    # ── Step 4: Build Tier C — ALL exclusive lots, farms & land (any price) ──
     remaining_after_ab = (max_listings or 9999) - len(tier_a) - len(tier_b)
     tier_c_pool = [
         (prop, listing, ad_type)
         for prop, listing, ad_type, price, is_exclusive, is_epp, priority in all_items
         if ad_type in ("property", "lot")
-        and listing.get("lx_mls_id") not in tier_a_mls  # not already in Tier A
-        and not is_epp                                    # no EPP
-        and not is_lot_listing(prop, listing)             # no lots/land/farm
-        and price <= SALE_PRICE_CAP
+        and is_exclusive
+        and is_lot_listing(prop, listing)
+        and listing.get("lx_mls_id") not in tier_a_mls
     ]
     tier_c_pool.sort(key=lambda x: x[1].get("listingprice") or float("inf"))
     tier_c = tier_c_pool[:remaining_after_ab]
+    tier_c_mls = {listing.get("lx_mls_id") for _, listing, _ in tier_c}
 
-    final = tier_a + tier_b + tier_c
+    # ── Step 5: Build Tier D — Non-exclusive residential sales ≤ SALE_PRICE_CAP, no EPP ──
+    remaining_after_abc = (max_listings or 9999) - len(tier_a) - len(tier_b) - len(tier_c)
+    all_exclusive_mls = tier_a_mls | tier_c_mls
+    tier_d_pool = [
+        (prop, listing, ad_type)
+        for prop, listing, ad_type, price, is_exclusive, is_epp, priority in all_items
+        if ad_type in ("property", "lot")
+        and not is_exclusive
+        and not is_epp
+        and not is_lot_listing(prop, listing)
+        and price <= SALE_PRICE_CAP
+        and listing.get("lx_mls_id") not in all_exclusive_mls
+    ]
+    tier_d_pool.sort(key=lambda x: x[1].get("listingprice") or float("inf"))
+    tier_d = tier_d_pool[:remaining_after_abc]
+    tier_d_mls = {listing.get("lx_mls_id") for _, listing, _ in tier_d}
+
+    # ── Step 6: Build Tier E — Non-exclusive lots/farms/land, cheapest first, no EPP ──
+    remaining_after_abcd = (max_listings or 9999) - len(tier_a) - len(tier_b) - len(tier_c) - len(tier_d)
+    used_mls = all_exclusive_mls | tier_d_mls | tier_b_mls
+    tier_e_pool = [
+        (prop, listing, ad_type)
+        for prop, listing, ad_type, price, is_exclusive, is_epp, priority in all_items
+        if ad_type in ("property", "lot")
+        and not is_exclusive
+        and not is_epp
+        and is_lot_listing(prop, listing)
+        and listing.get("lx_mls_id") not in used_mls
+    ]
+    tier_e_pool.sort(key=lambda x: x[1].get("listingprice") or float("inf"))
+    tier_e = tier_e_pool[:remaining_after_abcd]
+
+    final = tier_a + tier_b + tier_c + tier_d + tier_e
 
     n_tier_a = len(tier_a)
     n_tier_b = len(tier_b)
     n_tier_c = len(tier_c)
+    n_tier_d = len(tier_d)
+    n_tier_e = len(tier_e)
     total_eligible = len(all_items)
 
     print(f"  Total active published listings: {total_eligible}")
-    print(f"  Tier A — Exclusives ≤ ${EXCLUSIVE_PRICE_CAP:,.0f} (excl overrides priority): {n_tier_a}")
+    print(f"  Tier A — Exclusive residential ≤ ${EXCLUSIVE_PRICE_CAP:,.0f}: {n_tier_a}")
     print(f"  Tier B — Rentals ≤ ${RENTAL_PRICE_CAP:,.0f}/mo (no EPP): {n_tier_b} of {len(tier_b_pool)}")
-    print(f"  Tier C — Sale, no lots, no EPP, cheapest up: {n_tier_c} of {len(tier_c_pool)}")
+    print(f"  Tier C — Exclusive lots/farms/land (all prices): {n_tier_c} of {len(tier_c_pool)}")
+    print(f"  Tier D — Non-excl residential ≤ ${SALE_PRICE_CAP:,.0f} (no EPP): {n_tier_d} of {len(tier_d_pool)}")
+    print(f"  Tier E — Non-excl lots/farms/land, cheapest first (no EPP): {n_tier_e} of {len(tier_e_pool)}")
     print(f"  TOTAL: {len(final)}")
-    if tier_c:
-        cutoff = tier_c[-1][1].get('listingprice', 0)
-        print(f"  Tier C price ceiling: ${cutoff:,.0f}")
-        if len(tier_c_pool) > len(tier_c):
-            nxt = tier_c_pool[len(tier_c)]
-            print(f"  First excluded (Tier C): ${nxt[1].get('listingprice',0):,.0f} — {nxt[1].get('name','')}")
+    if tier_d:
+        cutoff = tier_d[-1][1].get('listingprice', 0)
+        print(f"  Tier D price ceiling: ${cutoff:,.0f}")
+    if tier_e:
+        cutoff_e = tier_e[-1][1].get('listingprice', 0)
+        print(f"  Tier E price ceiling: ${cutoff_e:,.0f}")
     if skipped:
         print(f"  Skipped (inactive/no price): {skipped}")
 
