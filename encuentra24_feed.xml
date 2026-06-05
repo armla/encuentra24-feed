@@ -12551,6 +12551,50 @@ This home encompasses four bedrooms and three full bathrooms within 440 square m
     <item>
       <required>
         <ad>
+          <sourceid><![CDATA[LXEF13978]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[176]]></categoryid>
+          <regionid><![CDATA[4]]></regionid>
+          <type><![CDATA[lot]]></type>
+          <title><![CDATA[Finca Los Abuelitos en Turrúcares, Alajuela]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[3500000]]></price>
+          <lotsize><![CDATA[47802]]></lotsize>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[alfonso.sancho@theagencyre.com]]></email>
+          <phone><![CDATA[+506 4001-4398]]></phone>
+          <contact><![CDATA[Alfonso Sancho]]></contact>
+          <city><![CDATA[Alajuela]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Los Abuelitos Recreational Farm in Turrucares]]></title1>
+          <descr><![CDATA[Finca Los Abuelitos en Turrúcares, Alajuela. Ubicación: Alajuela, Alajuela. Terreno de 47802 m². MLS LXEF13978 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Los Abuelitos Recreational Farm in Turrucares. Location: Alajuela, Alajuela. Lot size: 47802 m². MLS LXEF13978 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/pypuh6los/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-12.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/ooosae0pm/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-19.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/oz6av5pm5/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-5.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/sanqnx4yp/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/1fgiqn96t/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-11.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/jk8rxzf5n/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-16.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/8p2o19eox/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-18.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/ob061f9mg/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/m2umfv05o/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-9.jpg]]></picture>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXEF13978]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
           <sourceid><![CDATA[LXEF13843]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[176]]></categoryid>
@@ -12594,40 +12638,48 @@ This home encompasses four bedrooms and three full bathrooms within 440 square m
     <item>
       <required>
         <ad>
-          <sourceid><![CDATA[LXEF13978]]></sourceid>
+          <sourceid><![CDATA[LXCO14141]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[176]]></categoryid>
+          <categoryid><![CDATA[170]]></categoryid>
           <regionid><![CDATA[4]]></regionid>
-          <type><![CDATA[lot]]></type>
-          <title><![CDATA[Finca Los Abuelitos en Turrúcares, Alajuela]]></title>
+          <type><![CDATA[property]]></type>
+          <title><![CDATA[Bosque de Paz en Bajos de Toro]]></title>
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[3500000]]></price>
-          <lotsize><![CDATA[47802]]></lotsize>
+          <rooms><![CDATA[0]]></rooms>
+          <bath><![CDATA[0]]></bath>
+          <square><![CDATA[0]]></square>
+          <parking><![CDATA[0]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
         </ad>
         <contact>
-          <email><![CDATA[alfonso.sancho@theagencyre.com]]></email>
+          <email><![CDATA[mariaalexandra@lxcostarica.com]]></email>
           <phone><![CDATA[+506 4001-4398]]></phone>
-          <contact><![CDATA[Alfonso Sancho]]></contact>
-          <city><![CDATA[Alajuela]]></city>
+          <contact><![CDATA[Maria Alexandra Gutierrez]]></contact>
+          <city><![CDATA[Valverde Vega]]></city>
         </contact>
       </required>
       <optional>
         <ad>
-          <title1><![CDATA[Los Abuelitos Recreational Farm in Turrucares]]></title1>
-          <descr><![CDATA[Finca Los Abuelitos en Turrúcares, Alajuela. Ubicación: Alajuela, Alajuela. Terreno de 47802 m². MLS LXEF13978 The Agency Costa Rica.]]></descr>
-          <descr1><![CDATA[Los Abuelitos Recreational Farm in Turrucares. Location: Alajuela, Alajuela. Lot size: 47802 m². MLS LXEF13978 The Agency Costa Rica.]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/pypuh6los/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-12.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/ooosae0pm/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-19.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/oz6av5pm5/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-5.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/sanqnx4yp/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/1fgiqn96t/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-11.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/jk8rxzf5n/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-16.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/8p2o19eox/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-18.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/ob061f9mg/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/m2umfv05o/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-9.jpg]]></picture>
+          <title1><![CDATA[Bosque de Paz at Bajos del Toro]]></title1>
+          <descr><![CDATA[Bosque de Paz en Bajos de Toro. Ubicación: Valverde Vega, Alajuela. 2030000 m² de terreno. MLS LXCO14141 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Bosque de Paz at Bajos del Toro. Location: Valverde Vega, Alajuela. 2030000 m² lot. MLS LXCO14141 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/d5a3l6yub/1277x640/TACR-10.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/vds9coq93/1277x640/TACR-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/oid76o7eu/1277x640/TACR-6.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/t3tn9bpb4/1277x640/TACR-7.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/o48gubhc6/1277x640/TACR-8.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/26wr04c00/1277x640/TACR-12.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/ouylgf4e5/1277x640/TACR-9.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/zt6x0zb9b/1277x640/TACR-5.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/pw01bduyf/1277x640/TACR-11.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/w45lzuj4v/1277x640/TACR-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/9wpknnmjz/1277x640/TACR-4.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/onng2xf86/1277x640/TACR-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/wh6pp375u/1277x640/TACR-13.jpg]]></picture>
+          <lotsize><![CDATA[2030000]]></lotsize>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXEF13978]]></sourceid>
+          <sourceid><![CDATA[LXCO14141]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
@@ -12688,58 +12740,6 @@ This home encompasses four bedrooms and three full bathrooms within 440 square m
           <benefits><![CDATA[Bar]]></benefits>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXER13761]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
-          <sourceid><![CDATA[LXCO14141]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[170]]></categoryid>
-          <regionid><![CDATA[4]]></regionid>
-          <type><![CDATA[property]]></type>
-          <title><![CDATA[Bosque de Paz en Bajos de Toro]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <price><![CDATA[3500000]]></price>
-          <rooms><![CDATA[0]]></rooms>
-          <bath><![CDATA[0]]></bath>
-          <square><![CDATA[0]]></square>
-          <parking><![CDATA[0]]></parking>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[mariaalexandra@lxcostarica.com]]></email>
-          <phone><![CDATA[+506 4001-4398]]></phone>
-          <contact><![CDATA[Maria Alexandra Gutierrez]]></contact>
-          <city><![CDATA[Valverde Vega]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Bosque de Paz at Bajos del Toro]]></title1>
-          <descr><![CDATA[Bosque de Paz en Bajos de Toro. Ubicación: Valverde Vega, Alajuela. 2030000 m² de terreno. MLS LXCO14141 The Agency Costa Rica.]]></descr>
-          <descr1><![CDATA[Bosque de Paz at Bajos del Toro. Location: Valverde Vega, Alajuela. 2030000 m² lot. MLS LXCO14141 The Agency Costa Rica.]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/d5a3l6yub/1277x640/TACR-10.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/vds9coq93/1277x640/TACR-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/oid76o7eu/1277x640/TACR-6.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/t3tn9bpb4/1277x640/TACR-7.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/o48gubhc6/1277x640/TACR-8.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/26wr04c00/1277x640/TACR-12.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/ouylgf4e5/1277x640/TACR-9.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/zt6x0zb9b/1277x640/TACR-5.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/pw01bduyf/1277x640/TACR-11.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/w45lzuj4v/1277x640/TACR-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/9wpknnmjz/1277x640/TACR-4.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/onng2xf86/1277x640/TACR-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/wh6pp375u/1277x640/TACR-13.jpg]]></picture>
-          <lotsize><![CDATA[2030000]]></lotsize>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXCO14141]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
