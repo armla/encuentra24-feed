@@ -2504,63 +2504,6 @@ Spanning 11,772 square meters, this agricultural-zoned lot invites a variety of 
     <item>
       <required>
         <ad>
-          <sourceid><![CDATA[LXSR14003]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[173]]></categoryid>
-          <regionid><![CDATA[74]]></regionid>
-          <type><![CDATA[property]]></type>
-          <title><![CDATA[Casa 4 habs en Tambor - Vista al mar y montaña con casa de huéspedes]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <price><![CDATA[988713]]></price>
-          <rooms><![CDATA[4]]></rooms>
-          <bath><![CDATA[4]]></bath>
-          <square><![CDATA[400]]></square>
-          <parking><![CDATA[0]]></parking>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[korneel.glorieux@theagencyre.com]]></email>
-          <phone><![CDATA[+506 4001-4398]]></phone>
-          <contact><![CDATA[Korneel Glorieux]]></contact>
-          <city><![CDATA[Puntarenas]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Estate 4BR in Tambor Puntarenas - Tambor Hillside Investment - Ocean]]></title1>
-          <descr><![CDATA[Esta exclusiva finca de inversión en las colinas de Tambor ofrece más de 165,000 metros cuadrados de terreno titulado con múltiples sitios listos para construcción. La propiedad cuenta con una residencia principal de dos niveles y una casa de huéspedes, ambas con un sólido potencial para renovación. Su entorno privado, con vistas a la montaña y selectas panorámicas al océano, cascadas estacionales y bosque maduro, la convierte en un refugio ideal para una finca privada, retiro natural o un desarrollo por etapas. La infraestructura existente facilita la habitabilidad inmediata y el acceso cercano a Santa Teresa añade un valor estratégico.
-
-Con una construcción de 400 metros cuadrados, la casa principal dispone de cuatro dormitorios, tres baños completos y un medio baño, además de una piscina y una torre de observación que realza la experiencia del paisaje. El terreno ofrece caminos internos parcialmente pavimentados, pozo de agua permanente y electricidad, todo enmarcado en un entorno natural que garantiza privacidad y conexión con la naturaleza. Ubicada en la península de Nicoya, a solo 20 minutos de Santa Teresa y Malpaís, esta propiedad combina exclusividad, potencial y un estilo de vida en armonía con el entorno. MLS LXSR14003 The Agency Costa Rica]]></descr>
-          <descr1><![CDATA[Set on over 165,000 square meters of titled land, Tambor Hillside Investment Estate offers multiple build-ready sites within a private, forested setting. The property features a two-story main residence and a guest house, both presenting significant renovation potential. With sweeping mountain and selective ocean views, seasonal waterfalls, and mature jungle, this estate is ideally suited for a private retreat, nature sanctuary, or phased development. Infrastructure is established, and its proximity to Santa Teresa enhances its desirability.
-
-The residence spans 400 square meters and includes four bedrooms, three full bathrooms, and one half bath. Architectural elements combine rustic tropical and colonial styles, highlighted by wooden floors, high ceilings, and balconies. Amenities include a pool, a viewing tower, maid’s quarters, and storage facilities. The property benefits from a drilled well, electricity, and partially paved roads, with direct public road access. Located in the tranquil Tambor area of Puntarenas, it offers a serene lifestyle near the vibrant coastal communities of Santa Teresa and Malpaís. MLS LXSR14003 The Agency Costa Rica]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009x6IfT/vnnrya9lo/1277x640/TACR-4.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009x6IfT/8h6r2kvop/1277x640/TACR-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009x6IfT/gpjwsgm7v/1277x640/TACR-9.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009x6IfT/zbit3oofs/1277x640/TACR-6.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009x6IfT/28w8bzx70/1277x640/TACR-13.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009x6IfT/x1wnrzt0s/1277x640/TACR-19.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009x6IfT/ixx6sxe59/1277x640/TACR-18.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009x6IfT/qapid1pli/1277x640/TACR-16.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009x6IfT/95x9a8pzv/1277x640/TACR-10.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009x6IfT/qfa8882d8/1277x640/TACR-11.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009x6IfT/cf2hejvy7/1277x640/TACR-14.jpg]]></picture>
-          <lotsize><![CDATA[165075]]></lotsize>
-          <swimmingpool><![CDATA[si]]></swimmingpool>
-          <balcon><![CDATA[balcón]]></balcon>
-          <benefits><![CDATA[Patio,Vista a las Montañas]]></benefits>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXSR14003]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
           <sourceid><![CDATA[LXSL14026]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[178]]></categoryid>
@@ -4857,6 +4800,7 @@ Spanning 262 square meters, this residence includes two bedrooms, two full bathr
           <balcon><![CDATA[balcón]]></balcon>
           <benefits><![CDATA[Patio,Seguridad 24 Horas,Pet Friendly]]></benefits>
           <building><![CDATA[Casas Sol]]></building>
+          <youtube1><![CDATA[https://www.youtube.com/embed/OOlu7AmAS48]]></youtube1>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXER14205]]></sourceid>
         </ad>
@@ -5237,6 +5181,77 @@ This spacious 196 square meter apartment features three bedrooms, including a pr
           <youtube1><![CDATA[https://www.youtube.com/embed/oaQEAP-Da04]]></youtube1>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXER13429]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
+          <sourceid><![CDATA[LXR13403]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[179]]></categoryid>
+          <regionid><![CDATA[5172]]></regionid>
+          <type><![CDATA[property]]></type>
+          <title><![CDATA[Apartamento 2 habs en Tres Ríos - El Olivar - terraza con vista al]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[600000]]></price>
+          <rooms><![CDATA[2]]></rooms>
+          <bath><![CDATA[2]]></bath>
+          <square><![CDATA[418]]></square>
+          <parking><![CDATA[3]]></parking>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[mariaalexandra@lxcostarica.com]]></email>
+          <phone><![CDATA[+506 4001-4398]]></phone>
+          <contact><![CDATA[Maria Alexandra Gutierrez]]></contact>
+          <city><![CDATA[Tres Ríos]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[2BR Condo in Tres Ríos - El Olivar - Expansive Terrace Sunset Views]]></title1>
+          <descr><![CDATA[Sunset Spot Olivar es un apartamento que destaca por su amplia terraza que se extiende a lo largo de todo el frente, ofreciendo vistas inigualables de los atardeceres sobre el Valle Central. Sus espacios sociales son amplios y están diseñados para una circulación fluida, promoviendo un ambiente cómodo y acogedor para el día a día. Las habitaciones, de generosas dimensiones y diseño clásico, garantizan privacidad y elegancia, haciendo de este inmueble una opción exclusiva y sofisticada en Tres Ríos.
+
+Con una superficie construida de 418 metros cuadrados, este apartamento cuenta con dos dormitorios y dos baños completos, distribuidos para maximizar la funcionalidad y el confort. Ubicado en la comunidad cerrada de El Olivar, en el este de San José, ofrece seguridad 24 horas, áreas verdes y senderos que invitan a disfrutar de la naturaleza. Su proximidad a servicios, comercios y vías principales complementa un estilo de vida que combina exclusividad con conveniencia. MLS LXR13403 The Agency Costa Rica]]></descr>
+          <descr1><![CDATA[Sunset Spot Olivar Apartment presents an expansive terrace that spans the entire front of the residence, offering breathtaking views of the Central Valley’s sunsets. The spacious and interconnected social areas are thoughtfully designed to foster seamless flow and everyday comfort, creating an inviting atmosphere for both relaxation and entertaining. The generously sized bedrooms reflect a classic design ethos, prioritizing privacy and understated elegance, ensuring a refined living experience.
+
+This sophisticated two-bedroom, two-bathroom apartment encompasses 418 square meters of built space within the secure El Olivar community in Tres Ríos, Cartago. The layout includes a private kitchen and a versatile TV lounge that can serve as a third bedroom. Residents benefit from proximity to parks, walking trails, and essential amenities, all within a tranquil setting that balances nature and urban convenience. MLS LXR13403 The Agency Costa Rica]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00005PdBCI/5f5we1yak/1277x640/Living-room-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00005PdBCI/t71izdz7x/1277x640/Dining-room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00005PdBCI/7crdxdcek/1277x640/Terrace-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00005PdBCI/3ac61jb7n/1277x640/Living-room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00005PdBCI/ibfzva3gt/1277x640/Living-room-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00005PdBCI/t6jnmujjq/1277x640/Dining-room-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00005PdBCI/3wra32ulg/1277x640/Dining-room-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00005PdBCI/34j6hq3eo/1277x640/View-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00005PdBCI/h1evli5oe/1277x640/Terrace-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00005PdBCI/b4z08fjg4/1277x640/Half-bathroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00005PdBCI/mjaybbvwy/1277x640/Kitchen-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00005PdBCI/wbvud1ga8/1277x640/Hallway-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00005PdBCI/x1qxlo0rj/1277x640/TV-room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00005PdBCI/jaiukd2g1/1277x640/Secondary-bathroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00005PdBCI/zq6z35s9h/1277x640/Secondary-bedroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00005PdBCI/6prv8ccdz/1277x640/Master-bedroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00005PdBCI/pabbums16/1277x640/Master-bathroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00005PdBCI/jcyomiymq/1277x640/Terrace-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00005PdBCI/qzo7vmkko/1277x640/Social-area-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00005PdBCI/edj7gr1he/1277x640/Social-area-5.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00005PdBCI/1tb18nku4/1277x640/Social-area-6.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00005PdBCI/6y15w3q9o/1277x640/Social-area-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00005PdBCI/i75bzyuer/1277x640/Social-area-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00005PdBCI/l09tgqtdv/1277x640/Social-area-7.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00005PdBCI/js5p11wnt/1277x640/Social-area-4.jpg]]></picture>
+          <balcon><![CDATA[balcón]]></balcon>
+          <benefits><![CDATA[Seguridad 24 Horas,Pet Friendly]]></benefits>
+          <building><![CDATA[El Olivar]]></building>
+          <youtube1><![CDATA[https://www.youtube.com/embed/mYbvm7bqS_0]]></youtube1>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXR13403]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
@@ -7144,6 +7159,63 @@ This home encompasses four bedrooms and three full bathrooms within 440 square m
     <item>
       <required>
         <ad>
+          <sourceid><![CDATA[LXER13600]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[173]]></categoryid>
+          <regionid><![CDATA[117]]></regionid>
+          <type><![CDATA[property]]></type>
+          <title><![CDATA[Felicity Penthouse @ Guachipelín]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[790000]]></price>
+          <rooms><![CDATA[3]]></rooms>
+          <bath><![CDATA[4]]></bath>
+          <square><![CDATA[307]]></square>
+          <parking><![CDATA[3]]></parking>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[melissa@lxcostarica.com]]></email>
+          <phone><![CDATA[+506 4001-4398]]></phone>
+          <contact><![CDATA[Melissa Lacayo]]></contact>
+          <city><![CDATA[Escazú]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Felicity Penthouse @ Guachipelín]]></title1>
+          <descr><![CDATA[Felicity Penthouse @ Guachipelín. Ubicación: 203, Escazú, San Jose. 3 habitaciones | 3 baños + 1 medio baño | 307 m² de construcción | 362 m² de terreno. Características: Contemporary Design, Natural light, Maid’s Quarters, Storage Area, A/C Splits, Single-level, Full Bedroom on 1st floor. Exteriores: Terrace/Patio, Contemporary design, Panoramic views, City views, Mountain views, High-rise Living. MLS LXER13600 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Felicity Penthouse @ Guachipelín. Location: 203, Escazú, San Jose. 3 bedrooms | 3 bathrooms + 1 half bath | 307 m² built area | 362 m² lot. Features: Contemporary Design, Natural light, Maid’s Quarters, Storage Area, A/C Splits, Single-level, Full Bedroom on 1st floor. Exterior: Terrace/Patio, Contemporary design, Panoramic views, City views, Mountain views, High-rise Living. MLS LXER13600 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg000089HeB3/ob1kj1nxe/1277x640/Living-room-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg000089HeB3/vbfmhg8gd/1277x640/Entrance-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg000089HeB3/vn8mhajkv/1277x640/Kitchen-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg000089HeB3/4bkghpf9b/1277x640/Half-bathroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg000089HeB3/hz044pzp1/1277x640/Terrace-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg000089HeB3/psi2aat5f/1277x640/Balcony-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg000089HeB3/kbrg401ly/1277x640/Master-bedroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg000089HeB3/y8e5b3ooq/1277x640/Social-Area-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg000089HeB3/75rmg78fo/1277x640/Social-Area-5.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg000089HeB3/gurca9k6h/1277x640/Social-Area-6.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg000089HeB3/unphgh6j3/1277x640/Social-Area-8.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg000089HeB3/enhpypox5/1277x640/Terrace-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg000089HeB3/9unyvnuah/1277x640/View-1.jpg]]></picture>
+          <lotsize><![CDATA[362]]></lotsize>
+          <swimmingpool><![CDATA[si]]></swimmingpool>
+          <balcon><![CDATA[terraza]]></balcon>
+          <benefits><![CDATA[Patio,Vista a las Montañas,Seguridad 24 Horas,Pet Friendly,Gimnasio,Área de BBQ,Parque Infantil]]></benefits>
+          <building><![CDATA[203]]></building>
+          <youtube1><![CDATA[https://www.youtube.com/embed/7rx-nUDeSXA]]></youtube1>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXER13600]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
           <sourceid><![CDATA[LXER10775]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[173]]></categoryid>
@@ -7197,63 +7269,6 @@ This home encompasses four bedrooms and three full bathrooms within 440 square m
           <youtube1><![CDATA[https://www.youtube.com/embed/M_FHfnU--Ro]]></youtube1>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXER10775]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
-          <sourceid><![CDATA[LXER13600]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[173]]></categoryid>
-          <regionid><![CDATA[117]]></regionid>
-          <type><![CDATA[property]]></type>
-          <title><![CDATA[Felicity Penthouse @ Guachipelín]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <price><![CDATA[790000]]></price>
-          <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[4]]></bath>
-          <square><![CDATA[307]]></square>
-          <parking><![CDATA[3]]></parking>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[melissa@lxcostarica.com]]></email>
-          <phone><![CDATA[+506 4001-4398]]></phone>
-          <contact><![CDATA[Melissa Lacayo]]></contact>
-          <city><![CDATA[Escazú]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Felicity Penthouse @ Guachipelín]]></title1>
-          <descr><![CDATA[Felicity Penthouse @ Guachipelín. Ubicación: 203, Escazú, San Jose. 3 habitaciones | 3 baños + 1 medio baño | 307 m² de construcción | 362 m² de terreno. Características: Contemporary Design, Natural light, Maid’s Quarters, Storage Area, A/C Splits, Single-level, Full Bedroom on 1st floor. Exteriores: Terrace/Patio, Contemporary design, Panoramic views, City views, Mountain views, High-rise Living. MLS LXER13600 The Agency Costa Rica.]]></descr>
-          <descr1><![CDATA[Felicity Penthouse @ Guachipelín. Location: 203, Escazú, San Jose. 3 bedrooms | 3 bathrooms + 1 half bath | 307 m² built area | 362 m² lot. Features: Contemporary Design, Natural light, Maid’s Quarters, Storage Area, A/C Splits, Single-level, Full Bedroom on 1st floor. Exterior: Terrace/Patio, Contemporary design, Panoramic views, City views, Mountain views, High-rise Living. MLS LXER13600 The Agency Costa Rica.]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg000089HeB3/ob1kj1nxe/1277x640/Living-room-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg000089HeB3/vbfmhg8gd/1277x640/Entrance-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg000089HeB3/vn8mhajkv/1277x640/Kitchen-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg000089HeB3/4bkghpf9b/1277x640/Half-bathroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg000089HeB3/hz044pzp1/1277x640/Terrace-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg000089HeB3/psi2aat5f/1277x640/Balcony-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg000089HeB3/kbrg401ly/1277x640/Master-bedroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg000089HeB3/y8e5b3ooq/1277x640/Social-Area-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg000089HeB3/75rmg78fo/1277x640/Social-Area-5.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg000089HeB3/gurca9k6h/1277x640/Social-Area-6.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg000089HeB3/unphgh6j3/1277x640/Social-Area-8.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg000089HeB3/enhpypox5/1277x640/Terrace-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg000089HeB3/9unyvnuah/1277x640/View-1.jpg]]></picture>
-          <lotsize><![CDATA[362]]></lotsize>
-          <swimmingpool><![CDATA[si]]></swimmingpool>
-          <balcon><![CDATA[terraza]]></balcon>
-          <benefits><![CDATA[Patio,Vista a las Montañas,Seguridad 24 Horas,Pet Friendly,Gimnasio,Área de BBQ,Parque Infantil]]></benefits>
-          <building><![CDATA[203]]></building>
-          <youtube1><![CDATA[https://www.youtube.com/embed/7rx-nUDeSXA]]></youtube1>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXER13600]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
@@ -12659,7 +12674,7 @@ This home encompasses four bedrooms and three full bathrooms within 440 square m
           <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/onng2xf86/1277x640/TACR-2.jpg]]></picture>
           <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/wh6pp375u/1277x640/TACR-13.jpg]]></picture>
           <lotsize><![CDATA[2030000]]></lotsize>
-          <youtube1><![CDATA[https://www.youtube.com/embed/wcyz5pqsJq8]]></youtube1>
+          <youtube1><![CDATA[https://www.youtube.com/embed/ezIxBX6mwdo]]></youtube1>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXCO14141]]></sourceid>
         </ad>
