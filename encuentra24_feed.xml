@@ -2887,6 +2887,57 @@ The unit’s compact yet versatile layout is ideal for entrepreneurs seeking a f
     <item>
       <required>
         <ad>
+          <sourceid><![CDATA[LXSR14126]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[173]]></categoryid>
+          <regionid><![CDATA[2075]]></regionid>
+          <type><![CDATA[property]]></type>
+          <title><![CDATA[Casa 3 habs en Santa Teresa - Las Delicias - privacidad y naturaleza]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[282000]]></price>
+          <rooms><![CDATA[3]]></rooms>
+          <bath><![CDATA[3]]></bath>
+          <square><![CDATA[200]]></square>
+          <parking><![CDATA[0]]></parking>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[martijn.glorieux@theagencyre.com]]></email>
+          <phone><![CDATA[+506 4001-4398]]></phone>
+          <contact><![CDATA[Martijn Glorieux]]></contact>
+          <city><![CDATA[Santa Teresa]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Home 3BR in Santa Teresa Las Delicias - Private Tropical Setting]]></title1>
+          <descr><![CDATA[Esta propiedad en Las Delicias destaca por su entorno natural único, rodeada de árboles frutales maduros que brindan privacidad y una conexión directa con la naturaleza. Ubicada estratégicamente con acceso cómodo a Montezuma, Cabuya, Mal País y Santa Teresa, esta casa tropical de 200 metros cuadrados ofrece tres dormitorios y tres baños completos, con amplias áreas interiores y exteriores que invitan a disfrutar del clima y la tranquilidad del lugar. Además, cuenta con un notable potencial de expansión para ampliar la vivienda, agregar una segunda residencia o incorporar una piscina.
+
+Construida sobre un terreno de 5.006 metros cuadrados, la casa presenta una distribución práctica con cocina equipada, sala y comedor integrados que se abren hacia una terraza techada, complementada por una cocina exterior ideal para reuniones al aire libre. Entre sus amenidades se incluyen área de lavandería, bodega espaciosa y estacionamiento para cuatro vehículos. La propiedad dispone de agua potable de pozo privado, electricidad e internet de fibra óptica, facilitando tanto la vida cotidiana como el teletrabajo. Su ubicación permite acceder en pocos minutos a playas, supermercados y restaurantes, ofreciendo un equilibrio entre naturaleza y comodidad. MLS LXSR14126 The Agency Costa Rica]]></descr>
+          <descr1><![CDATA[Nestled in the tranquil enclave of Las Delicias, this 200 square meter tropical residence offers a unique natural setting defined by mature fruit trees and a profound sense of privacy. The home’s design seamlessly integrates generous indoor and outdoor living spaces, featuring three bedrooms and three full bathrooms. Its location provides convenient access to the vibrant coastal communities of Montezuma, Cabuya, Mal País, and Santa Teresa, while allowing for future expansion to enhance the existing structure, add a second residence, or incorporate a pool.
+
+Set on a 5006 square meter lot, the property is surrounded by a diverse array of fruit trees including guava, avocado, and cashew, fostering a strong connection to the lush landscape. The residence includes a fully equipped kitchen, spacious living and dining areas, a covered terrace, and an outdoor kitchen, complemented by practical amenities such as a laundry area, storage, and parking for four vehicles. Equipped with potable water from a private well, electricity, and high speed fiber optic internet, it supports comfortable living and remote work. This home offers a refined lifestyle balance between serene natural surroundings and proximity to essential services and beaches. MLS LXSR14126 The Agency Costa Rica]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BPcCeL/m3vj3su0s/1277x640/Casa-La-Rodriguez-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BPcCeL/oo534fu6g/1277x640/Casa-La-Rodriguez-9.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BPcCeL/t0sgmzzr2/1277x640/Casa-La-Rodriguez-4.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BPcCeL/uw2im768p/1277x640/Casa-La-Rodriguez-12.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BPcCeL/oklrqy285/1277x640/Casa-La-Rodriguez-13.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BPcCeL/jaufqdhki/1277x640/Casa-La-Rodriguez-14.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BPcCeL/7mpfzklnc/1277x640/Casa-La-Rodriguez-6.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BPcCeL/gssnj22vm/1277x640/Casa-La-Rodriguez-8.jpg]]></picture>
+          <lotsize><![CDATA[5006]]></lotsize>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXSR14126]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
           <sourceid><![CDATA[LXER14110]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[179]]></categoryid>
@@ -2994,57 +3045,6 @@ The apartment encompasses 97 square meters, featuring one bedroom with a walk-in
           <youtube1><![CDATA[https://www.youtube.com/embed/La7xDK4nSw0]]></youtube1>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXER13430]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
-          <sourceid><![CDATA[LXSR14126]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[173]]></categoryid>
-          <regionid><![CDATA[2075]]></regionid>
-          <type><![CDATA[property]]></type>
-          <title><![CDATA[Casa 3 habs en Santa Teresa - Las Delicias - privacidad y naturaleza]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <price><![CDATA[315000]]></price>
-          <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[3]]></bath>
-          <square><![CDATA[200]]></square>
-          <parking><![CDATA[0]]></parking>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[martijn.glorieux@theagencyre.com]]></email>
-          <phone><![CDATA[+506 4001-4398]]></phone>
-          <contact><![CDATA[Martijn Glorieux]]></contact>
-          <city><![CDATA[Santa Teresa]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Home 3BR in Santa Teresa Las Delicias - Private Tropical Setting]]></title1>
-          <descr><![CDATA[Esta propiedad en Las Delicias destaca por su entorno natural único, rodeada de árboles frutales maduros que brindan privacidad y una conexión directa con la naturaleza. Ubicada estratégicamente con acceso cómodo a Montezuma, Cabuya, Mal País y Santa Teresa, esta casa tropical de 200 metros cuadrados ofrece tres dormitorios y tres baños completos, con amplias áreas interiores y exteriores que invitan a disfrutar del clima y la tranquilidad del lugar. Además, cuenta con un notable potencial de expansión para ampliar la vivienda, agregar una segunda residencia o incorporar una piscina.
-
-Construida sobre un terreno de 5.006 metros cuadrados, la casa presenta una distribución práctica con cocina equipada, sala y comedor integrados que se abren hacia una terraza techada, complementada por una cocina exterior ideal para reuniones al aire libre. Entre sus amenidades se incluyen área de lavandería, bodega espaciosa y estacionamiento para cuatro vehículos. La propiedad dispone de agua potable de pozo privado, electricidad e internet de fibra óptica, facilitando tanto la vida cotidiana como el teletrabajo. Su ubicación permite acceder en pocos minutos a playas, supermercados y restaurantes, ofreciendo un equilibrio entre naturaleza y comodidad. MLS LXSR14126 The Agency Costa Rica]]></descr>
-          <descr1><![CDATA[Nestled in the tranquil enclave of Las Delicias, this 200 square meter tropical residence offers a unique natural setting defined by mature fruit trees and a profound sense of privacy. The home’s design seamlessly integrates generous indoor and outdoor living spaces, featuring three bedrooms and three full bathrooms. Its location provides convenient access to the vibrant coastal communities of Montezuma, Cabuya, Mal País, and Santa Teresa, while allowing for future expansion to enhance the existing structure, add a second residence, or incorporate a pool.
-
-Set on a 5006 square meter lot, the property is surrounded by a diverse array of fruit trees including guava, avocado, and cashew, fostering a strong connection to the lush landscape. The residence includes a fully equipped kitchen, spacious living and dining areas, a covered terrace, and an outdoor kitchen, complemented by practical amenities such as a laundry area, storage, and parking for four vehicles. Equipped with potable water from a private well, electricity, and high speed fiber optic internet, it supports comfortable living and remote work. This home offers a refined lifestyle balance between serene natural surroundings and proximity to essential services and beaches. MLS LXSR14126 The Agency Costa Rica]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BPcCeL/m3vj3su0s/1277x640/Casa-La-Rodriguez-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BPcCeL/oo534fu6g/1277x640/Casa-La-Rodriguez-9.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BPcCeL/t0sgmzzr2/1277x640/Casa-La-Rodriguez-4.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BPcCeL/uw2im768p/1277x640/Casa-La-Rodriguez-12.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BPcCeL/oklrqy285/1277x640/Casa-La-Rodriguez-13.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BPcCeL/jaufqdhki/1277x640/Casa-La-Rodriguez-14.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BPcCeL/7mpfzklnc/1277x640/Casa-La-Rodriguez-6.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BPcCeL/gssnj22vm/1277x640/Casa-La-Rodriguez-8.jpg]]></picture>
-          <lotsize><![CDATA[5006]]></lotsize>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXSR14126]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
@@ -4048,14 +4048,12 @@ Con una superficie construida de 242 metros cuadrados, este apartamento combina 
 
 Spanning 242 square meters, the apartment integrates classic wooden details with modern amenities, including a large terrace that frames captivating mountain and city views. The open-plan living and dining areas flow seamlessly into the kitchen, which features bespoke wooden cabinetry and a breakfast nook. Additional conveniences include a laundry and service area. Located close to top-tier schools, medical centers, and shopping facilities, this residence embodies a balanced lifestyle in a secure and accessible setting. MLS LXER13172 The Agency Costa Rica]]></descr1>
           <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00002BLCDb/khb3th7e2/1277x640/Living-Room-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00002BLCDb/gb6uol7a7/1277x640/Living-room-1.jpg]]></picture>
           <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00002BLCDb/hjyayoev8/1277x640/Kitchen-2.jpg]]></picture>
           <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00002BLCDb/yevq2d5n3/1277x640/Terrace-2.jpg]]></picture>
           <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00002BLCDb/me8va22i2/1277x640/Master-Bedroom-1.jpg]]></picture>
           <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00002BLCDb/n77vl8qvt/1277x640/Secondary-bedroom-1.jpg]]></picture>
           <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00002BLCDb/t7i4t5tgc/1277x640/Secondary-Bathroom-2.jpg]]></picture>
           <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00002BLCDb/3vg1x4jej/1277x640/Secondary-bedroom-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00002BLCDb/z5n4pxmtv/1277x640/Office-1.jpg]]></picture>
           <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00002BLCDb/4edjia858/1277x640/Dining-room-2.jpg]]></picture>
           <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00002BLCDb/dfsbu26he/1277x640/Living-Room-1.jpg]]></picture>
           <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00002BLCDb/k90sai8v0/1277x640/Living-Room-2.jpg]]></picture>
@@ -4443,62 +4441,6 @@ Located within the exclusive gated community of Ribera Laureles in Escazú, this
     <item>
       <required>
         <ad>
-          <sourceid><![CDATA[LXCR12826]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[179]]></categoryid>
-          <regionid><![CDATA[132]]></regionid>
-          <type><![CDATA[property]]></type>
-          <title><![CDATA[Apartamento 3 habs en Curridabat - Colinas de Montealegre - Vista]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <price><![CDATA[550000]]></price>
-          <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[4]]></bath>
-          <square><![CDATA[417]]></square>
-          <parking><![CDATA[2]]></parking>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[tere@lxcostarica.com]]></email>
-          <phone><![CDATA[+506 4001-4398]]></phone>
-          <contact><![CDATA[Tere Silva]]></contact>
-          <city><![CDATA[Curridabat]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Apartment 3BR in Curridabat - Colinas de Montealegre - Panoramic Views]]></title1>
-          <descr><![CDATA[Este espacioso apartamento de una planta en Colinas de Montealegre destaca por sus vistas panorámicas inigualables de la ciudad y las montañas, accesibles desde varias áreas del inmueble. Ubicado en un exclusivo condominio cerrado, ofrece privacidad y seguridad, además de acceso a amenidades como cancha de tenis, casa club y jardines paisajísticos que enriquecen la experiencia residencial. La propiedad se entrega en obra gris, brindando la oportunidad de personalizar cada detalle según sus preferencias y estilo de vida.
-
-Con una superficie construida de 417 metros cuadrados, el apartamento cuenta con tres dormitorios y tres baños completos más un medio baño, ideal para familias que buscan amplitud y confort. Situado en Curridabat, cerca de importantes instituciones educativas, restaurantes y centros comerciales, combina la tranquilidad de un entorno natural con la conveniencia urbana. El edificio dispone de ascensor y estacionamiento cubierto para dos vehículos, complementando un estilo de vida sofisticado y funcional. MLS LXCR12826 The Agency Costa Rica]]></descr>
-          <descr1><![CDATA[This spacious fourth-floor apartment in the exclusive gated community of Colinas de Montealegre offers fantastic panoramic views of the city and surrounding mountains from multiple vantage points. The residence is delivered with shell and core completion, providing a blank canvas for personalized interior design. Set within a building that features a tennis court, clubhouse, and lush landscaped gardens, this one-floor home combines privacy and luxury in a serene environment. Its location near prominent educational institutions, restaurants, and commercial centers enhances its appeal for discerning buyers.
-
-Covering 417 square meters, the apartment includes three bedrooms, three full bathrooms, and one half bathroom, designed to accommodate family living with comfort and style. High ceilings and cross ventilation create a bright and airy atmosphere, while elevator access ensures convenience. Residents benefit from double 24-hour security, two covered parking spaces, and an external parking spot. The community’s amenities, including a lake and BBQ-equipped clubhouse, enrich the lifestyle experience. Situated in Curridabat, San José, this property offers a refined urban setting with natural beauty. MLS LXCR12826 The Agency Costa Rica]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/ls3wk6e31/1277x640/Aerial-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/f10ijyk77/1277x640/Aerial-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/bdymdm8yl/1277x640/Aerial-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/gc63lsp0p/1277x640/Aerial-5.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/9grxsm33h/1277x640/Aerial-6.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/htdz1txbw/1277x640/El-Olivar-Curridabat-LX-4.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/he21k132h/1277x640/El-Olivar-Curridabat-LX-8.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/noi629oy5/1277x640/El-Olivar-Curridabat-LX-9.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/o8wks47ze/1277x640/View-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/obm6752ao/1277x640/View-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/wfi2rhcgk/1277x640/Garden-1.jpg]]></picture>
-          <balcon><![CDATA[balcón]]></balcon>
-          <benefits><![CDATA[2 o más elevadores,Vista a las Montañas,Seguridad 24 Horas,Pet Friendly]]></benefits>
-          <building><![CDATA[Colinas de Montealegre]]></building>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXCR12826]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
           <sourceid><![CDATA[LXER12714]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[179]]></categoryid>
@@ -4560,6 +4502,62 @@ The property encompasses 375 square meters of built space on a 611 square meter 
           <youtube1><![CDATA[https://www.youtube.com/embed/Es9neNwnJHs]]></youtube1>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXER12714]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
+          <sourceid><![CDATA[LXCR12826]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[179]]></categoryid>
+          <regionid><![CDATA[132]]></regionid>
+          <type><![CDATA[property]]></type>
+          <title><![CDATA[Apartamento 3 habs en Curridabat - Colinas de Montealegre - Vista]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[550000]]></price>
+          <rooms><![CDATA[3]]></rooms>
+          <bath><![CDATA[4]]></bath>
+          <square><![CDATA[417]]></square>
+          <parking><![CDATA[2]]></parking>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[tere@lxcostarica.com]]></email>
+          <phone><![CDATA[+506 4001-4398]]></phone>
+          <contact><![CDATA[Tere Silva]]></contact>
+          <city><![CDATA[Curridabat]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Apartment 3BR in Curridabat - Colinas de Montealegre - Panoramic Views]]></title1>
+          <descr><![CDATA[Este espacioso apartamento de una planta en Colinas de Montealegre destaca por sus vistas panorámicas inigualables de la ciudad y las montañas, accesibles desde varias áreas del inmueble. Ubicado en un exclusivo condominio cerrado, ofrece privacidad y seguridad, además de acceso a amenidades como cancha de tenis, casa club y jardines paisajísticos que enriquecen la experiencia residencial. La propiedad se entrega en obra gris, brindando la oportunidad de personalizar cada detalle según sus preferencias y estilo de vida.
+
+Con una superficie construida de 417 metros cuadrados, el apartamento cuenta con tres dormitorios y tres baños completos más un medio baño, ideal para familias que buscan amplitud y confort. Situado en Curridabat, cerca de importantes instituciones educativas, restaurantes y centros comerciales, combina la tranquilidad de un entorno natural con la conveniencia urbana. El edificio dispone de ascensor y estacionamiento cubierto para dos vehículos, complementando un estilo de vida sofisticado y funcional. MLS LXCR12826 The Agency Costa Rica]]></descr>
+          <descr1><![CDATA[This spacious fourth-floor apartment in the exclusive gated community of Colinas de Montealegre offers fantastic panoramic views of the city and surrounding mountains from multiple vantage points. The residence is delivered with shell and core completion, providing a blank canvas for personalized interior design. Set within a building that features a tennis court, clubhouse, and lush landscaped gardens, this one-floor home combines privacy and luxury in a serene environment. Its location near prominent educational institutions, restaurants, and commercial centers enhances its appeal for discerning buyers.
+
+Covering 417 square meters, the apartment includes three bedrooms, three full bathrooms, and one half bathroom, designed to accommodate family living with comfort and style. High ceilings and cross ventilation create a bright and airy atmosphere, while elevator access ensures convenience. Residents benefit from double 24-hour security, two covered parking spaces, and an external parking spot. The community’s amenities, including a lake and BBQ-equipped clubhouse, enrich the lifestyle experience. Situated in Curridabat, San José, this property offers a refined urban setting with natural beauty. MLS LXCR12826 The Agency Costa Rica]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/ls3wk6e31/1277x640/Aerial-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/f10ijyk77/1277x640/Aerial-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/bdymdm8yl/1277x640/Aerial-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/gc63lsp0p/1277x640/Aerial-5.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/9grxsm33h/1277x640/Aerial-6.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/htdz1txbw/1277x640/El-Olivar-Curridabat-LX-4.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/he21k132h/1277x640/El-Olivar-Curridabat-LX-8.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/noi629oy5/1277x640/El-Olivar-Curridabat-LX-9.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/o8wks47ze/1277x640/View-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/obm6752ao/1277x640/View-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my37W/wfi2rhcgk/1277x640/Garden-1.jpg]]></picture>
+          <balcon><![CDATA[balcón]]></balcon>
+          <benefits><![CDATA[2 o más elevadores,Vista a las Montañas,Seguridad 24 Horas,Pet Friendly]]></benefits>
+          <building><![CDATA[Colinas de Montealegre]]></building>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXCR12826]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
