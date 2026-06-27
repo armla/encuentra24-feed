@@ -133,9 +133,9 @@ Situated on a 5232 square meter lot with 370 square meters of built area, the pr
           <type><![CDATA[property]]></type>
           <title><![CDATA[Casa 3 habs en Puerto Viejo - Playa Negra Heights - Casa de huéspedes]]></title>
           <currency><![CDATA[USD]]></currency>
-          <price><![CDATA[495000]]></price>
-          <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[4]]></bath>
+          <price><![CDATA[395000]]></price>
+          <rooms><![CDATA[2]]></rooms>
+          <bath><![CDATA[2]]></bath>
           <square><![CDATA[139]]></square>
           <parking><![CDATA[3]]></parking>
           <advertiser><![CDATA[Agente]]></advertiser>
@@ -2519,7 +2519,7 @@ Spanning 2593 square meters of flat, build-ready terrain, this titled parcel is 
           <type><![CDATA[lot]]></type>
           <title><![CDATA[Terreno en Santiago Puntarenas - Privacidad total con pozo de agua]]></title>
           <currency><![CDATA[USD]]></currency>
-          <price><![CDATA[699000]]></price>
+          <price><![CDATA[610000]]></price>
           <lotsize><![CDATA[11772]]></lotsize>
           <advertiser><![CDATA[Agente]]></advertiser>
         </ad>
@@ -6978,6 +6978,73 @@ This home encompasses four bedrooms and three full bathrooms within 440 square m
           <youtube1><![CDATA[https://www.youtube.com/embed/PtDzUfha-6Y]]></youtube1>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXER10846]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
+          <sourceid><![CDATA[LXER14253]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[179]]></categoryid>
+          <regionid><![CDATA[117]]></regionid>
+          <type><![CDATA[property]]></type>
+          <title><![CDATA[Apartamento con Grandiosa Vista en Jaboncillos]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[750000]]></price>
+          <rooms><![CDATA[3]]></rooms>
+          <bath><![CDATA[2]]></bath>
+          <square><![CDATA[342]]></square>
+          <parking><![CDATA[2]]></parking>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[paola.mazzara@theagencyre.com]]></email>
+          <phone><![CDATA[+506 4001-4398]]></phone>
+          <contact><![CDATA[Paola Mazzara]]></contact>
+          <city><![CDATA[Escazu]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Grand View Apartment in Jaboncillos]]></title1>
+          <descr><![CDATA[Apartamento con Grandiosa Vista en Jaboncillos. Ubicación: Condominio Portofino, Escazu, San Jose. 3 habitaciones | 2 baños + 1 medio baño | 342 m² de construcción | 379 m² de terreno. Características: Bar Area, Classical Design, Contemporary Design, Cross-ventilation, Home Theater, Jacuzzi, Natural light, Office Space, Open Design, Smart Audio, Smart Lighting, Maid’s Quarters, Storage Area, Cinema, A/C Splits, Single-level, Full Bedroom on 1st floor. Exteriores: Panoramic views, City views, Green / Forest views, Mountain views, City Living, High-rise Living, Eclectic design. MLS LXER14253 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Grand View Apartment in Jaboncillos. Location: Condominio Portofino, Escazu, San Jose. 3 bedrooms | 2 bathrooms + 1 half bath | 342 m² built area | 379 m² lot. Features: Bar Area, Classical Design, Contemporary Design, Cross-ventilation, Home Theater, Jacuzzi, Natural light, Office Space, Open Design, Smart Audio, Smart Lighting, Maid’s Quarters, Storage Area, Cinema, A/C Splits, Single-level, Full Bedroom on 1st floor. Exterior: Panoramic views, City views, Green / Forest views, Mountain views, City Living, High-rise Living, Eclectic design. MLS LXER14253 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CsW46U/iq0ajufyq/1277x640/Dining-room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CsW46U/humftgtu6/1277x640/Living-room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CsW46U/6051ca73f/1277x640/Kitchen-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CsW46U/sc4bg7f7v/1277x640/Movie-Theater-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CsW46U/zc30vpqz4/1277x640/Social-area-4.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CsW46U/5ur3n49nj/1277x640/Firepit-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CsW46U/eo291sl7i/1277x640/Dining-room-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CsW46U/oc8xow92w/1277x640/Entrance-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CsW46U/ldqupoq6q/1277x640/Kitchen-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CsW46U/iuyiaind2/1277x640/Living-room-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CsW46U/itvc67oji/1277x640/Living-room-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CsW46U/8tpm61yei/1277x640/Living-room-4.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CsW46U/wsu8u7w64/1277x640/Master-Bedroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CsW46U/z3wvmpaz7/1277x640/Master-Bedroom-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CsW46U/3oxyvx8ls/1277x640/Master-Bathroom-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CsW46U/1u3kvvd47/1277x640/Master-Bathroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CsW46U/78323mqmm/1277x640/Movie-Theater-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CsW46U/x5v4mgzmk/1277x640/Secondary-Bedroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CsW46U/b61xauhti/1277x640/Secondary-Bedroom-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CsW46U/4l890spey/1277x640/Secondary-Bathroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CsW46U/gpocirxdj/1277x640/Secondary-Bedroom-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CsW46U/kiwa00ke8/1277x640/Secondary-Bathroom-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CsW46U/g89zx89w2/1277x640/Social-area-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CsW46U/if4pgnp48/1277x640/Social-area-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CsW46U/8w91k7k0x/1277x640/View-2.jpg]]></picture>
+          <lotsize><![CDATA[379]]></lotsize>
+          <swimmingpool><![CDATA[si]]></swimmingpool>
+          <benefits><![CDATA[Bar,Jacuzzi,Vista a las Montañas,Pet Friendly,Seguridad 24 Horas,Área de BBQ]]></benefits>
+          <building><![CDATA[Condominio Portofino]]></building>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXER14253]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
