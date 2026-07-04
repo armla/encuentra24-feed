@@ -1883,64 +1883,6 @@ Spanning 191 square meters, the apartment offers three full bathrooms plus a hal
     <item>
       <required>
         <ad>
-          <sourceid><![CDATA[LXER22869]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[156]]></categoryid>
-          <regionid><![CDATA[5623]]></regionid>
-          <type><![CDATA[rent]]></type>
-          <title><![CDATA[Condominio 3 habs en Santa Ana - Dendera - diseño vanguardista único]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <rent><![CDATA[3500]]></rent>
-          <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[4]]></bath>
-          <parking><![CDATA[3]]></parking>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[vicki@lxcostarica.com]]></email>
-          <phone><![CDATA[+506 4001-4398]]></phone>
-          <contact><![CDATA[Vicki Klunk]]></contact>
-          <city><![CDATA[Santa Ana]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Condo 3BR in Santa Ana - Dendera - Single Level with Private Terrace]]></title1>
-          <descr><![CDATA[Esta residencia de un solo nivel en Lindora destaca por su diseño vanguardista, obra del reconocido arquitecto catalán Joan Puigcorbé. La arquitectura irregular, basada en líneas paralelas y formas geométricas, se manifiesta en cada espacio, creando un ambiente sofisticado y contemporáneo. La casa integra una terraza y un patio privado que amplían la sensación de amplitud y conexión con el entorno, mientras que los detalles en mármol y la iluminación LED añaden un toque de elegancia discreta.
-
-Con 372 metros cuadrados construidos, esta propiedad ofrece tres dormitorios, tres baños completos y un medio baño, distribuidos para maximizar la comodidad y privacidad. La cocina equipada con electrodomésticos en acero inoxidable y una isla de cuarzo se conecta fluidamente con la sala y el comedor, que a su vez se abren hacia el patio. Ubicada en un exclusivo condominio con seguridad 24 horas, áreas verdes, gimnasio y piscina, esta vivienda combina diseño innovador con un estilo de vida tranquilo y accesible en Santa Ana. MLS LXER22869 The Agency Costa Rica]]></descr>
-          <descr1><![CDATA[This single-level residence in the Dendera community of Santa Ana exemplifies avant-garde architecture, masterfully crafted by Spanish architect Joan Puigcorbé. The home’s distinctive design features an interplay of parallel lines and geometric forms, creating an irregular yet harmonious structure. Private terrace and patio spaces extend the living area outdoors, incorporating a veneered marble firepit and stainless steel LED lighting that enhance the home's modern aesthetic and invite serene moments of relaxation.
-
-Spanning 372 square meters, the property offers three bedrooms, including a master suite with expansive closets and en suite bathroom, alongside three full and one half bathroom. Interior spaces flow seamlessly through sliding glass doors to the outdoor areas, fostering natural light and ventilation. Additional amenities include a fully equipped kitchen with quartz island, built-in wine cellar, and a secure three-car garage with advanced monitoring. Residents benefit from gated community security, recreational facilities, and proximity to urban conveniences. MLS LXER22869 The Agency Costa Rica]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/3geh5d3o2/1277x640/Living-room-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/ra3ihmwax/1277x640/Dining-room-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/bhs7h4hx4/1277x640/Kitchen-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/15yxvrliy/1277x640/Secondary-Bedroom-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/kzbak3n5s/1277x640/Secondary-Bedroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/7dvu8ps1i/1277x640/Master-Bedroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/uhej7xcm1/1277x640/Master-Bathroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/4u43ltyzp/1277x640/Terrace-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/8vmvq9hzi/1277x640/Terrace-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/cjs30kb0b/1277x640/Social-Area-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/himbrsfkk/1277x640/Social-Area-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/mci3b6gex/1277x640/Social-Area-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my9c2/smfc7npdq/1277x640/Social-Area-4.jpg]]></picture>
-          <square><![CDATA[372]]></square>
-          <balcon><![CDATA[terraza]]></balcon>
-          <benefits><![CDATA[Patio]]></benefits>
-          <building><![CDATA[Dendera]]></building>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXER22869]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
           <sourceid><![CDATA[LXER22696]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[157]]></categoryid>
@@ -2175,78 +2117,6 @@ Spanning 440 square meters on a 950 square meter lot, this four bedroom, three b
     <item>
       <required>
         <ad>
-          <sourceid><![CDATA[LXCR24160]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[156]]></categoryid>
-          <regionid><![CDATA[132]]></regionid>
-          <type><![CDATA[rent]]></type>
-          <title><![CDATA[Apartamento 3 habs en Curridabat - El Olivar - Vista panorámica valle]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <rent><![CDATA[4300]]></rent>
-          <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[4]]></bath>
-          <parking><![CDATA[2]]></parking>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[tere@lxcostarica.com]]></email>
-          <phone><![CDATA[+506 4001-4398]]></phone>
-          <contact><![CDATA[Tere Silva]]></contact>
-          <city><![CDATA[Curridabat]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Apartment 3BR in Curridabat - El Olivar - Panoramic Valley Views]]></title1>
-          <descr><![CDATA[Este apartamento de 335 metros cuadrados, ubicado en el sexto piso de El Olivar en Curridabat, ofrece vistas panorámicas inigualables del Valle Central, las montañas y los jardines de estilo francés que rodean la comunidad. Sus ventanales de piso a techo permiten una abundante entrada de luz natural, mientras que las múltiples terrazas conectan los espacios sociales con el entorno exterior. La propiedad cuenta con una suite principal amplia que incluye balcón privado, jacuzzi y un doble walk-in closet, además de dos habitaciones secundarias con baño completo cada una, garantizando comodidad y privacidad para toda la familia.
-
-Situado en la exclusiva comunidad de El Olivar, dentro de Colinas de Montealegre, este apartamento dispone de tres baños completos y un medio baño, con una distribución que prioriza la funcionalidad y el confort. La zona ofrece seguridad las 24 horas, acceso controlado, casa club, cancha de tenis, lago y jardines paisajísticos que complementan un estilo de vida tranquilo y sofisticado. La ubicación estratégica facilita el acceso a servicios, comercios y opciones educativas, haciendo de esta propiedad una opción ideal para quienes valoran amplitud, vistas y calidad de vida. MLS LXCR24160 The Agency Costa Rica]]></descr>
-          <descr1><![CDATA[This expansive 335 square meter apartment on the sixth floor of Torre El Olivar presents sweeping panoramic views of the Central Valley, surrounding mountains, and meticulously maintained French style gardens. Floor to ceiling windows and multiple terraces invite abundant natural light, creating an open and airy ambiance throughout the generous social areas. The residence features two secondary bedrooms each with private full bathrooms, complemented by a spacious primary suite that includes a balcony, jacuzzi, and double walk in closet, offering a refined retreat within this distinguished community.
-
-Situated in the secure enclave of El Olivar, Colinas de Montealegre, this residence benefits from 24 hour security, a clubhouse, tennis court, lake, and beautifully landscaped grounds. The well planned layout includes an independent kitchen with contemporary finishes, a separate television room, and two underground parking spaces with storage. Its location provides a tranquil lifestyle with convenient access to shopping, dining, healthcare, and schools in eastern San José. MLS LXCR24160 The Agency Costa Rica]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BjA1WR/4k814s1wm/1277x640/Living-room-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BjA1WR/ury5pyqy7/1277x640/Terrace-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BjA1WR/3ylyf08gl/1277x640/Kitchen-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BjA1WR/u8ycu99qm/1277x640/Living-room-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BjA1WR/ogdi4msrx/1277x640/Balcony-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BjA1WR/h707e1uvw/1277x640/Master-Bedroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BjA1WR/7e4nb9zyd/1277x640/Master-bathroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BjA1WR/ujxvcou5l/1277x640/Half-bathroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BjA1WR/66w7m60ax/1277x640/Master-Bedroom-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BjA1WR/p6d19we58/1277x640/Terrace-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BjA1WR/j2b05n7zy/1277x640/Secondary-Bathroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BjA1WR/4ny2c6ecr/1277x640/Secondary-Bathroom-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BjA1WR/3n3a4cesu/1277x640/Secondary-bedroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BjA1WR/yyl9a4m3d/1277x640/TV-room-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BjA1WR/59fej9na7/1277x640/Secondary-bedroom-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BjA1WR/w876oy13u/1277x640/Secondary-bedroom-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BjA1WR/sejpp1j6b/1277x640/Secondary-bedroom-4.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BjA1WR/3vusi080x/1277x640/Social-Area-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BjA1WR/adwxr7bv7/1277x640/Social-Area-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BjA1WR/qwc5qevic/1277x640/Social-Area-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BjA1WR/jtbyogymg/1277x640/Social-Area-4.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BjA1WR/dbbgp2ono/1277x640/Social-Area-5.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BjA1WR/uipgsz9uy/1277x640/Social-Area-6.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BjA1WR/apae86hul/1277x640/View-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BjA1WR/1eghxskdz/1277x640/View-2.jpg]]></picture>
-          <lotsize><![CDATA[335]]></lotsize>
-          <square><![CDATA[335]]></square>
-          <balcon><![CDATA[balcón]]></balcon>
-          <benefits><![CDATA[Patio,Vista a las Montañas,Seguridad 24 Horas,Pet Friendly,Área de BBQ]]></benefits>
-          <building><![CDATA[El Olivar]]></building>
-          <youtube1><![CDATA[https://www.youtube.com/embed/uIttgfWkM-0]]></youtube1>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXCR24160]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
           <sourceid><![CDATA[LXHR24106]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[157]]></categoryid>
@@ -2362,6 +2232,58 @@ Situated in the secure enclave of El Olivar, Colinas de Montealegre, this reside
           <youtube1><![CDATA[https://www.youtube.com/embed/C2cIrZiTxjw]]></youtube1>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXCR20771]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
+          <sourceid><![CDATA[LXER24210]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[156]]></categoryid>
+          <regionid><![CDATA[2138]]></regionid>
+          <type><![CDATA[rent]]></type>
+          <title><![CDATA[Furnished Glow Apartment]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <rent><![CDATA[4900]]></rent>
+          <rooms><![CDATA[3]]></rooms>
+          <bath><![CDATA[4]]></bath>
+          <parking><![CDATA[2]]></parking>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[melissa@lxcostarica.com]]></email>
+          <phone><![CDATA[+506 4001-4398]]></phone>
+          <contact><![CDATA[Melissa Lacayo]]></contact>
+          <city><![CDATA[Escazu]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Furnished Glow Apartment]]></title1>
+          <descr><![CDATA[Furnished Glow Apartment. Ubicación: Portofino, Escazu, San Jose. 3 habitaciones | 3 baños + 1 medio baño | 342 m² de construcción. Características: Classical Design, Cross-ventilation, Marble Floors, Natural light, Furnished, Maid’s Quarters, A/C Splits, Single-level. Exteriores: Panoramic views, Pool, City views, City Living, High-rise Living, Classical design. MLS LXER24210 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Furnished Glow Apartment. Location: Portofino, Escazu, San Jose. 3 bedrooms | 3 bathrooms + 1 half bath | 342 m² built area. Features: Classical Design, Cross-ventilation, Marble Floors, Natural light, Furnished, Maid’s Quarters, A/C Splits, Single-level. Exterior: Panoramic views, Pool, City views, City Living, High-rise Living, Classical design. MLS LXER24210 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CFlp7G/qga3ypypc/1277x640/Dining-room-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CFlp7G/qbqwhims0/1277x640/Kitchen-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CFlp7G/rcvsjbtnq/1277x640/Dining-room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CFlp7G/y8d2taxrx/1277x640/Master-Bedroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CFlp7G/pk5t9h5wo/1277x640/Master-Bathroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CFlp7G/m1w56wd6b/1277x640/Secondary-bedroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CFlp7G/q1tlhqy2c/1277x640/Secondary-bedroom-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CFlp7G/tjhk2pp8e/1277x640/Social-area-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CFlp7G/bcsl54ycz/1277x640/Social-area-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CFlp7G/k6b20kkik/1277x640/View-1.jpg]]></picture>
+          <square><![CDATA[342]]></square>
+          <swimmingpool><![CDATA[si]]></swimmingpool>
+          <benefits><![CDATA[Seguridad 24 Horas]]></benefits>
+          <building><![CDATA[Portofino]]></building>
+          <youtube1><![CDATA[https://www.youtube.com/embed/oIkHESWSiJM]]></youtube1>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXER24210]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
@@ -10044,6 +9966,74 @@ This home encompasses four bedrooms and three full bathrooms within 440 square m
           <youtube1><![CDATA[https://www.youtube.com/embed/KHgW4iIDL5A]]></youtube1>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXHR10854]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
+          <sourceid><![CDATA[LXCR10717]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[173]]></categoryid>
+          <regionid><![CDATA[132]]></regionid>
+          <type><![CDATA[property]]></type>
+          <title><![CDATA[Casa Clara en El Gregal]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[945000]]></price>
+          <rooms><![CDATA[4]]></rooms>
+          <bath><![CDATA[4]]></bath>
+          <square><![CDATA[440]]></square>
+          <parking><![CDATA[2]]></parking>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[tere@lxcostarica.com]]></email>
+          <phone><![CDATA[+506 4001-4398]]></phone>
+          <contact><![CDATA[Tere Silva]]></contact>
+          <city><![CDATA[Curridabat]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Casa Clara at El Gregal]]></title1>
+          <descr><![CDATA[Casa Clara en El Gregal. Ubicación: El Gregal, Curridabat, San Jose. 4 habitaciones | 3 baños + 1 medio baño | 440 m² de construcción | 903 m² de terreno. Características: Bar Area, Brick/Stone detailing, Contemporary Design, Cross-ventilation, High-ceilings, Internal Garden, Natural light, Office Space, Open Design, Wood detailing, Security system, Atic, Play room, Maid’s Quarters, Storage Area, Wood Floors, Balcony. Exteriores: Terrace/Patio, BBQ, Landscaped Gardens, Mountain views. MLS LXCR10717 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Casa Clara at El Gregal. Location: El Gregal, Curridabat, San Jose. 4 bedrooms | 3 bathrooms + 1 half bath | 440 m² built area | 903 m² lot. Features: Bar Area, Brick/Stone detailing, Contemporary Design, Cross-ventilation, High-ceilings, Internal Garden, Natural light, Office Space, Open Design, Wood detailing, Security system, Atic, Play room, Maid’s Quarters, Storage Area, Wood Floors, Balcony. Exterior: Terrace/Patio, BBQ, Landscaped Gardens, Mountain views. MLS LXCR10717 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000YUoDB/8x5s7xt0g/1277x640/4.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000YUoDB/s70en9v7d/1277x640/TACR-103.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000YUoDB/lxkw47k7q/1277x640/14.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000YUoDB/6hmumrlij/1277x640/TACR-15.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000YUoDB/lviyzd3xw/1277x640/22.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000YUoDB/ve94evgpo/1277x640/TACR-102.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000YUoDB/yskqhlgul/1277x640/TACR-101.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000YUoDB/69ugqzpep/1277x640/1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000YUoDB/tjntrdnev/1277x640/15.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000YUoDB/6zzis63nq/1277x640/17.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000YUoDB/riowm0ztl/1277x640/6.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000YUoDB/ugbj8i5zr/1277x640/16.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000YUoDB/wsdwhti0s/1277x640/19.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000YUoDB/039qfvd9i/1277x640/7.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000YUoDB/tchw1j1pf/1277x640/TACR-104.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000YUoDB/nagruw8fb/1277x640/TACR-10.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000YUoDB/75sgj9772/1277x640/TACR-120.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000YUoDB/19heww9ne/1277x640/TACR-24.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000YUoDB/2w906hfyf/1277x640/TACR-108.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000YUoDB/h327by2o2/1277x640/TACR-119.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000YUoDB/6jnyg7kyp/1277x640/TACR-117.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000YUoDB/oubjy47xm/1277x640/TACR-105.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000YUoDB/qdzzpewo4/1277x640/TACR-115.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000YUoDB/mr43vwe72/1277x640/TACR-12.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C1N00000YUoDB/b3majjzru/1277x640/TACR-122.jpg]]></picture>
+          <lotsize><![CDATA[903]]></lotsize>
+          <balcon><![CDATA[balcón]]></balcon>
+          <benefits><![CDATA[Bar,Patio,Vista a las Montañas,Seguridad 24 Horas,Pet Friendly,Área de BBQ,Parque Infantil]]></benefits>
+          <building><![CDATA[El Gregal]]></building>
+          <youtube1><![CDATA[https://www.youtube.com/embed/bFb439TdnnQ]]></youtube1>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXCR10717]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
