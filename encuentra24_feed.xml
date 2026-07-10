@@ -4720,6 +4720,73 @@ Situated on a generous 5000 square meter lot in Santiago, Puntarenas, the estate
     <item>
       <required>
         <ad>
+          <sourceid><![CDATA[LXCR14265]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[173]]></categoryid>
+          <regionid><![CDATA[132]]></regionid>
+          <type><![CDATA[property]]></type>
+          <title><![CDATA[Casa Esquinera en Tierras del Este]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[570000]]></price>
+          <rooms><![CDATA[3]]></rooms>
+          <bath><![CDATA[2]]></bath>
+          <square><![CDATA[363]]></square>
+          <parking><![CDATA[2]]></parking>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[tere@lxcostarica.com]]></email>
+          <phone><![CDATA[+506 4001-4398]]></phone>
+          <contact><![CDATA[Tere Silva]]></contact>
+          <city><![CDATA[Curridabat]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[The Corner Home @ Tierras del Este]]></title1>
+          <descr><![CDATA[Casa Esquinera en Tierras del Este. Ubicación: Tierras del Este, Curridabat, San Jose. 3 habitaciones | 2 baños + 1 medio baño | 363 m² de construcción | 522 m² de terreno. Características: Brick/Stone detailing, Classical Design, Cross-ventilation, High-ceilings, Multi-level distribution, Office Space, Wood detailing, Play room, Balcony. Exteriores: Terrace/Patio, Private Water Source, City Living, Classical design. MLS LXCR14265 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[The Corner Home @ Tierras del Este. Location: Tierras del Este, Curridabat, San Jose. 3 bedrooms | 2 bathrooms + 1 half bath | 363 m² built area | 522 m² lot. Features: Brick/Stone detailing, Classical Design, Cross-ventilation, High-ceilings, Multi-level distribution, Office Space, Wood detailing, Play room, Balcony. Exterior: Terrace/Patio, Private Water Source, City Living, Classical design. MLS LXCR14265 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D4xBbR/oihr8eknx/1277x640/Kitchen-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D4xBbR/iledvc9mx/1277x640/Living-room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D4xBbR/3ab0nyzxo/1277x640/Facade-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D4xBbR/33am8ppk7/1277x640/Kitchen-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D4xBbR/4qfnczytk/1277x640/Dining-room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D4xBbR/vr9f2aryl/1277x640/Garden-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D4xBbR/76l90q3bc/1277x640/Game-Room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D4xBbR/g17hb5okx/1277x640/Game-Room-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D4xBbR/w20tyxdcz/1277x640/Living-room-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D4xBbR/gib91axq9/1277x640/Terrace-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D4xBbR/hvkxn9hsg/1277x640/Terrace-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D4xBbR/m9vanwqec/1277x640/Living-room-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D4xBbR/x5971ngoa/1277x640/Hallway-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D4xBbR/l5tslvhda/1277x640/Half-Bathroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D4xBbR/khj80km9i/1277x640/Master-Bathroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D4xBbR/9xl2ltkts/1277x640/Master-Bathroom-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D4xBbR/ha8a2n77w/1277x640/Master-Bedroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D4xBbR/q3ot2hcdy/1277x640/Office-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D4xBbR/hu5tps9c3/1277x640/Secondary-Bathroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D4xBbR/wt0twmxzk/1277x640/Secondary-Bedroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D4xBbR/xogkzprrn/1277x640/Secondary-Bedroom-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D4xBbR/3y0sfhu9r/1277x640/Social-Area-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D4xBbR/sfcwlka2h/1277x640/Social-Area-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D4xBbR/gbr9wa5kp/1277x640/Social-Area-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D4xBbR/zsw3ltq2b/1277x640/Social-Area-5.jpg]]></picture>
+          <lotsize><![CDATA[522]]></lotsize>
+          <balcon><![CDATA[balcón]]></balcon>
+          <benefits><![CDATA[Patio,Seguridad 24 Horas,Pet Friendly,Gimnasio,Área de BBQ,Parque Infantil]]></benefits>
+          <building><![CDATA[Tierras del Este]]></building>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXCR14265]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
           <sourceid><![CDATA[LXER11012]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[179]]></categoryid>
@@ -12479,6 +12546,50 @@ This home encompasses four bedrooms and three full bathrooms within 440 square m
           <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009RQeVd/s1s37567i/1277x640/Villa-Tierra-Sol-13.jpg]]></picture>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXEL13859]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
+          <sourceid><![CDATA[LXEF14214]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[176]]></categoryid>
+          <regionid><![CDATA[20]]></regionid>
+          <type><![CDATA[lot]]></type>
+          <title><![CDATA[Finca Ganadera SP en Cañas]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[2000000]]></price>
+          <lotsize><![CDATA[2140000]]></lotsize>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[alfonso.sancho@theagencyre.com]]></email>
+          <phone><![CDATA[+506 4001-4398]]></phone>
+          <contact><![CDATA[Alfonso Sancho]]></contact>
+          <city><![CDATA[Cañas]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Finca Ganadera SP en Cañas]]></title1>
+          <descr><![CDATA[Finca Ganadera SP en Cañas. Ubicación: Cañas, Guanacaste. Terreno de 2140000 m². MLS LXEF14214 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Finca Ganadera SP en Cañas. Location: Cañas, Guanacaste. Lot size: 2140000 m². MLS LXEF14214 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CKL5Hx/v234czzwb/1277x640/TACR-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CKL5Hx/z90sjffn0/1277x640/TACR-11.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CKL5Hx/rsdcmsr3f/1277x640/TACR-4.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CKL5Hx/jf0x6tc55/1277x640/TACR-10.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CKL5Hx/uw16hqqml/1277x640/TACR-5.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CKL5Hx/b008jfm1g/1277x640/TACR-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CKL5Hx/4c0ajmp0o/1277x640/TACR-8.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CKL5Hx/o9sezrkbh/1277x640/TACR-9.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CKL5Hx/lez9sb2e0/1277x640/TACR-2.jpg]]></picture>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXEF14214]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
