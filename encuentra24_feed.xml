@@ -3265,6 +3265,58 @@ Situated in the Condominio Vistara en Rivergrand within Bello Horizonte, this ho
     <item>
       <required>
         <ad>
+          <sourceid><![CDATA[LXER14119]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[179]]></categoryid>
+          <regionid><![CDATA[2138]]></regionid>
+          <type><![CDATA[property]]></type>
+          <title><![CDATA[Apartamento para Remodelar con Vista al Golf en Escazú]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[375000]]></price>
+          <rooms><![CDATA[3]]></rooms>
+          <bath><![CDATA[2]]></bath>
+          <square><![CDATA[230]]></square>
+          <parking><![CDATA[2]]></parking>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[paola.mazzara@theagencyre.com]]></email>
+          <phone><![CDATA[+506 4001-4398]]></phone>
+          <contact><![CDATA[Paola Mazzara]]></contact>
+          <city><![CDATA[Escazu]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Great Fixer Upper Golf View Apartment]]></title1>
+          <descr><![CDATA[Apartamento para Remodelar con Vista al Golf en Escazú. Ubicación: Condominio del Golf, Escazu, San Jose. 3 habitaciones | 2 baños + 1 medio baño | 230 m² de construcción | 260 m² de terreno. Características: Classical Design, Cross-ventilation, Natural light, Maid’s Quarters, Wood Floors, Single-level, Full Bedroom on 1st floor. Exteriores: Panoramic views, City views, Green / Forest views, Mountain views, City Living, Golf & Country Club Living, Classical design. MLS LXER14119 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Great Fixer Upper Golf View Apartment. Location: Condominio del Golf, Escazu, San Jose. 3 bedrooms | 2 bathrooms + 1 half bath | 230 m² built area | 260 m² lot. Features: Classical Design, Cross-ventilation, Natural light, Maid’s Quarters, Wood Floors, Single-level, Full Bedroom on 1st floor. Exterior: Panoramic views, City views, Green / Forest views, Mountain views, City Living, Golf & Country Club Living, Classical design. MLS LXER14119 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BJSdi6/riqsatkw5/1277x640/Great-Fixer-Upper-Apartment-at-Escazu-with-Premium-Location-and-Fabulous-views-24.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BJSdi6/f7vzdhwtt/1277x640/Great-Fixer-Upper-Apartment-at-Escazu-with-Premium-Location-and-Fabulous-views-11.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BJSdi6/73hbmqmyf/1277x640/Great-Fixer-Upper-Apartment-at-Escazu-with-Premium-Location-and-Fabulous-views-25.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BJSdi6/js176r4gh/1277x640/Great-Fixer-Upper-Apartment-at-Escazu-with-Premium-Location-and-Fabulous-views-6.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BJSdi6/himdng0g6/1277x640/Great-Fixer-Upper-Apartment-at-Escazu-with-Premium-Location-and-Fabulous-views-20.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BJSdi6/c6f1rqb3g/1277x640/Great-Fixer-Upper-Apartment-at-Escazu-with-Premium-Location-and-Fabulous-views-19.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BJSdi6/udsdmied5/1277x640/Great-Fixer-Upper-Apartment-at-Escazu-with-Premium-Location-and-Fabulous-views-22.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BJSdi6/4nyyr3lhn/1277x640/Great-Fixer-Upper-Apartment-at-Escazu-with-Premium-Location-and-Fabulous-views-23.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BJSdi6/cbmktwgdf/1277x640/Great-Fixer-Upper-Apartment-at-Escazu-with-Premium-Location-and-Fabulous-views-21.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BJSdi6/ynw5upa6k/1277x640/Great-Fixer-Upper-Apartment-at-Escazu-with-Premium-Location-and-Fabulous-views-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BJSdi6/b3sv1q63z/1277x640/Great-Fixer-Upper-Apartment-at-Escazu-with-Premium-Location-and-Fabulous-views-1.jpg]]></picture>
+          <lotsize><![CDATA[260]]></lotsize>
+          <benefits><![CDATA[Vista a las Montañas,Seguridad 24 Horas]]></benefits>
+          <building><![CDATA[Condominio del Golf]]></building>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXER14119]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
           <sourceid><![CDATA[LXER13703]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[173]]></categoryid>
@@ -6414,6 +6466,67 @@ Spanning 275 square meters, this three-bedroom home includes three full bathroom
           <building><![CDATA[Den7]]></building>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXCR13421]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
+          <sourceid><![CDATA[LXER14279]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[173]]></categoryid>
+          <regionid><![CDATA[5180]]></regionid>
+          <type><![CDATA[property]]></type>
+          <title><![CDATA[Leaf House en Santa Ana]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[690000]]></price>
+          <rooms><![CDATA[3]]></rooms>
+          <bath><![CDATA[2]]></bath>
+          <square><![CDATA[316]]></square>
+          <parking><![CDATA[2]]></parking>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[mariajose@lxcostarica.com]]></email>
+          <phone><![CDATA[+506 4001-4398]]></phone>
+          <contact><![CDATA[María José Barrios]]></contact>
+          <city><![CDATA[Santa Ana]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Leaf House in Santa Ana]]></title1>
+          <descr><![CDATA[Leaf House en Santa Ana. Ubicación: Bosque Dorado, Santa Ana, San Jose. 3 habitaciones | 2 baños + 1 medio baño | 316 m² de construcción | 646 m² de terreno. Características: Contemporary Design, Cross-ventilation, High-ceilings, Natural light, Office Space, Open Design, Smart Audio, Wood detailing, Maid’s Quarters, Storage Area, A/C Splits, Single-level, Full Bedroom on 1st floor. Exteriores: Terrace/Patio, Contemporary design, Green / Forest views, City Living. MLS LXER14279 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Leaf House in Santa Ana. Location: Bosque Dorado, Santa Ana, San Jose. 3 bedrooms | 2 bathrooms + 1 half bath | 316 m² built area | 646 m² lot. Features: Contemporary Design, Cross-ventilation, High-ceilings, Natural light, Office Space, Open Design, Smart Audio, Wood detailing, Maid’s Quarters, Storage Area, A/C Splits, Single-level, Full Bedroom on 1st floor. Exterior: Terrace/Patio, Contemporary design, Green / Forest views, City Living. MLS LXER14279 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000DCsFFx/46e1poivq/1277x640/Terrace-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000DCsFFx/om3k33sor/1277x640/Entrance-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000DCsFFx/drsehf6x2/1277x640/Entrance-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000DCsFFx/efahgszui/1277x640/Living-room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000DCsFFx/b09odh95x/1277x640/Living-room-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000DCsFFx/fb06rvmzt/1277x640/Dining-room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000DCsFFx/nppmuc900/1277x640/Living-room-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000DCsFFx/eg0ruaguq/1277x640/Kitchen-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000DCsFFx/7wg6quko4/1277x640/Terrace-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000DCsFFx/xfa3qlp4q/1277x640/Terrace-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000DCsFFx/eiuiv1wy1/1277x640/TV-room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000DCsFFx/vpyt445u7/1277x640/Master-Bedroom-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000DCsFFx/82gisl03r/1277x640/Secondary-Bedroom-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000DCsFFx/5tjbswe9o/1277x640/Secondary-Bedroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000DCsFFx/7huy233u8/1277x640/Office-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000DCsFFx/yb555nyad/1277x640/Master-Bathroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000DCsFFx/w279fx0lc/1277x640/Secondary-Bathroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000DCsFFx/2992endr0/1277x640/Half-Bathroom-1.jpg]]></picture>
+          <lotsize><![CDATA[646]]></lotsize>
+          <swimmingpool><![CDATA[si]]></swimmingpool>
+          <balcon><![CDATA[terraza]]></balcon>
+          <benefits><![CDATA[Patio,Seguridad 24 Horas,Pet Friendly,Área de BBQ,Parque Infantil]]></benefits>
+          <building><![CDATA[Bosque Dorado]]></building>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXER14279]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
@@ -12878,6 +12991,49 @@ This home encompasses four bedrooms and three full bathrooms within 440 square m
     <item>
       <required>
         <ad>
+          <sourceid><![CDATA[LXEF13843]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[176]]></categoryid>
+          <regionid><![CDATA[26]]></regionid>
+          <type><![CDATA[lot]]></type>
+          <title><![CDATA[Finca Verde en Orosi, Cartago]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[3500000]]></price>
+          <lotsize><![CDATA[4432570]]></lotsize>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[alfonso.sancho@theagencyre.com]]></email>
+          <phone><![CDATA[+506 4001-4398]]></phone>
+          <contact><![CDATA[Alfonso Sancho]]></contact>
+          <city><![CDATA[Cartago]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Finca Verde in Orosi, Cartago]]></title1>
+          <descr><![CDATA[Finca Verde en Orosi, Cartago. Ubicación: Cartago, Cartago. Terreno de 4432570 m². Exteriores: Green / Forest views, Mountain views, Mountain Living. MLS LXEF13843 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Finca Verde in Orosi, Cartago. Location: Cartago, Cartago. Lot size: 4432570 m². Exterior: Green / Forest views, Mountain views, Mountain Living. MLS LXEF13843 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/wvie81ugn/1277x640/Hacienda-Orosi-Verde-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/qgy5bm2rc/1277x640/Hacienda-Orosi-Verde-6.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/4ixzmarev/1277x640/Hacienda-Orosi-Verde-9.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/9a04gzs3c/1277x640/Hacienda-Orosi-Verde-15.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/kp96kokd9/1277x640/Hacienda-Orosi-Verde-14.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/iy8h6lg16/1277x640/Hacienda-Orosi-Verde-12.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/xdwjd4cnp/1277x640/Hacienda-Orosi-Verde-16.jpg]]></picture>
+          <benefits><![CDATA[Vista a las Montañas]]></benefits>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXEF13843]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
           <sourceid><![CDATA[LXEF13978]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[176]]></categoryid>
@@ -12912,49 +13068,6 @@ This home encompasses four bedrooms and three full bathrooms within 440 square m
           <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/m2umfv05o/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-9.jpg]]></picture>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXEF13978]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
-          <sourceid><![CDATA[LXEF13843]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[176]]></categoryid>
-          <regionid><![CDATA[26]]></regionid>
-          <type><![CDATA[lot]]></type>
-          <title><![CDATA[Finca Verde en Orosi, Cartago]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <price><![CDATA[3500000]]></price>
-          <lotsize><![CDATA[4432570]]></lotsize>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[alfonso.sancho@theagencyre.com]]></email>
-          <phone><![CDATA[+506 4001-4398]]></phone>
-          <contact><![CDATA[Alfonso Sancho]]></contact>
-          <city><![CDATA[Cartago]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Finca Verde in Orosi, Cartago]]></title1>
-          <descr><![CDATA[Finca Verde en Orosi, Cartago. Ubicación: Cartago, Cartago. Terreno de 4432570 m². Exteriores: Green / Forest views, Mountain views, Mountain Living. MLS LXEF13843 The Agency Costa Rica.]]></descr>
-          <descr1><![CDATA[Finca Verde in Orosi, Cartago. Location: Cartago, Cartago. Lot size: 4432570 m². Exterior: Green / Forest views, Mountain views, Mountain Living. MLS LXEF13843 The Agency Costa Rica.]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/wvie81ugn/1277x640/Hacienda-Orosi-Verde-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/qgy5bm2rc/1277x640/Hacienda-Orosi-Verde-6.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/4ixzmarev/1277x640/Hacienda-Orosi-Verde-9.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/9a04gzs3c/1277x640/Hacienda-Orosi-Verde-15.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/kp96kokd9/1277x640/Hacienda-Orosi-Verde-14.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/iy8h6lg16/1277x640/Hacienda-Orosi-Verde-12.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/xdwjd4cnp/1277x640/Hacienda-Orosi-Verde-16.jpg]]></picture>
-          <benefits><![CDATA[Vista a las Montañas]]></benefits>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXEF13843]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
