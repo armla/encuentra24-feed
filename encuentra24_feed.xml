@@ -4770,6 +4770,7 @@ Situated on a generous 5000 square meter lot in Santiago, Puntarenas, the estate
           <balcon><![CDATA[balcón]]></balcon>
           <benefits><![CDATA[Patio,Seguridad 24 Horas,Pet Friendly,Gimnasio,Área de BBQ,Parque Infantil]]></benefits>
           <building><![CDATA[Tierras del Este]]></building>
+          <youtube1><![CDATA[https://www.youtube.com/embed/tQKDo1735hQ]]></youtube1>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXCR14265]]></sourceid>
         </ad>
@@ -11998,6 +11999,48 @@ This home encompasses four bedrooms and three full bathrooms within 440 square m
           <benefits><![CDATA[Seguridad 24 Horas,Pet Friendly,Gimnasio,Área de BBQ,Parque Infantil]]></benefits>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXEL11043]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
+          <sourceid><![CDATA[LXHL14237]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[178]]></categoryid>
+          <regionid><![CDATA[2138]]></regionid>
+          <type><![CDATA[lot]]></type>
+          <title><![CDATA[Lote Vistas de Escazú @ San Rafael]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[1200000]]></price>
+          <lotsize><![CDATA[1850]]></lotsize>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[vicki@lxcostarica.com]]></email>
+          <phone><![CDATA[+506 4001-4398]]></phone>
+          <contact><![CDATA[Vicki Klunk]]></contact>
+          <city><![CDATA[Escazú]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Lote Vistas de Escazu @ San Rafael]]></title1>
+          <descr><![CDATA[Lote Vistas de Escazú @ San Rafael. Ubicación: Escazú, San Jose. Terreno de 1850 m². MLS LXHL14237 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Lote Vistas de Escazu @ San Rafael. Location: Escazú, San Jose. Lot size: 1850 m². MLS LXHL14237 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CfTOHP/h5jup8ipe/1277x640/Aerial-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CfTOHP/0lyk0p7qv/1277x640/Aerial-4.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CfTOHP/cux6f6e5i/1277x640/Aerial-10.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CfTOHP/ftos2g0f1/1277x640/Aerial-8.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CfTOHP/wybhquhyu/1277x640/Aerial-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CfTOHP/gdytdht0h/1277x640/Aerial-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CfTOHP/eatbubofu/1277x640/Aerial-6.jpg]]></picture>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXHL14237]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
