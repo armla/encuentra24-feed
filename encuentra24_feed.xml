@@ -1321,7 +1321,7 @@ Situated on a 750 square meter lot with 500 square meters of built area, this ho
           <type><![CDATA[rent]]></type>
           <title><![CDATA[Spacious Terrace Apartment en Escazú Village]]></title>
           <currency><![CDATA[USD]]></currency>
-          <rent><![CDATA[1900]]></rent>
+          <rent><![CDATA[2100]]></rent>
           <rooms><![CDATA[2]]></rooms>
           <bath><![CDATA[2]]></bath>
           <parking><![CDATA[2]]></parking>
@@ -2163,6 +2163,70 @@ Spanning 440 square meters on a 950 square meter lot, this four bedroom, three b
           <youtube1><![CDATA[https://www.youtube.com/embed/OHPWUraf1mk]]></youtube1>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXHR24106]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
+          <sourceid><![CDATA[LXER22390]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[157]]></categoryid>
+          <regionid><![CDATA[117]]></regionid>
+          <type><![CDATA[rent]]></type>
+          <title><![CDATA[Syntagma Apartamento en Jaboncillos]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <rent><![CDATA[4500]]></rent>
+          <rooms><![CDATA[3]]></rooms>
+          <bath><![CDATA[4]]></bath>
+          <parking><![CDATA[4]]></parking>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[melissa@lxcostarica.com]]></email>
+          <phone><![CDATA[+506 4001-4398]]></phone>
+          <contact><![CDATA[Melissa Lacayo]]></contact>
+          <city><![CDATA[Escazú]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Syntagma Apartment @Jaboncillos]]></title1>
+          <descr><![CDATA[Syntagma Apartamento en Jaboncillos. Ubicación: Acrópolis, Escazú, San Jose. 3 habitaciones | 3 baños + 1 medio baño | 412 m² de construcción. Características: Bar Area, Central A/C, Cross-ventilation, High-ceilings, Marble Floors, Natural light, Office Space, Wood detailing, Maid’s Quarters, Storage Area, Wood Floors, Balcony, Single-level. Exteriores: Panoramic views, City views, Mountain views, High-rise Living. MLS LXER22390 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Syntagma Apartment @Jaboncillos. Location: Acrópolis, Escazú, San Jose. 3 bedrooms | 3 bathrooms + 1 half bath | 412 m² built area. Features: Bar Area, Central A/C, Cross-ventilation, High-ceilings, Marble Floors, Natural light, Office Space, Wood detailing, Maid’s Quarters, Storage Area, Wood Floors, Balcony, Single-level. Exterior: Panoramic views, City views, Mountain views, High-rise Living. MLS LXER22390 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/2cyzm9y4t/1277x640/Living-room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/or4ivo0zl/1277x640/View-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/fz14w574e/1277x640/Lx-6.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/k6vjgm59d/1277x640/Balcony-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/pvyvny4fc/1277x640/Living-room-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/4l2uennul/1277x640/Living-room-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/gohf8kj99/1277x640/Bar-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/tsrzccpvc/1277x640/Dining-room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/b2697f5xv/1277x640/Dining-room-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/b3j4ddb06/1277x640/Dining-room-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/urr4abp4u/1277x640/Lx-17.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/n5a5sfh50/1277x640/Office-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/aw87apvra/1277x640/Master-Bedroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/p38w79cov/1277x640/Lx-21.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/164zkis2d/1277x640/Lx-23.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/mpohekle7/1277x640/Lx-26.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/n7unas9qp/1277x640/Secondary-bedroom-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/k35u5awh9/1277x640/Secondary-bedroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/fq4b5zq62/1277x640/TV-room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/fuuu1eaci/1277x640/Lx-32.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/boukm7pyg/1277x640/Lx-15.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/bsxejv89i/1277x640/Lx-14.jpg]]></picture>
+          <square><![CDATA[412]]></square>
+          <swimmingpool><![CDATA[si]]></swimmingpool>
+          <balcon><![CDATA[balcón]]></balcon>
+          <benefits><![CDATA[Bar,A/C central,Vista a las Montañas,Seguridad 24 Horas,Pet Friendly,Gimnasio,Área de BBQ]]></benefits>
+          <building><![CDATA[Acrópolis]]></building>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXER22390]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
@@ -4412,66 +4476,6 @@ Situated just five minutes from Cahuita National Park and Playa Negra beach, thi
     <item>
       <required>
         <ad>
-          <sourceid><![CDATA[LXPR12832]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[173]]></categoryid>
-          <regionid><![CDATA[1494]]></regionid>
-          <type><![CDATA[property]]></type>
-          <title><![CDATA[Condominio 2 habs en Nosara - Become Nosara - terraza privada moderna]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <price><![CDATA[548000]]></price>
-          <rooms><![CDATA[2]]></rooms>
-          <bath><![CDATA[2]]></bath>
-          <square><![CDATA[113]]></square>
-          <parking><![CDATA[1]]></parking>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[clari@lxcostarica.com]]></email>
-          <phone><![CDATA[+506 2572-0804]]></phone>
-          <contact><![CDATA[Clari Vega]]></contact>
-          <city><![CDATA[Nosara]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Condo 2BR in Nosara - Become Nosara - Private Terrace & Pool]]></title1>
-          <descr><![CDATA[Este exclusivo condominio en Become Nosara ofrece un estilo de vida moderno y confortable en el corazón de Guanacaste. Completamente amueblado, cuenta con dos dormitorios y una terraza privada que invita a disfrutar del entorno natural. La propiedad destaca por su diseño contemporáneo y la integración de espacios funcionales, complementados con áreas comunes como una piscina compartida, estacionamiento privado y un centro de trabajo colaborativo, ideal para quienes buscan un equilibrio entre descanso y productividad.
-
-Ubicado estratégicamente entre Guiones y Esperanza, este condominio de 113 metros cuadrados ofrece dos baños completos y una distribución que maximiza la luz natural y las vistas al paisaje. La comunidad se caracteriza por su ambiente tranquilo y acceso cercano a servicios y playas, promoviendo un estilo de vida relajado y exclusivo. Esta propiedad representa una oportunidad única para quienes valoran la calidad y la ubicación en Nosara. MLS LXPR12832 The Agency Costa Rica]]></descr>
-          <descr1><![CDATA[These modern, fully furnished two-bedroom apartments at Become Nosara offer a distinctive blend of comfort and style, each featuring a private terrace or balcony that invites serene views of the surrounding greenery. Residents enjoy access to a unique circular pool, a co-working center designed for productivity, and private parking, all within a thoughtfully designed community. Centrally located between Guiones and Esperanza, this property provides an exceptional balance of tranquility and convenience in the heart of Nosara, Guanacaste.
-
-Spanning 113 square meters, each condo includes two full bathrooms, a fully equipped kitchen, and a laundry area with washer and dryer. The complex’s three buildings house 54 units, all appointed with high-end, energy-efficient appliances and handpicked furnishings that emphasize natural materials and modern aesthetics. The location offers proximity to Nosara airport and Liberia International Airport, enhancing accessibility. The community’s amenities, including a safe children’s pool area, jacuzzi, and multipurpose deck, support a lifestyle of relaxation and wellness. MLS LXPR12832 The Agency Costa Rica]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my48Q/aiy81559s/1277x640/LX-BECOME-4.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my48Q/c4adbubht/1277x640/LX-BECOME-22.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my48Q/7c1vdc6m5/1277x640/LX-BECOME-14.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my48Q/l1wa2830n/1277x640/LX-BECOME-15.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my48Q/ggnc9cu5q/1277x640/LX-BECOME-12.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my48Q/79bxzrv6n/1277x640/LX-BECOME-9.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my48Q/yxx5dyqlw/1277x640/LX-BECOME-19.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my48Q/s1sv3yhmy/1277x640/LX-BECOME-17.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my48Q/00tkkanhu/1277x640/LX-BECOME-18.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my48Q/3cy0bwt97/1277x640/LX-BECOME-16.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my48Q/kgkvpz4o7/1277x640/LX-BECOME-8.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my48Q/2qhvchqc4/1277x640/LX-BECOME-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my48Q/tnktdsc6q/1277x640/LX-BECOME-1.jpg]]></picture>
-          <swimmingpool><![CDATA[si]]></swimmingpool>
-          <balcon><![CDATA[balcón]]></balcon>
-          <benefits><![CDATA[A/C central,2 o más elevadores,Seguridad 24 Horas,Área de BBQ]]></benefits>
-          <building><![CDATA[Become Nosara]]></building>
-          <youtube1><![CDATA[https://www.youtube.com/embed/bTOJ0Jm8mjI]]></youtube1>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXPR12832]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
           <sourceid><![CDATA[LXER10575]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[179]]></categoryid>
@@ -4704,6 +4708,66 @@ Situated on a generous 5000 square meter lot in Santiago, Puntarenas, the estate
           <benefits><![CDATA[Patio]]></benefits>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXSR14052]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
+          <sourceid><![CDATA[LXPR12832]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[173]]></categoryid>
+          <regionid><![CDATA[1494]]></regionid>
+          <type><![CDATA[property]]></type>
+          <title><![CDATA[Condominio 2 habs en Nosara - Become Nosara - terraza privada moderna]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[560000]]></price>
+          <rooms><![CDATA[2]]></rooms>
+          <bath><![CDATA[2]]></bath>
+          <square><![CDATA[113]]></square>
+          <parking><![CDATA[1]]></parking>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[clari@lxcostarica.com]]></email>
+          <phone><![CDATA[+506 2572-0804]]></phone>
+          <contact><![CDATA[Clari Vega]]></contact>
+          <city><![CDATA[Nosara]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Condo 2BR in Nosara - Become Nosara - Private Terrace & Pool]]></title1>
+          <descr><![CDATA[Este exclusivo condominio en Become Nosara ofrece un estilo de vida moderno y confortable en el corazón de Guanacaste. Completamente amueblado, cuenta con dos dormitorios y una terraza privada que invita a disfrutar del entorno natural. La propiedad destaca por su diseño contemporáneo y la integración de espacios funcionales, complementados con áreas comunes como una piscina compartida, estacionamiento privado y un centro de trabajo colaborativo, ideal para quienes buscan un equilibrio entre descanso y productividad.
+
+Ubicado estratégicamente entre Guiones y Esperanza, este condominio de 113 metros cuadrados ofrece dos baños completos y una distribución que maximiza la luz natural y las vistas al paisaje. La comunidad se caracteriza por su ambiente tranquilo y acceso cercano a servicios y playas, promoviendo un estilo de vida relajado y exclusivo. Esta propiedad representa una oportunidad única para quienes valoran la calidad y la ubicación en Nosara. MLS LXPR12832 The Agency Costa Rica]]></descr>
+          <descr1><![CDATA[These modern, fully furnished two-bedroom apartments at Become Nosara offer a distinctive blend of comfort and style, each featuring a private terrace or balcony that invites serene views of the surrounding greenery. Residents enjoy access to a unique circular pool, a co-working center designed for productivity, and private parking, all within a thoughtfully designed community. Centrally located between Guiones and Esperanza, this property provides an exceptional balance of tranquility and convenience in the heart of Nosara, Guanacaste.
+
+Spanning 113 square meters, each condo includes two full bathrooms, a fully equipped kitchen, and a laundry area with washer and dryer. The complex’s three buildings house 54 units, all appointed with high-end, energy-efficient appliances and handpicked furnishings that emphasize natural materials and modern aesthetics. The location offers proximity to Nosara airport and Liberia International Airport, enhancing accessibility. The community’s amenities, including a safe children’s pool area, jacuzzi, and multipurpose deck, support a lifestyle of relaxation and wellness. MLS LXPR12832 The Agency Costa Rica]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my48Q/aiy81559s/1277x640/LX-BECOME-4.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my48Q/c4adbubht/1277x640/LX-BECOME-22.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my48Q/7c1vdc6m5/1277x640/LX-BECOME-14.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my48Q/l1wa2830n/1277x640/LX-BECOME-15.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my48Q/ggnc9cu5q/1277x640/LX-BECOME-12.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my48Q/79bxzrv6n/1277x640/LX-BECOME-9.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my48Q/yxx5dyqlw/1277x640/LX-BECOME-19.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my48Q/s1sv3yhmy/1277x640/LX-BECOME-17.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my48Q/00tkkanhu/1277x640/LX-BECOME-18.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my48Q/3cy0bwt97/1277x640/LX-BECOME-16.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my48Q/kgkvpz4o7/1277x640/LX-BECOME-8.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my48Q/2qhvchqc4/1277x640/LX-BECOME-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000my48Q/tnktdsc6q/1277x640/LX-BECOME-1.jpg]]></picture>
+          <swimmingpool><![CDATA[si]]></swimmingpool>
+          <balcon><![CDATA[balcón]]></balcon>
+          <benefits><![CDATA[A/C central,2 o más elevadores,Seguridad 24 Horas,Área de BBQ]]></benefits>
+          <building><![CDATA[Become Nosara]]></building>
+          <youtube1><![CDATA[https://www.youtube.com/embed/bTOJ0Jm8mjI]]></youtube1>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXPR12832]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
@@ -9107,6 +9171,70 @@ This home encompasses four bedrooms and three full bathrooms within 440 square m
     <item>
       <required>
         <ad>
+          <sourceid><![CDATA[LXER12034]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[179]]></categoryid>
+          <regionid><![CDATA[117]]></regionid>
+          <type><![CDATA[property]]></type>
+          <title><![CDATA[Syntagma Apartamento en Jaboncillos]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[890000]]></price>
+          <rooms><![CDATA[3]]></rooms>
+          <bath><![CDATA[4]]></bath>
+          <square><![CDATA[412]]></square>
+          <parking><![CDATA[4]]></parking>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[melissa@lxcostarica.com]]></email>
+          <phone><![CDATA[+506 4001-4398]]></phone>
+          <contact><![CDATA[Melissa Lacayo]]></contact>
+          <city><![CDATA[Escazú]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Syntagma Apartment @Jaboncillos]]></title1>
+          <descr><![CDATA[Syntagma Apartamento en Jaboncillos. Ubicación: Acrópolis, Escazú, San Jose. 3 habitaciones | 3 baños + 1 medio baño | 412 m² de construcción. Características: Bar Area, Central A/C, Cross-ventilation, High-ceilings, Marble Floors, Natural light, Office Space, Wood detailing, Maid’s Quarters, Storage Area, Wood Floors, Balcony, Single-level. Exteriores: Panoramic views, City views, Mountain views, High-rise Living. MLS LXER12034 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Syntagma Apartment @Jaboncillos. Location: Acrópolis, Escazú, San Jose. 3 bedrooms | 3 bathrooms + 1 half bath | 412 m² built area. Features: Bar Area, Central A/C, Cross-ventilation, High-ceilings, Marble Floors, Natural light, Office Space, Wood detailing, Maid’s Quarters, Storage Area, Wood Floors, Balcony, Single-level. Exterior: Panoramic views, City views, Mountain views, High-rise Living. MLS LXER12034 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/2cyzm9y4t/1277x640/Living-room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/or4ivo0zl/1277x640/View-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/fz14w574e/1277x640/Lx-6.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/k6vjgm59d/1277x640/Balcony-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/pvyvny4fc/1277x640/Living-room-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/4l2uennul/1277x640/Living-room-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/gohf8kj99/1277x640/Bar-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/tsrzccpvc/1277x640/Dining-room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/b2697f5xv/1277x640/Dining-room-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/b3j4ddb06/1277x640/Dining-room-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/urr4abp4u/1277x640/Lx-17.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/n5a5sfh50/1277x640/Office-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/aw87apvra/1277x640/Master-Bedroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/p38w79cov/1277x640/Lx-21.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/164zkis2d/1277x640/Lx-23.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/mpohekle7/1277x640/Lx-26.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/n7unas9qp/1277x640/Secondary-bedroom-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/k35u5awh9/1277x640/Secondary-bedroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/fq4b5zq62/1277x640/TV-room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/fuuu1eaci/1277x640/Lx-32.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/boukm7pyg/1277x640/Lx-15.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/bsxejv89i/1277x640/Lx-14.jpg]]></picture>
+          <swimmingpool><![CDATA[si]]></swimmingpool>
+          <balcon><![CDATA[balcón]]></balcon>
+          <benefits><![CDATA[Bar,A/C central,Vista a las Montañas,Seguridad 24 Horas,Pet Friendly,Gimnasio,Área de BBQ]]></benefits>
+          <building><![CDATA[Acrópolis]]></building>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXER12034]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
           <sourceid><![CDATA[LXCR12663]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[173]]></categoryid>
@@ -9231,71 +9359,6 @@ This home encompasses four bedrooms and three full bathrooms within 440 square m
           <youtube1><![CDATA[https://www.youtube.com/embed/jJBX0FSmucY]]></youtube1>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXER13377]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
-          <sourceid><![CDATA[LXER12034]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[179]]></categoryid>
-          <regionid><![CDATA[117]]></regionid>
-          <type><![CDATA[property]]></type>
-          <title><![CDATA[Syntagma Apartamento en Jaboncillos]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <price><![CDATA[890000]]></price>
-          <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[4]]></bath>
-          <square><![CDATA[412]]></square>
-          <parking><![CDATA[4]]></parking>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[melissa@lxcostarica.com]]></email>
-          <phone><![CDATA[+506 4001-4398]]></phone>
-          <contact><![CDATA[Melissa Lacayo]]></contact>
-          <city><![CDATA[Escazú]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Investment: Syntagma Apartment @Jaboncillos]]></title1>
-          <descr><![CDATA[Syntagma Apartamento en Jaboncillos. Ubicación: Acrópolis, Escazú, San Jose. 3 habitaciones | 3 baños + 1 medio baño | 412 m² de construcción. Características: Bar Area, Central A/C, Cross-ventilation, High-ceilings, Marble Floors, Natural light, Office Space, Wood detailing, Maid’s Quarters, Storage Area, Wood Floors, Balcony, Single-level. Exteriores: Panoramic views, City views, Mountain views, High-rise Living. MLS LXER12034 The Agency Costa Rica.]]></descr>
-          <descr1><![CDATA[Investment: Syntagma Apartment @Jaboncillos. Location: Acrópolis, Escazú, San Jose. 3 bedrooms | 3 bathrooms + 1 half bath | 412 m² built area. Features: Bar Area, Central A/C, Cross-ventilation, High-ceilings, Marble Floors, Natural light, Office Space, Wood detailing, Maid’s Quarters, Storage Area, Wood Floors, Balcony, Single-level. Exterior: Panoramic views, City views, Mountain views, High-rise Living. MLS LXER12034 The Agency Costa Rica.]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/2cyzm9y4t/1277x640/Living-room-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/or4ivo0zl/1277x640/View-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/fz14w574e/1277x640/Lx-6.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/k6vjgm59d/1277x640/Balcony-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/pvyvny4fc/1277x640/Living-room-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/4l2uennul/1277x640/Living-room-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/gohf8kj99/1277x640/Bar-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/tsrzccpvc/1277x640/Dining-room-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/b2697f5xv/1277x640/Dining-room-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/b3j4ddb06/1277x640/Dining-room-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/urr4abp4u/1277x640/Lx-17.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/n5a5sfh50/1277x640/Office-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/aw87apvra/1277x640/Master-Bedroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/p38w79cov/1277x640/Lx-21.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/164zkis2d/1277x640/Lx-23.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/mpohekle7/1277x640/Lx-26.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/n7unas9qp/1277x640/Secondary-bedroom-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/k35u5awh9/1277x640/Secondary-bedroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/fq4b5zq62/1277x640/TV-room-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/fuuu1eaci/1277x640/Lx-32.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/boukm7pyg/1277x640/Lx-15.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000j9RZe/bsxejv89i/1277x640/Lx-14.jpg]]></picture>
-          <swimmingpool><![CDATA[si]]></swimmingpool>
-          <balcon><![CDATA[balcón]]></balcon>
-          <benefits><![CDATA[Bar,A/C central,Vista a las Montañas,Seguridad 24 Horas,Pet Friendly,Gimnasio,Área de BBQ]]></benefits>
-          <building><![CDATA[Acrópolis]]></building>
-          <youtube1><![CDATA[https://www.youtube.com/embed/o18VKG0mT_0]]></youtube1>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXER12034]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
@@ -13319,7 +13382,7 @@ This home encompasses four bedrooms and three full bathrooms within 440 square m
           <categoryid><![CDATA[170]]></categoryid>
           <regionid><![CDATA[4]]></regionid>
           <type><![CDATA[property]]></type>
-          <title><![CDATA[Bosque de Paz en Bajos de Toro]]></title>
+          <title><![CDATA[Eco-Lodge Llave en Mano y Reserva Biológica Privada en Bajos del Toro]]></title>
           <currency><![CDATA[USD]]></currency>
           <price><![CDATA[3500000]]></price>
           <rooms><![CDATA[0]]></rooms>
@@ -13337,9 +13400,9 @@ This home encompasses four bedrooms and three full bathrooms within 440 square m
       </required>
       <optional>
         <ad>
-          <title1><![CDATA[Bosque de Paz at Bajos del Toro]]></title1>
-          <descr><![CDATA[Bosque de Paz en Bajos de Toro. Ubicación: Valverde Vega, Alajuela. 2030000 m² de terreno. MLS LXCO14141 The Agency Costa Rica.]]></descr>
-          <descr1><![CDATA[Bosque de Paz at Bajos del Toro. Location: Valverde Vega, Alajuela. 2030000 m² lot. MLS LXCO14141 The Agency Costa Rica.]]></descr1>
+          <title1><![CDATA[Turnkey EcoLodge and Nature Reserve in Bajos del Toro]]></title1>
+          <descr><![CDATA[Eco-Lodge Llave en Mano y Reserva Biológica Privada en Bajos del Toro. Ubicación: Valverde Vega, Alajuela. 2030000 m² de terreno. MLS LXCO14141 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Turnkey EcoLodge and Nature Reserve in Bajos del Toro. Location: Valverde Vega, Alajuela. 2030000 m² lot. MLS LXCO14141 The Agency Costa Rica.]]></descr1>
           <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/d5a3l6yub/1277x640/TACR-10.jpg]]></picture>
           <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/vds9coq93/1277x640/TACR-1.jpg]]></picture>
           <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BYS56t/oid76o7eu/1277x640/TACR-6.jpg]]></picture>
@@ -13937,54 +14000,6 @@ This home encompasses four bedrooms and three full bathrooms within 440 square m
           <benefits><![CDATA[Vista a las Montañas,Vista al Mar]]></benefits>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXSL13739]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
-          <sourceid><![CDATA[LXEF13854]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[176]]></categoryid>
-          <regionid><![CDATA[12]]></regionid>
-          <type><![CDATA[lot]]></type>
-          <title><![CDATA[Finca Las Tres Marías en Orotina]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <price><![CDATA[6500000]]></price>
-          <lotsize><![CDATA[581819]]></lotsize>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[alfonso.sancho@theagencyre.com]]></email>
-          <phone><![CDATA[+506 4001-4398]]></phone>
-          <contact><![CDATA[Alfonso Sancho]]></contact>
-          <city><![CDATA[Orotina]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Finca Las Tres Marías in Orotina]]></title1>
-          <descr><![CDATA[Finca Las Tres Marías en Orotina. Ubicación: Orotina, Alajuela. Terreno de 581819 m². MLS LXEF13854 The Agency Costa Rica.]]></descr>
-          <descr1><![CDATA[Finca Las Tres Marías in Orotina. Location: Orotina, Alajuela. Lot size: 581819 m². MLS LXEF13854 The Agency Costa Rica.]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009OqFnN/a6qdw90md/1277x640/Tres-Marías-15.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009OqFnN/7yv6qgl04/1277x640/Tres-Marías-22.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009OqFnN/fohm7lz14/1277x640/Tres-Marías-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009OqFnN/y9f9keftq/1277x640/Tres-Marías-14.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009OqFnN/qd9pkr39r/1277x640/Tres-Marías-11.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009OqFnN/a0rkel1pw/1277x640/Tres-Marías-12.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009OqFnN/i9amgv5w6/1277x640/Tres-Marías-23.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009OqFnN/6zznw6xyt/1277x640/Tres-Marías-26.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009OqFnN/o25azy63b/1277x640/Tres-Marías-27.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009OqFnN/8vt4s1tnf/1277x640/Tres-Marías-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009OqFnN/9denghk1o/1277x640/Tres-Marías-30.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009OqFnN/5lx7howls/1277x640/Tres-Marías-8.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009OqFnN/p0jt4w50j/1277x640/Tres-Marías-9.jpg]]></picture>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXEF13854]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
