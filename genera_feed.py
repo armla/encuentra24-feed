@@ -697,9 +697,18 @@ def enrich_listings(eligible, use_llm=True):
         mls = listing.get("lx_mls_id") or listing.get("id") or str(i)
         listing_id = listing.get("id")  # Use listing ID (not property ID) for the detail endpoint
 
-        # Skip if already cached
-        if mls in cache:
+        # Build a fingerprint from fields that should trigger re-enrichment when changed.
+        # Includes: listing name (catches renames) and lastmodifieddate (catches content edits).
+        listing_name = (listing.get("name") or "").strip()
+        last_modified = (prop.get("lastmodifieddate") or "").strip()
+        current_fingerprint = f"{listing_name}|{last_modified}"
+
+        # Skip if already cached AND fingerprint matches (nothing changed)
+        cached_entry = cache.get(mls)
+        if cached_entry and cached_entry.get("_fingerprint") == current_fingerprint:
             continue
+        if cached_entry:
+            print(f"  Cache invalidated for {mls} (name or date changed) — re-enriching ...", end=" ", flush=True)
 
         print(f"  Enriching [{i+1}/{total}] {mls} ...", end=" ", flush=True)
 
@@ -728,6 +737,7 @@ def enrich_listings(eligible, use_llm=True):
             )
 
         cache[mls] = {
+            "_fingerprint": current_fingerprint,
             "en_description_full": en_description,
             "es_description_full": es_description,
             "highlights": highlights,
