@@ -24,7 +24,7 @@ import os
 import sys
 import time
 import urllib.request
-from datetime import datetime
+from datetime import datetime, date, timedelta
 from xml.sax.saxutils import escape
 
 # ─────────────────────────────────────────────────────────────────────
@@ -77,6 +77,9 @@ LLM_MODEL = "gpt-4.1-mini"
 
 # Cache file for LLM enrichment results (avoids re-generating on every run)
 ENRICHMENT_CACHE_FILE = "enrichment_cache.json"
+
+# State file for photo rotation (tracks last swap date per MLS ID)
+PHOTO_ROTATION_STATE_FILE = "photo_rotation_state.json"
 
 # Zapier webhook URL — fires once per NEW listing added to the feed
 # Set to empty string to disable. Override via ZAPIER_WEBHOOK_URL env var.
@@ -1012,6 +1015,69 @@ def format_parking(spaces):
     return "Más" if p > 10 else str(p)
 
 
+# ───────────────────────────────────────────────────────────────────
+# PHOTO ROTATION
+# ───────────────────────────────────────────────────────────────────
+
+def load_rotation_state():
+    """Load the photo rotation state from disk. Returns a dict keyed by MLS ID."""
+    if os.path.exists(PHOTO_ROTATION_STATE_FILE):
+        try:
+            with open(PHOTO_ROTATION_STATE_FILE) as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return {}
+
+
+def save_rotation_state(state):
+    """Persist the photo rotation state to disk."""
+    with open(PHOTO_ROTATION_STATE_FILE, "w", encoding="utf-8") as f:
+        json.dump(state, f, indent=2, ensure_ascii=False)
+
+
+def should_rotate_photos(mls, last_modified_str, rotation_state, today):
+    """
+    Return True if photos 1 and 2 should be swapped for this listing.
+
+    Rules:
+    - Only runs on Fridays (weekday=4) and Sundays (weekday=6)
+    - Listing must not have changed in the last 5 days (based on lastmodifieddate)
+    - Must not have already been swapped within the last 5 days (tracked in rotation_state)
+    """
+    # Only act on Fridays and Sundays
+    if today.weekday() not in (4, 6):  # 4=Friday, 6=Sunday
+        return False
+
+    cutoff = today - timedelta(days=5)
+
+    # Check if the listing itself was modified recently
+    if last_modified_str:
+        try:
+            # Handle ISO format with timezone offset: 2026-06-30T01:44:05.000+0000
+            mod_str = last_modified_str.replace("+0000", "+00:00").replace("Z", "+00:00")
+            # Strip microseconds if present beyond 6 digits
+            import re as _re
+            mod_str = _re.sub(r'(\.\d{6})\d+', r'\1', mod_str)
+            mod_date = datetime.fromisoformat(mod_str).date()
+            if mod_date >= cutoff:
+                return False  # Modified recently — skip
+        except Exception:
+            pass  # If we can’t parse, don’t block rotation
+
+    # Check if we already swapped this listing within the last 5 days
+    last_swap_str = rotation_state.get(mls)
+    if last_swap_str:
+        try:
+            last_swap = date.fromisoformat(last_swap_str)
+            if last_swap >= cutoff:
+                return False  # Swapped recently — skip
+        except Exception:
+            pass
+
+    return True
+
+
 def get_image_urls(prop):
     """Extract sorted image URLs from the media array."""
     media = prop.get("media") or []
@@ -1245,7 +1311,7 @@ def _fallback_description_en(prop, listing, ad_type):
 # XML GENERATION
 # ─────────────────────────────────────────────────────────────────────
 
-def generate_item_xml(prop, listing, ad_type, enrichment=None):
+def generate_item_xml(prop, listing, ad_type, enrichment=None, rotation_state=None, today=None):
     """Generate the <item> XML block for a single listing."""
     mls = listing.get("lx_mls_id") or listing.get("id") or prop.get("id")
     enrich = enrichment or {}
@@ -1271,6 +1337,14 @@ def generate_item_xml(prop, listing, ad_type, enrichment=None):
 
     price  = listing.get("listingprice")
     images = get_image_urls(prop)
+
+    # Apply Friday/Sunday photo rotation if eligible
+    if rotation_state is not None and today is not None and len(images) >= 2:
+        last_modified_str = prop.get("lastmodifieddate") or ""
+        if should_rotate_photos(str(mls), last_modified_str, rotation_state, today):
+            images = [images[1], images[0]] + images[2:]  # swap photo 1 and 2
+            rotation_state[str(mls)] = today.isoformat()  # record swap date
+
     youtube = get_youtube_url(prop, listing)
     email, phone, contact_name = get_agent_contact(listing)
     community = listing.get("community") or ""
@@ -1569,17 +1643,35 @@ def generate_feed(properties, filter_type="all", max_listings=MAX_LISTINGS, use_
     lines.append("")
     lines.append("  <items>")
 
+    # Load photo rotation state and determine today's date
+    rotation_state = load_rotation_state()
+    today = datetime.utcnow().date()
+    rotated_count = 0
+
     count = 0
     for prop, listing, ad_type in final:
         mls = listing.get("lx_mls_id") or listing.get("id") or prop.get("id")
         enrich = enrichment_cache.get(str(mls)) or {}
+        prev_rotation_size = len(rotation_state)
         try:
-            item_xml = generate_item_xml(prop, listing, ad_type, enrichment=enrich)
+            item_xml = generate_item_xml(
+                prop, listing, ad_type,
+                enrichment=enrich,
+                rotation_state=rotation_state,
+                today=today
+            )
             lines.append(item_xml)
             count += 1
+            if len(rotation_state) > prev_rotation_size:
+                rotated_count += 1
         except Exception as e:
             print(f"  WARNING: Skipped {mls} — {e}", file=sys.stderr)
             skipped += 1
+
+    # Save updated rotation state
+    save_rotation_state(rotation_state)
+    if rotated_count:
+        print(f"  Photo rotation: swapped photos 1↔2 for {rotated_count} listings (Friday/Sunday rule).")
 
     lines.append("  </items>")
     lines.append("")

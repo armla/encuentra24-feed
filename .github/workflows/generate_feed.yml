@@ -39,7 +39,9 @@ jobs:
       - name: Restore enrichment cache
         uses: actions/cache@v4
         with:
-          path: enrichment_cache.json
+          path: |
+            enrichment_cache.json
+            photo_rotation_state.json
           key: enrichment-cache-${{ runner.os }}
           restore-keys: |
             enrichment-cache-
@@ -60,14 +62,16 @@ jobs:
       - name: Save enrichment cache
         uses: actions/cache@v4
         with:
-          path: enrichment_cache.json
+          path: |
+            enrichment_cache.json
+            photo_rotation_state.json
           key: enrichment-cache-${{ runner.os }}-${{ github.run_id }}
 
       - name: Commit and push updated feed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add encuentra24_feed.xml enrichment_cache.json
+          git add encuentra24_feed.xml enrichment_cache.json photo_rotation_state.json
           # Only commit if there are changes
           if git diff --staged --quiet; then
             echo "No changes to the feed -- skipping commit."
