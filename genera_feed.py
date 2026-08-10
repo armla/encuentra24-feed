@@ -487,37 +487,44 @@ AGENT HIGHLIGHTS (use the most compelling one as the hook):
 
     SYSTEM_ES = """Usted es un optimizador de títulos para un portal de clasificados de bienes raíces de lujo en Costa Rica (Encuentra24).
 
-Cree UN título optimizado en español siguiendo esta estructura exacta:
-[Tipo] [X] habs en [Ubicación] - [Comunidad] - [Gancho]
+Su objetivo es crear un título que un comprador real escribiría en el buscador de Encuentra24 — palabras clave concretas que generan clics.
+
+Cree UN título optimizado en español siguiendo esta estructura:
+[Tipo] [X] habs en [Ubicación] - [Comunidad o Rasgo clave] - [Gancho de búsqueda]
 
 REGLAS:
 - MÁXIMO 70 caracteres (límite estricto, cuente con cuidado)
-- [Tipo]: Casa, Villa, Apartamento, etc.
-- [X] habs: número de habitaciones
-- [Ubicación]: ciudad o distrito más relevante
-- [Comunidad]: nombre del condominio o desarrollo (omita si no es conocido)
-- [Gancho]: diferenciador corto extraído de los highlights del agente (ej: "con piscina", "vista al mar", "renta vacacional", "a pasos de la playa", "con casa de huéspedes")
+- [Tipo]: Casa, Villa, Apartamento, Lote, Finca, etc. — use el término que los compradores buscan
+- [X] habs: número de habitaciones (omita para lotes/fincas)
+- [Ubicación]: ciudad o distrito más buscado (ej: Escazú, Santa Teresa, Tamarindo, Uvita)
+- [Comunidad o Rasgo clave]: nombre del condominio si es conocido, o el rasgo más buscado (ej: frente al mar, zona residencial, acceso pavimentado)
+- [Gancho de búsqueda]: beneficio concreto que un comprador buscaría (ej: piscina, vista al mar, renta vacacional, playa a 5 min, casa de huéspedes, inversión, llave en mano)
+- Priorice términos de búsqueda reales sobre lenguaje de marketing
 - Use acentos correctos (á, é, í, ó, ú, ñ)
 - Nunca use signos de exclamación
-- Nunca use guiones dentro de palabras (use "Single Level" no "Single-Level")
-- Si la comunidad no existe o no es conocida, omítala y use más espacio para el gancho
+- Nunca use guiones dentro de palabras
+- Si la comunidad no es conocida, omítala y use el espacio para más palabras clave
 
 Devuelva SOLO el título, nada más. Sin comillas, sin explicación."""
 
     SYSTEM_EN = """You are a title optimizer for a luxury real estate classified portal in Costa Rica (Encuentra24).
 
-Create ONE optimized title in English following this exact structure:
-[Type] [X]BR in [Location] - [Community] - [Hook]
+Your goal is to write a title that a real buyer would TYPE into the Encuentra24 search bar — concrete keywords that generate clicks.
+
+Create ONE optimized English title following this structure:
+[Type] [X]BR in [Location] - [Key Feature] - [Search Hook]
 
 RULES:
 - MAXIMUM 70 characters (strict limit, count carefully)
-- [Type]: Home, Villa, Condo, etc. (omit if space is tight)
-- [X]BR: bedroom count using BR abbreviation
-- [Location]: most relevant city or district
-- [Community]: condo or development name (omit if not well known)
-- [Hook]: short compelling differentiator from agent highlights (e.g., "with Pool", "Ocean View", "Rental Income", "Steps to Beach", "Guest House")
+- [Type]: Home, Villa, Condo, Lot, Farm, etc. — use the term buyers actually search
+- [X]BR: bedroom count using BR abbreviation (omit for lots/farms)
+- [Location]: most-searched city or district (e.g., Escazu, Santa Teresa, Tamarindo, Uvita, Manuel Antonio)
+- [Key Feature]: well-known community name OR most-searched attribute (e.g., beachfront, gated community, mountain view, ocean view)
+- [Search Hook]: concrete benefit a buyer would search for (e.g., Pool, Ocean View, Rental Income, Walk to Beach, Guest House, Turnkey, Investment)
+- Prioritize real search terms over marketing language
 - Never use exclamation marks
-- Never use hyphens within words (use "Single Level" not "Single-Level")
+- Never use hyphens within words
+- If community is not well known, drop it and use the space for more keywords
 
 Output ONLY the title text, nothing else. No quotes, no explanation."""
 
@@ -662,8 +669,68 @@ REGLAS:
         print(f"    WARNING: ES description LLM failed for {mls}: {e}", file=sys.stderr)
         descr_es = ""
 
+    # ── SEO Short Description (150-200 chars, keyword-dense, buyer search terms) ──
+    SEO_EN = """You are an SEO copywriter for a Costa Rica real estate classified portal.
+
+Write a SHORT search-optimized property summary in English (150-200 characters).
+
+RULES:
+- Pack in the most-searched buyer keywords: property type, bedrooms, location, price range, key features
+- Write as a natural sentence buyers would search for, not marketing copy
+- Include: property type + bedrooms + city/area + 2-3 key features (pool, ocean view, gated, beachfront, etc.)
+- End with: Costa Rica
+- No exclamation marks. No hype.
+- Output ONLY the summary text, nothing else."""
+
+    SEO_ES = """Usted es un redactor SEO para un portal de clasificados de bienes raíces en Costa Rica.
+
+Escriba un RESUMEN CORTO optimizado para búsqueda en español (150-200 caracteres).
+
+REGLAS:
+- Incluya las palabras clave más buscadas: tipo de propiedad, habitaciones, ubicación, características clave
+- Escriba como una oración natural que un comprador buscaría, no lenguaje de marketing
+- Incluya: tipo + habitaciones + ciudad/zona + 2-3 características (piscina, vista al mar, condominio, frente al mar, etc.)
+- Termine con: Costa Rica
+- Sin signos de exclamación. Sin exageraciones.
+- Devuelva SOLO el resumen, nada más."""
+
+    seo_en = ""
+    seo_es = ""
+    try:
+        seo_en_resp = client.chat.completions.create(
+            model=LLM_MODEL,
+            messages=[
+                {"role": "system", "content": SEO_EN},
+                {"role": "user", "content": f"Write a short SEO summary.\n\n{context}"}
+            ],
+            temperature=0.3,
+            max_tokens=80,
+        )
+        seo_en = seo_en_resp.choices[0].message.content.strip().strip('"')
+        if len(seo_en) > 200:
+            seo_en = seo_en[:200].rsplit(' ', 1)[0]
+    except Exception as e:
+        print(f"    WARNING: EN SEO summary LLM failed for {mls}: {e}", file=sys.stderr)
+
     time.sleep(0.3)
-    return descr_en, descr_es
+    try:
+        seo_es_resp = client.chat.completions.create(
+            model=LLM_MODEL,
+            messages=[
+                {"role": "system", "content": SEO_ES},
+                {"role": "user", "content": f"Escriba un resumen SEO corto.\n\n{context}"}
+            ],
+            temperature=0.3,
+            max_tokens=80,
+        )
+        seo_es = seo_es_resp.choices[0].message.content.strip().strip('"')
+        if len(seo_es) > 200:
+            seo_es = seo_es[:200].rsplit(' ', 1)[0]
+    except Exception as e:
+        print(f"    WARNING: ES SEO summary LLM failed for {mls}: {e}", file=sys.stderr)
+
+    time.sleep(0.3)
+    return descr_en, descr_es, seo_en, seo_es
 
 
 def enrich_listings(eligible, use_llm=True):
@@ -722,17 +789,19 @@ def enrich_listings(eligible, use_llm=True):
             if detail_prop and detail_listing:
                 en_description, es_description, highlights = extract_detail_fields(detail_prop, detail_listing)
 
-        # Step 2 & 3: LLM enrichment
+        # Step 2, 3 & 4: LLM enrichment
         es_title_opt = ""
         en_title_opt = ""
         descr_en = ""
         descr_es = ""
+        seo_en = ""
+        seo_es = ""
 
         if use_llm and client:
             es_title_opt, en_title_opt = generate_llm_title(
                 client, prop, listing, en_description, es_description, highlights, mls
             )
-            descr_en, descr_es = generate_llm_descriptions(
+            descr_en, descr_es, seo_en, seo_es = generate_llm_descriptions(
                 client, prop, listing, en_description, es_description, highlights, mls
             )
 
@@ -745,6 +814,8 @@ def enrich_listings(eligible, use_llm=True):
             "en_title_optimized": en_title_opt,
             "descr_en": descr_en,
             "descr_es": descr_es,
+            "seo_en": seo_en,
+            "seo_es": seo_es,
         }
         new_entries += 1
         print("done")
@@ -1186,9 +1257,17 @@ def generate_item_xml(prop, listing, ad_type, enrichment=None):
     title_es = enrich.get("es_title_optimized") or get_spanish_title(prop, listing)
     title_en = enrich.get("en_title_optimized") or get_english_title(listing)
 
-    # Descriptions: use LLM two-paragraph if available, else fallback
-    descr_es = enrich.get("descr_es") or _fallback_description_es(prop, listing, ad_type)
-    descr_en = enrich.get("descr_en") or _fallback_description_en(prop, listing, ad_type)
+    # Descriptions: prepend SEO short summary to the two-paragraph narrative
+    seo_es = enrich.get("seo_es") or ""
+    seo_en = enrich.get("seo_en") or ""
+    body_es = enrich.get("descr_es") or _fallback_description_es(prop, listing, ad_type)
+    body_en = enrich.get("descr_en") or _fallback_description_en(prop, listing, ad_type)
+    descr_es = (seo_es + "\n\n" + body_es).strip() if seo_es else body_es
+    descr_en = (seo_en + "\n\n" + body_en).strip() if seo_en else body_en
+
+    # GPS coordinates for location pin
+    lat = prop.get("latitude") or prop.get("lat") or ""
+    lon = prop.get("longitude") or prop.get("lng") or prop.get("lon") or ""
 
     price  = listing.get("listingprice")
     images = get_image_urls(prop)
@@ -1290,6 +1369,12 @@ def generate_item_xml(prop, listing, ad_type, enrichment=None):
 
     if youtube:
         lines.append(f"          <youtube1>{cdata(youtube)}</youtube1>")
+
+    # GPS coordinates — location pin on Encuentra24 map
+    if lat and lon:
+        lines.append(f"          <location-lat>{cdata(str(lat))}</location-lat>")
+        lines.append(f"          <location-long>{cdata(str(lon))}</location-long>")
+        lines.append(f"          <location-zoom>{cdata('15')}</location-zoom>")
 
     lines.append(f"          <uhaschat>{cdata('Quiero recibir chats')}</uhaschat>")
     lines.append(f"          <sourceid>{cdata(mls)}</sourceid>")
