@@ -37,7 +37,7 @@ API_DETAIL_URL = "https://api.lxcostarica.com/api/v1/listings/{id}"
 COUNTRY_ID = "2"  # Costa Rica
 
 CONTACT_EMAIL   = "info@theagencycostarica.com"
-CONTACT_PHONE   = "+506 4001-4398"
+CONTACT_PHONE   = "+506 8512-9333"   # The Agency fallback — never use 4001-4398
 CONTACT_NAME    = "The Agency Costa Rica"
 CONTACT_CITY    = "Escazú"
 CONTACT_COMPANY = "The Agency Costa Rica"
@@ -1126,11 +1126,24 @@ def get_youtube_url(prop, listing):
 
 
 def get_agent_contact(listing):
-    """Get agent contact info from listing, with fallback to company defaults."""
+    """Get agent contact info from listing, with fallback to company defaults.
+
+    Phone priority:
+      1. agent.mobile — if it is a Costa Rica number (+506)
+      2. CONTACT_PHONE (+506 8512-9333) — The Agency fallback
+    Never use agent.phone (office line 4001-4398).
+    phone2 is always CONTACT_PHONE (+506 8512-9333).
+    """
     agent = listing.get("agent") or {}
-    office = listing.get("office") or {}
     email = agent.get("email") or CONTACT_EMAIL
-    phone = agent.get("phone") or agent.get("mobile") or office.get("phone") or CONTACT_PHONE
+
+    # Use agent mobile only if it is a Costa Rica number
+    mobile = (agent.get("mobile") or "").strip()
+    if mobile and mobile.startswith("+506"):
+        phone = mobile
+    else:
+        phone = CONTACT_PHONE  # fallback to +506 8512-9333
+
     name = f"{agent.get('firstname', '')} {agent.get('lastname', '')}".strip()
     if not name:
         name = CONTACT_NAME
@@ -1456,6 +1469,7 @@ def generate_item_xml(prop, listing, ad_type, enrichment=None, rotation_state=No
     lines.append("        </ad>")
     lines.append("        <contact>")
     lines.append(f"          <company>{cdata(CONTACT_COMPANY)}</company>")
+    lines.append(f"          <phone2>{cdata(CONTACT_PHONE)}</phone2>")  # Always The Agency: +506 8512-9333
     lines.append(f"          <url>{cdata(CONTACT_URL)}</url>")
     lines.append("        </contact>")
     lines.append("      </optional>")
