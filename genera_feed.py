@@ -34,6 +34,12 @@ from xml.sax.saxutils import escape
 API_URL        = "https://api.lxcostarica.com/api/v1/listings"
 API_DETAIL_URL = "https://api.lxcostarica.com/api/v1/listings/{id}"
 
+# Backup API — provides latitude/longitude per listing (firewall-protected for sandbox,
+# but accessible from GitHub Actions via the public endpoint below)
+COORD_API_URL  = "http://147.182.164.79:3000/api/v1/listings?per_page=999"
+COORD_SNAPSHOT_FILE    = "coord_snapshot.json"
+COORD_SNAPSHOT_MAX_AGE = 23 * 3600  # 23 hours — refresh once per day
+
 COUNTRY_ID = "2"  # Costa Rica
 
 CONTACT_EMAIL   = "info@theagencycostarica.com"
@@ -1324,7 +1330,7 @@ def _fallback_description_en(prop, listing, ad_type):
 # XML GENERATION
 # ─────────────────────────────────────────────────────────────────────
 
-def generate_item_xml(prop, listing, ad_type, enrichment=None, rotation_state=None, today=None):
+def generate_item_xml(prop, listing, ad_type, enrichment=None, rotation_state=None, today=None, coords=None):
     """Generate the <item> XML block for a single listing."""
     mls = listing.get("lx_mls_id") or listing.get("id") or prop.get("id")
     enrich = enrichment or {}
@@ -1345,8 +1351,13 @@ def generate_item_xml(prop, listing, ad_type, enrichment=None, rotation_state=No
     descr_en = (seo_en + "\n\n" + body_en).strip() if seo_en else body_en
 
     # GPS coordinates for location pin
-    lat = prop.get("latitude") or prop.get("lat") or ""
-    lon = prop.get("longitude") or prop.get("lng") or prop.get("lon") or ""
+    # Priority: coord_map lookup (backup API) > prop fields (public API, usually null)
+    if coords:
+        lat = coords.get("lat") or ""
+        lon = coords.get("lon") or ""
+    else:
+        lat = prop.get("latitude") or prop.get("lat") or ""
+        lon = prop.get("longitude") or prop.get("lng") or prop.get("lon") or ""
 
     price  = listing.get("listingprice")
     images = get_image_urls(prop)
@@ -1482,7 +1493,7 @@ def generate_item_xml(prop, listing, ad_type, enrichment=None, rotation_state=No
 # FEED ORCHESTRATION
 # ─────────────────────────────────────────────────────────────────────
 
-def generate_feed(properties, filter_type="all", max_listings=MAX_LISTINGS, use_llm=True):
+def generate_feed(properties, filter_type="all", max_listings=MAX_LISTINGS, use_llm=True, coord_map=None):
     """
     Generate the complete Encuentra24 XML feed.
 
@@ -1662,6 +1673,7 @@ def generate_feed(properties, filter_type="all", max_listings=MAX_LISTINGS, use_
     today = datetime.utcnow().date()
     rotated_count = 0
 
+    coord_lookup = coord_map or {}
     count = 0
     for prop, listing, ad_type in final:
         mls = listing.get("lx_mls_id") or listing.get("id") or prop.get("id")
@@ -1672,7 +1684,8 @@ def generate_feed(properties, filter_type="all", max_listings=MAX_LISTINGS, use_
                 prop, listing, ad_type,
                 enrichment=enrich,
                 rotation_state=rotation_state,
-                today=today
+                today=today,
+                coords=coord_lookup.get(str(mls))
             )
             lines.append(item_xml)
             count += 1
@@ -1819,6 +1832,51 @@ def fetch_properties(force_refresh=False):
     return data
 
 
+def fetch_coordinates(force_refresh=False):
+    """
+    Fetch latitude/longitude for all listings from the backup API.
+    Results are cached in coord_snapshot.json for up to 23 hours.
+    Returns a dict: {lx_mls_id: {"lat": float, "lon": float}}
+    If the backup API is unreachable, returns an empty dict (graceful degradation).
+    """
+    # Try loading from cache first
+    if not force_refresh and os.path.exists(COORD_SNAPSHOT_FILE):
+        age = time.time() - os.path.getmtime(COORD_SNAPSHOT_FILE)
+        if age < COORD_SNAPSHOT_MAX_AGE:
+            print(f"Loading coordinates from snapshot (age: {int(age/60)}m) ...")
+            with open(COORD_SNAPSHOT_FILE) as f:
+                return json.load(f)
+
+    print(f"Fetching coordinates from backup API ...")
+    try:
+        req = urllib.request.Request(COORD_API_URL)
+        req.add_header("User-Agent", "Encuentra24FeedGenerator/1.0")
+        with urllib.request.urlopen(req, timeout=120) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+    except Exception as e:
+        print(f"  WARNING: Could not reach coordinate API ({e}). GPS pins will be omitted.", file=sys.stderr)
+        return {}
+
+    # Build lookup dict: lx_mls_id -> {lat, lon}
+    coord_map = {}
+    for item in data:
+        for lst in (item.get("listings") or []):
+            mls = lst.get("lx_mls_id") or ""
+            lat = lst.get("latitude")
+            lon = lst.get("longitude")
+            if mls and lat is not None and lon is not None:
+                try:
+                    coord_map[mls] = {"lat": float(lat), "lon": float(lon)}
+                except (TypeError, ValueError):
+                    pass
+
+    print(f"  Loaded coordinates for {len(coord_map)} listings.")
+    with open(COORD_SNAPSHOT_FILE, "w", encoding="utf-8") as f:
+        json.dump(coord_map, f, ensure_ascii=False)
+    print(f"  Saved coordinate snapshot to {COORD_SNAPSHOT_FILE}.")
+    return coord_map
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Generate Encuentra24 XML feed from LX Costa Rica API"
@@ -1852,6 +1910,9 @@ def main():
     else:
         properties = fetch_properties(force_refresh=args.refresh_api)
 
+    # Fetch GPS coordinates from backup API (graceful — returns {} if unreachable)
+    coord_map = fetch_coordinates(force_refresh=args.refresh_api)
+
     limit = args.limit if args.limit > 0 else None
     use_llm = not args.no_enrich
 
@@ -1863,7 +1924,7 @@ def main():
 
     print(f"\nGenerating feed (type={args.type}, limit={limit or 'unlimited'}, llm={'on' if use_llm else 'off'}) ...")
     xml_content, count, skipped, final_listings = generate_feed(
-        properties, args.type, max_listings=limit, use_llm=use_llm
+        properties, args.type, max_listings=limit, use_llm=use_llm, coord_map=coord_map
     )
 
     with open(args.output, "w", encoding="utf-8") as f:
