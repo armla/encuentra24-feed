@@ -34,9 +34,10 @@ from xml.sax.saxutils import escape
 API_URL        = "https://api.lxcostarica.com/api/v1/listings"
 API_DETAIL_URL = "https://api.lxcostarica.com/api/v1/listings/{id}"
 
-# Backup API — provides latitude/longitude per listing (firewall-protected for sandbox,
-# but accessible from GitHub Actions via the public endpoint below)
-COORD_API_URL  = "http://147.182.164.79:3000/api/v1/listings?per_page=999"
+# Public coordinates endpoint — proxied via Next.js, no auth/firewall needed.
+# Returns: {"LXER12982": {"lat": 9.9245725, "lon": -84.1680407}, ...}
+# Falls back to coord_snapshot.json if unreachable.
+COORD_API_URL  = "https://live.theagency.cr/api/public/coordinates"
 COORD_SNAPSHOT_FILE    = "coord_snapshot.json"
 COORD_SNAPSHOT_MAX_AGE = 23 * 3600  # 23 hours — refresh once per day
 
@@ -1847,24 +1848,30 @@ def fetch_coordinates(force_refresh=False):
             with open(COORD_SNAPSHOT_FILE) as f:
                 return json.load(f)
 
-    print(f"Fetching coordinates from backup API ...")
+    print(f"Fetching coordinates from {COORD_API_URL} ...")
     try:
         req = urllib.request.Request(COORD_API_URL)
         req.add_header("User-Agent", "Encuentra24FeedGenerator/1.0")
-        with urllib.request.urlopen(req, timeout=120) as resp:
+        with urllib.request.urlopen(req, timeout=60) as resp:
             data = json.loads(resp.read().decode("utf-8"))
     except Exception as e:
-        print(f"  WARNING: Could not reach coordinate API ({e}). GPS pins will be omitted.", file=sys.stderr)
+        print(f"  WARNING: Could not reach coordinate API ({e}). Falling back to cached snapshot.", file=sys.stderr)
+        # Fall back to existing snapshot file if available
+        if os.path.exists(COORD_SNAPSHOT_FILE):
+            print(f"  Using existing {COORD_SNAPSHOT_FILE} as fallback.")
+            with open(COORD_SNAPSHOT_FILE) as f:
+                return json.load(f)
+        print(f"  No fallback available — GPS pins will be omitted.", file=sys.stderr)
         return {}
 
-    # Build lookup dict: lx_mls_id -> {lat, lon}
+    # The public endpoint returns a flat dict: {mls_id: {"lat": ..., "lon": ...}}
+    # Validate and normalise
     coord_map = {}
-    for item in data:
-        for lst in (item.get("listings") or []):
-            mls = lst.get("lx_mls_id") or ""
-            lat = lst.get("latitude")
-            lon = lst.get("longitude")
-            if mls and lat is not None and lon is not None:
+    for mls, coords in data.items():
+        if isinstance(coords, dict):
+            lat = coords.get("lat")
+            lon = coords.get("lon")
+            if lat is not None and lon is not None:
                 try:
                     coord_map[mls] = {"lat": float(lat), "lon": float(lon)}
                 except (TypeError, ValueError):
