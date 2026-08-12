@@ -873,7 +873,7 @@
           <type><![CDATA[property]]></type>
           <title><![CDATA[Casa Ideal en Escazú]]></title>
           <currency><![CDATA[USD]]></currency>
-          <price><![CDATA[1175000]]></price>
+          <price><![CDATA[1100000]]></price>
           <rooms><![CDATA[4]]></rooms>
           <bath><![CDATA[4]]></bath>
           <square><![CDATA[500]]></square>
@@ -7879,6 +7879,57 @@
     <item>
       <required>
         <ad>
+          <sourceid><![CDATA[LXAR14269]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[173]]></categoryid>
+          <regionid><![CDATA[111]]></regionid>
+          <type><![CDATA[property]]></type>
+          <title><![CDATA[Casitas Surf y Soul Combinación con Casa Principal]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[800000]]></price>
+          <rooms><![CDATA[7]]></rooms>
+          <bath><![CDATA[7]]></bath>
+          <square><![CDATA[0]]></square>
+          <parking><![CDATA[0]]></parking>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[terri.kaminski@theagencyre.com]]></email>
+          <phone><![CDATA[+506 8512-9333]]></phone>
+          <contact><![CDATA[Terri Kaminski]]></contact>
+          <city><![CDATA[Puerto Viejo]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Surf and Soul Casitas]]></title1>
+          <descr><![CDATA[Casitas Surf y Soul Combinación con Casa Principal. Ubicación: Puerto Viejo, Limon. 7 habitaciones | 7 baños | 1062 m² de terreno. Características: Brick/Stone detailing, Contemporary Design, Cross-ventilation, High-ceilings, Internal Garden, Natural light, Wood detailing, Security system, Furnished, Storage Area, Balcony, A/C Splits, Single-level. Exteriores: Terrace/Patio, BBQ, Landscaped Gardens, Pool, Guest House, Private Water Source, Backup Electric Generator, Gazebo, Green / Forest views, Beach & Coastal Living, Walking distance to beach. MLS LXAR14269 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Surf and Soul Casitas. Location: Puerto Viejo, Limon. 7 bedrooms | 7 bathrooms | 1062 m² lot. Features: Brick/Stone detailing, Contemporary Design, Cross-ventilation, High-ceilings, Internal Garden, Natural light, Wood detailing, Security system, Furnished, Storage Area, Balcony, A/C Splits, Single-level. Exterior: Terrace/Patio, BBQ, Landscaped Gardens, Pool, Guest House, Private Water Source, Backup Electric Generator, Gazebo, Green / Forest views, Beach & Coastal Living, Walking distance to beach. MLS LXAR14269 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D6kOy7/i5e0rze3g/1277x640/TACR-Limon-31.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D6kOy7/wn0k16wyn/1277x640/TACR-Limon-30.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D6kOy7/0t6k2mvdi/1277x640/TACR-Limon-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D6kOy7/eu9ffldjo/1277x640/TACR-Limon-12.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D6kOy7/ebm32tjkl/1277x640/TACR-Limon-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D6kOy7/o6x4o8yws/1277x640/TACR-Limon-28.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D6kOy7/7xvqqqxwm/1277x640/TACR-Limon-34.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D6kOy7/zajuaiwud/1277x640/TACR-Limon-35.jpg]]></picture>
+          <lotsize><![CDATA[1062]]></lotsize>
+          <swimmingpool><![CDATA[si]]></swimmingpool>
+          <balcon><![CDATA[balcón]]></balcon>
+          <benefits><![CDATA[Patio]]></benefits>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXAR14269]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <phone2><![CDATA[+506 8512-9333]]></phone2>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
           <sourceid><![CDATA[LXER13127]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[173]]></categoryid>
@@ -9027,6 +9078,71 @@
           <location-zoom><![CDATA[15]]></location-zoom>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXER13835]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <phone2><![CDATA[+506 8512-9333]]></phone2>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
+          <sourceid><![CDATA[LXCR13508]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[179]]></categoryid>
+          <regionid><![CDATA[5172]]></regionid>
+          <type><![CDATA[property]]></type>
+          <title><![CDATA[Casa Roble Sabana en Colinas de Montealegre]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[875000]]></price>
+          <rooms><![CDATA[4]]></rooms>
+          <bath><![CDATA[4]]></bath>
+          <square><![CDATA[460]]></square>
+          <parking><![CDATA[2]]></parking>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[tere@lxcostarica.com]]></email>
+          <phone><![CDATA[+506 8812-2531]]></phone>
+          <contact><![CDATA[Tere Silva]]></contact>
+          <city><![CDATA[Tres Rios]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Roble Sabana Home @ Colinas de Montealegre]]></title1>
+          <descr><![CDATA[Casa Roble Sabana en Colinas de Montealegre. Ubicación: Colinas de Montealegre, Tres Rios, San Jose. 4 habitaciones | 3 baños + 1 medio baño | 460 m² de construcción | 955 m² de terreno. Características: Brick/Stone detailing, Classical Design, Cross-ventilation, Fireplace / Chimney, Natural light, Office Space, A/C Splits, Full Bedroom on 1st floor. Exteriores: Terrace/Patio, City Living, Classical design, Semi-detached. MLS LXCR13508 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Roble Sabana Home @ Colinas de Montealegre. Location: Colinas de Montealegre, Tres Rios, San Jose. 4 bedrooms | 3 bathrooms + 1 half bath | 460 m² built area | 955 m² lot. Features: Brick/Stone detailing, Classical Design, Cross-ventilation, Fireplace / Chimney, Natural light, Office Space, A/C Splits, Full Bedroom on 1st floor. Exterior: Terrace/Patio, City Living, Classical design, Semi-detached. MLS LXCR13508 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/n16q6m6bq/1277x640/Living-room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/3e1vbufgm/1277x640/Kitchen-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/1mgusrsr3/1277x640/Kitchen-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/vhk50mh12/1277x640/Terrace-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/lebp8rzfk/1277x640/Living-room-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/kw7a9tzo2/1277x640/Office-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/fm7lnzm9h/1277x640/Master-bathroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/71ykkp5d6/1277x640/Master-bedroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/61wm4sa1d/1277x640/Secondary-bedroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/hp9p2lnzc/1277x640/Secondary-bedroom-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/c0esqe9sp/1277x640/Balcony-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/qz3cb4sw0/1277x640/Half-bathroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/n8ed6vkpt/1277x640/Secondary-bathroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/meokhjnf/1277x640/Secondary-bathroom-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/r9309mcnp/1277x640/Tv-room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/z2rgsp5b7/1277x640/View-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/qex1aap8o/1277x640/Walking-closet-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/nsvqzwp27/1277x640/Dog-house-1.jpg]]></picture>
+          <lotsize><![CDATA[955]]></lotsize>
+          <balcon><![CDATA[terraza]]></balcon>
+          <benefits><![CDATA[Patio,Seguridad 24 Horas,Pet Friendly]]></benefits>
+          <building><![CDATA[Colinas de Montealegre]]></building>
+          <youtube1><![CDATA[https://www.youtube.com/embed/bARtPWiBaC8]]></youtube1>
+          <location-lat><![CDATA[9.919246]]></location-lat>
+          <location-long><![CDATA[-84.0013576]]></location-long>
+          <location-zoom><![CDATA[15]]></location-zoom>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXCR13508]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
@@ -10898,71 +11014,6 @@
     <item>
       <required>
         <ad>
-          <sourceid><![CDATA[LXCR13508]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[179]]></categoryid>
-          <regionid><![CDATA[5172]]></regionid>
-          <type><![CDATA[property]]></type>
-          <title><![CDATA[Casa Roble Sabana en Colinas de Montealegre]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <price><![CDATA[975000]]></price>
-          <rooms><![CDATA[4]]></rooms>
-          <bath><![CDATA[4]]></bath>
-          <square><![CDATA[460]]></square>
-          <parking><![CDATA[2]]></parking>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[tere@lxcostarica.com]]></email>
-          <phone><![CDATA[+506 8812-2531]]></phone>
-          <contact><![CDATA[Tere Silva]]></contact>
-          <city><![CDATA[Tres Rios]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Roble Sabana Home @ Colinas de Montealegre]]></title1>
-          <descr><![CDATA[Casa Roble Sabana en Colinas de Montealegre. Ubicación: Colinas de Montealegre, Tres Rios, San Jose. 4 habitaciones | 3 baños + 1 medio baño | 460 m² de construcción | 955 m² de terreno. Características: Brick/Stone detailing, Classical Design, Cross-ventilation, Fireplace / Chimney, Natural light, Office Space, A/C Splits, Full Bedroom on 1st floor. Exteriores: Terrace/Patio, City Living, Classical design, Semi-detached. MLS LXCR13508 The Agency Costa Rica.]]></descr>
-          <descr1><![CDATA[Roble Sabana Home @ Colinas de Montealegre. Location: Colinas de Montealegre, Tres Rios, San Jose. 4 bedrooms | 3 bathrooms + 1 half bath | 460 m² built area | 955 m² lot. Features: Brick/Stone detailing, Classical Design, Cross-ventilation, Fireplace / Chimney, Natural light, Office Space, A/C Splits, Full Bedroom on 1st floor. Exterior: Terrace/Patio, City Living, Classical design, Semi-detached. MLS LXCR13508 The Agency Costa Rica.]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/n16q6m6bq/1277x640/Living-room-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/3e1vbufgm/1277x640/Kitchen-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/1mgusrsr3/1277x640/Kitchen-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/vhk50mh12/1277x640/Terrace-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/lebp8rzfk/1277x640/Living-room-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/kw7a9tzo2/1277x640/Office-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/fm7lnzm9h/1277x640/Master-bathroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/71ykkp5d6/1277x640/Master-bedroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/61wm4sa1d/1277x640/Secondary-bedroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/hp9p2lnzc/1277x640/Secondary-bedroom-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/c0esqe9sp/1277x640/Balcony-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/qz3cb4sw0/1277x640/Half-bathroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/n8ed6vkpt/1277x640/Secondary-bathroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/meokhjnf/1277x640/Secondary-bathroom-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/r9309mcnp/1277x640/Tv-room-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/z2rgsp5b7/1277x640/View-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/qex1aap8o/1277x640/Walking-closet-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006mfnhB/nsvqzwp27/1277x640/Dog-house-1.jpg]]></picture>
-          <lotsize><![CDATA[955]]></lotsize>
-          <balcon><![CDATA[terraza]]></balcon>
-          <benefits><![CDATA[Patio,Seguridad 24 Horas,Pet Friendly]]></benefits>
-          <building><![CDATA[Colinas de Montealegre]]></building>
-          <youtube1><![CDATA[https://www.youtube.com/embed/bARtPWiBaC8]]></youtube1>
-          <location-lat><![CDATA[9.919246]]></location-lat>
-          <location-long><![CDATA[-84.0013576]]></location-long>
-          <location-zoom><![CDATA[15]]></location-zoom>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXCR13508]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <phone2><![CDATA[+506 8512-9333]]></phone2>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
           <sourceid><![CDATA[LXAL13890]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[178]]></categoryid>
@@ -11042,6 +11093,50 @@
           <location-zoom><![CDATA[15]]></location-zoom>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXSL14030]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <phone2><![CDATA[+506 8512-9333]]></phone2>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
+          <sourceid><![CDATA[LXHL14305]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[178]]></categoryid>
+          <regionid><![CDATA[4]]></regionid>
+          <type><![CDATA[lot]]></type>
+          <title><![CDATA[Madero Negro Lot @ Los Reyes]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[185000]]></price>
+          <lotsize><![CDATA[927]]></lotsize>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[vicki@lxcostarica.com]]></email>
+          <phone><![CDATA[+506 8922-1173]]></phone>
+          <contact><![CDATA[Vicki Klunk]]></contact>
+          <city><![CDATA[Alajuela]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Madero Negro Lot @ Los Reyes]]></title1>
+          <descr><![CDATA[Madero Negro Lot @ Los Reyes. Ubicación: Condominio Madero Negro, Alajuela, Alajuela. Terreno de 927 m². MLS LXHL14305 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Madero Negro Lot @ Los Reyes. Location: Condominio Madero Negro, Alajuela, Alajuela. Lot size: 927 m². MLS LXHL14305 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000DVqSv2/eh1bl7uxb/1277x640/Aerial-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000DVqSv2/4uxajs8hj/1277x640/Aerial-10.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000DVqSv2/jn2ur4pvw/1277x640/Aerial-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000DVqSv2/hu96mqpgd/1277x640/Aerial-4.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000DVqSv2/ldvxczrfo/1277x640/Aerial-5.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000DVqSv2/71senhz6x/1277x640/Aerial-7.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000DVqSv2/0v67kvwgs/1277x640/Aerial-8.jpg]]></picture>
+          <benefits><![CDATA[Seguridad 24 Horas,Parque Infantil]]></benefits>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXHL14305]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
@@ -13776,53 +13871,6 @@
     <item>
       <required>
         <ad>
-          <sourceid><![CDATA[LXEF13843]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[176]]></categoryid>
-          <regionid><![CDATA[26]]></regionid>
-          <type><![CDATA[lot]]></type>
-          <title><![CDATA[Finca Verde en Orosi, Cartago]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <price><![CDATA[3500000]]></price>
-          <lotsize><![CDATA[4432570]]></lotsize>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[alfonso.sancho@theagencyre.com]]></email>
-          <phone><![CDATA[+506 8328-1689]]></phone>
-          <contact><![CDATA[Alfonso Sancho]]></contact>
-          <city><![CDATA[Cartago]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Finca Verde in Orosi, Cartago]]></title1>
-          <descr><![CDATA[Finca Verde en Orosi, Cartago. Ubicación: Cartago, Cartago. Terreno de 4432570 m². Exteriores: Green / Forest views, Mountain views, Mountain Living. MLS LXEF13843 The Agency Costa Rica.]]></descr>
-          <descr1><![CDATA[Finca Verde in Orosi, Cartago. Location: Cartago, Cartago. Lot size: 4432570 m². Exterior: Green / Forest views, Mountain views, Mountain Living. MLS LXEF13843 The Agency Costa Rica.]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/wvie81ugn/1277x640/Hacienda-Orosi-Verde-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/qgy5bm2rc/1277x640/Hacienda-Orosi-Verde-6.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/4ixzmarev/1277x640/Hacienda-Orosi-Verde-9.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/9a04gzs3c/1277x640/Hacienda-Orosi-Verde-15.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/kp96kokd9/1277x640/Hacienda-Orosi-Verde-14.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/iy8h6lg16/1277x640/Hacienda-Orosi-Verde-12.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/xdwjd4cnp/1277x640/Hacienda-Orosi-Verde-16.jpg]]></picture>
-          <benefits><![CDATA[Vista a las Montañas]]></benefits>
-          <location-lat><![CDATA[9.7973692]]></location-lat>
-          <location-long><![CDATA[-83.8545227]]></location-long>
-          <location-zoom><![CDATA[15]]></location-zoom>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXEF13843]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <phone2><![CDATA[+506 8512-9333]]></phone2>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
           <sourceid><![CDATA[LXEF13978]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[176]]></categoryid>
@@ -13860,6 +13908,53 @@
           <location-zoom><![CDATA[15]]></location-zoom>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXEF13978]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <phone2><![CDATA[+506 8512-9333]]></phone2>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
+          <sourceid><![CDATA[LXEF13843]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[176]]></categoryid>
+          <regionid><![CDATA[26]]></regionid>
+          <type><![CDATA[lot]]></type>
+          <title><![CDATA[Finca Verde en Orosi, Cartago]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[3500000]]></price>
+          <lotsize><![CDATA[4432570]]></lotsize>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[alfonso.sancho@theagencyre.com]]></email>
+          <phone><![CDATA[+506 8328-1689]]></phone>
+          <contact><![CDATA[Alfonso Sancho]]></contact>
+          <city><![CDATA[Cartago]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Finca Verde in Orosi, Cartago]]></title1>
+          <descr><![CDATA[Finca Verde en Orosi, Cartago. Ubicación: Cartago, Cartago. Terreno de 4432570 m². Exteriores: Green / Forest views, Mountain views, Mountain Living. MLS LXEF13843 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Finca Verde in Orosi, Cartago. Location: Cartago, Cartago. Lot size: 4432570 m². Exterior: Green / Forest views, Mountain views, Mountain Living. MLS LXEF13843 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/wvie81ugn/1277x640/Hacienda-Orosi-Verde-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/qgy5bm2rc/1277x640/Hacienda-Orosi-Verde-6.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/4ixzmarev/1277x640/Hacienda-Orosi-Verde-9.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/9a04gzs3c/1277x640/Hacienda-Orosi-Verde-15.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/kp96kokd9/1277x640/Hacienda-Orosi-Verde-14.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/iy8h6lg16/1277x640/Hacienda-Orosi-Verde-12.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/xdwjd4cnp/1277x640/Hacienda-Orosi-Verde-16.jpg]]></picture>
+          <benefits><![CDATA[Vista a las Montañas]]></benefits>
+          <location-lat><![CDATA[9.7973692]]></location-lat>
+          <location-long><![CDATA[-83.8545227]]></location-long>
+          <location-zoom><![CDATA[15]]></location-zoom>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXEF13843]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
@@ -14601,106 +14696,6 @@
           <location-zoom><![CDATA[15]]></location-zoom>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXEF14187]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <phone2><![CDATA[+506 8512-9333]]></phone2>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
-          <sourceid><![CDATA[LXSL13737]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[178]]></categoryid>
-          <regionid><![CDATA[61]]></regionid>
-          <type><![CDATA[lot]]></type>
-          <title><![CDATA[Lote frente al mar en Playa Hermosa]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <price><![CDATA[14000000]]></price>
-          <lotsize><![CDATA[0]]></lotsize>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[melissa.grace@theagencyre.com]]></email>
-          <phone><![CDATA[+506 8501-3680]]></phone>
-          <contact><![CDATA[Melissa Grace]]></contact>
-          <city><![CDATA[Santa Teresa]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Distinguished Playa Hermosa Beachfront Lot]]></title1>
-          <descr><![CDATA[Lote frente al mar en Playa Hermosa. Ubicación: Santa Teresa, Puntarenas. Área construida: 13000 m². Exteriores: Ocean views, Beach & Coastal Living. MLS LXSL13737 The Agency Costa Rica.]]></descr>
-          <descr1><![CDATA[Distinguished Playa Hermosa Beachfront Lot. Location: Santa Teresa, Puntarenas. Built area: 13000 m². Exterior: Ocean views, Beach & Coastal Living. MLS LXSL13737 The Agency Costa Rica.]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/exowjtki8/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-8.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/08c3w0j0h/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-7.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/s099fxgza/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/x7cyeo5yf/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/p3qo56akg/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/pcqxdfif9/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-4.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/3o0sswx78/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-5.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/mer5ozjvf/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-6.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/nf88qci5j/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-9.jpg]]></picture>
-          <m2><![CDATA[13000]]></m2>
-          <benefits><![CDATA[Vista al Mar]]></benefits>
-          <location-lat><![CDATA[9.6665845]]></location-lat>
-          <location-long><![CDATA[-85.1924944]]></location-long>
-          <location-zoom><![CDATA[15]]></location-zoom>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXSL13737]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <phone2><![CDATA[+506 8512-9333]]></phone2>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
-          <sourceid><![CDATA[LXEF13852]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[176]]></categoryid>
-          <regionid><![CDATA[1480]]></regionid>
-          <type><![CDATA[lot]]></type>
-          <title><![CDATA[Finca Paraíso Mar y Selva en Garabito, Puntarenas]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <price><![CDATA[30000000]]></price>
-          <lotsize><![CDATA[995890]]></lotsize>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[alfonso.sancho@theagencyre.com]]></email>
-          <phone><![CDATA[+506 8328-1689]]></phone>
-          <contact><![CDATA[Alfonso Sancho]]></contact>
-          <city><![CDATA[Puntarenas]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Finca Paraíso Mar y Selva in Garabito]]></title1>
-          <descr><![CDATA[Finca Paraíso Mar y Selva en Garabito, Puntarenas. Ubicación: Puntarenas, Puntarenas. Terreno de 995890 m². Exteriores: Panoramic views, Ocean views, Beach & Coastal Living. MLS LXEF13852 The Agency Costa Rica.]]></descr>
-          <descr1><![CDATA[Finca Paraíso Mar y Selva in Garabito. Location: Puntarenas, Puntarenas. Lot size: 995890 m². Exterior: Panoramic views, Ocean views, Beach & Coastal Living. MLS LXEF13852 The Agency Costa Rica.]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O5WRS/9tuwpspc6/1277x640/Sea-and-Mountain-Paradise-in-Garabito-6.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O5WRS/1g4864dkn/1277x640/Sea-and-Mountain-Paradise-in-Garabito-7.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O5WRS/2xhe3z4ro/1277x640/Sea-and-Mountain-Paradise-in-Garabito-8.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O5WRS/wozr2n26g/1277x640/Sea-and-Mountain-Paradise-in-Garabito-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O5WRS/y8jmp82r0/1277x640/Sea-and-Mountain-Paradise-in-Garabito-12.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O5WRS/jvv6sjfbe/1277x640/Sea-and-Mountain-Paradise-in-Garabito-13.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O5WRS/edf9ym6td/1277x640/Sea-and-Mountain-Paradise-in-Garabito-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O5WRS/xpx1hsn72/1277x640/Sea-and-Mountain-Paradise-in-Garabito-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O5WRS/8d1mxrntp/1277x640/Sea-and-Mountain-Paradise-in-Garabito-4.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O5WRS/ocxhpjzhl/1277x640/Sea-and-Mountain-Paradise-in-Garabito-5.jpg]]></picture>
-          <benefits><![CDATA[Vista al Mar]]></benefits>
-          <location-lat><![CDATA[9.6826604]]></location-lat>
-          <location-long><![CDATA[-84.6515465]]></location-long>
-          <location-zoom><![CDATA[15]]></location-zoom>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXEF13852]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
