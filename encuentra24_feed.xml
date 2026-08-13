@@ -1758,6 +1758,70 @@
     <item>
       <required>
         <ad>
+          <sourceid><![CDATA[LXHR24106]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[157]]></categoryid>
+          <regionid><![CDATA[36]]></regionid>
+          <type><![CDATA[rent]]></type>
+          <title><![CDATA[Casa de Montaña Altaris]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <rent><![CDATA[3800]]></rent>
+          <rooms><![CDATA[3]]></rooms>
+          <bath><![CDATA[4]]></bath>
+          <parking><![CDATA[2]]></parking>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[vicki@lxcostarica.com]]></email>
+          <phone><![CDATA[+506 8922-1173]]></phone>
+          <contact><![CDATA[Vicki Klunk]]></contact>
+          <city><![CDATA[Barva]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Altaris Mountain Home]]></title1>
+          <descr><![CDATA[Casa de Montaña Altaris. Ubicación: Barva, Heredia. 3 habitaciones | 3 baños + 1 medio baño | 520 m² de construcción | 2500 m² de terreno. Características: Classical Design, Cross-ventilation, Multi-level distribution, Natural light, Open Design. Exteriores: Green / Forest views, Mountain Living, Classical design. MLS LXHR24106 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Altaris Mountain Home. Location: Barva, Heredia. 3 bedrooms | 3 bathrooms + 1 half bath | 520 m² built area | 2500 m² lot. Features: Classical Design, Cross-ventilation, Multi-level distribution, Natural light, Open Design. Exterior: Green / Forest views, Mountain Living, Classical design. MLS LXHR24106 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/btl4ah1uu/1277x640/Facade-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/6wi1r9hmd/1277x640/Living-room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/bjznzb66o/1277x640/Dining-room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/qkqm1teey/1277x640/Kitchen-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/9yqnljyje/1277x640/Kitchen-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/j02qjfhsd/1277x640/Half-bathroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/0nwukwk2d/1277x640/Garden-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/q4aw4uyvt/1277x640/Terrace-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/6xhkaly15/1277x640/Terrace-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/u3swfel6h/1277x640/Master-Bedroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/0mswiiygn/1277x640/Master-Bathroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/4dwzvoahd/1277x640/Master-Bedroom-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/a4j4hz0oo/1277x640/Secondary-bedroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/534bw5o8l/1277x640/Secondary-Bathroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/iq4awok5t/1277x640/Secondary-bedroom-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/vf5kb0fgw/1277x640/Secondary-bedroom-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/k2m7k7zd6/1277x640/Secondary-Bathroom-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/4b5cj60nw/1277x640/Secondary-bedroom-4.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/tk4u7pooo/1277x640/View-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/giue2e9ph/1277x640/Facade-2.jpg]]></picture>
+          <lotsize><![CDATA[2500]]></lotsize>
+          <square><![CDATA[520]]></square>
+          <youtube1><![CDATA[https://www.youtube.com/embed/OHPWUraf1mk]]></youtube1>
+          <location-lat><![CDATA[10.01971]]></location-lat>
+          <location-long><![CDATA[-84.12531]]></location-long>
+          <location-zoom><![CDATA[15]]></location-zoom>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXHR24106]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <phone2><![CDATA[+506 8512-9333]]></phone2>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
           <sourceid><![CDATA[LXCR23269]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[156]]></categoryid>
@@ -1871,75 +1935,12 @@
           <balcon><![CDATA[balcón]]></balcon>
           <benefits><![CDATA[Bar,Pet Friendly]]></benefits>
           <building><![CDATA[TRIO]]></building>
+          <youtube1><![CDATA[https://www.youtube.com/embed/13JUa52jhQY]]></youtube1>
           <location-lat><![CDATA[9.9460254]]></location-lat>
           <location-long><![CDATA[-84.1597359]]></location-long>
           <location-zoom><![CDATA[15]]></location-zoom>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXER22958]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <phone2><![CDATA[+506 8512-9333]]></phone2>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
-          <sourceid><![CDATA[LXHR24106]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[157]]></categoryid>
-          <regionid><![CDATA[36]]></regionid>
-          <type><![CDATA[rent]]></type>
-          <title><![CDATA[Casa de Montaña Altaris]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <rent><![CDATA[4500]]></rent>
-          <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[4]]></bath>
-          <parking><![CDATA[2]]></parking>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[vicki@lxcostarica.com]]></email>
-          <phone><![CDATA[+506 8922-1173]]></phone>
-          <contact><![CDATA[Vicki Klunk]]></contact>
-          <city><![CDATA[Barva]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Altaris Mountain Home]]></title1>
-          <descr><![CDATA[Casa de Montaña Altaris. Ubicación: Barva, Heredia. 3 habitaciones | 3 baños + 1 medio baño | 520 m² de construcción | 2500 m² de terreno. Características: Classical Design, Cross-ventilation, Multi-level distribution, Natural light, Open Design. Exteriores: Green / Forest views, Mountain Living, Classical design. MLS LXHR24106 The Agency Costa Rica.]]></descr>
-          <descr1><![CDATA[Altaris Mountain Home. Location: Barva, Heredia. 3 bedrooms | 3 bathrooms + 1 half bath | 520 m² built area | 2500 m² lot. Features: Classical Design, Cross-ventilation, Multi-level distribution, Natural light, Open Design. Exterior: Green / Forest views, Mountain Living, Classical design. MLS LXHR24106 The Agency Costa Rica.]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/btl4ah1uu/1277x640/Facade-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/6wi1r9hmd/1277x640/Living-room-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/bjznzb66o/1277x640/Dining-room-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/qkqm1teey/1277x640/Kitchen-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/9yqnljyje/1277x640/Kitchen-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/j02qjfhsd/1277x640/Half-bathroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/0nwukwk2d/1277x640/Garden-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/q4aw4uyvt/1277x640/Terrace-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/6xhkaly15/1277x640/Terrace-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/u3swfel6h/1277x640/Master-Bedroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/0mswiiygn/1277x640/Master-Bathroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/4dwzvoahd/1277x640/Master-Bedroom-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/a4j4hz0oo/1277x640/Secondary-bedroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/534bw5o8l/1277x640/Secondary-Bathroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/iq4awok5t/1277x640/Secondary-bedroom-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/vf5kb0fgw/1277x640/Secondary-bedroom-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/k2m7k7zd6/1277x640/Secondary-Bathroom-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/4b5cj60nw/1277x640/Secondary-bedroom-4.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/tk4u7pooo/1277x640/View-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDHX3f/giue2e9ph/1277x640/Facade-2.jpg]]></picture>
-          <lotsize><![CDATA[2500]]></lotsize>
-          <square><![CDATA[520]]></square>
-          <youtube1><![CDATA[https://www.youtube.com/embed/OHPWUraf1mk]]></youtube1>
-          <location-lat><![CDATA[10.01971]]></location-lat>
-          <location-long><![CDATA[-84.12531]]></location-long>
-          <location-zoom><![CDATA[15]]></location-zoom>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXHR24106]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
@@ -6847,6 +6848,7 @@
           <balcon><![CDATA[balcón]]></balcon>
           <benefits><![CDATA[Bar,Pet Friendly]]></benefits>
           <building><![CDATA[TRIO]]></building>
+          <youtube1><![CDATA[https://www.youtube.com/embed/13JUa52jhQY]]></youtube1>
           <location-lat><![CDATA[9.9460254]]></location-lat>
           <location-long><![CDATA[-84.1597359]]></location-long>
           <location-zoom><![CDATA[15]]></location-zoom>
@@ -7913,6 +7915,11 @@
           <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D6kOy7/o6x4o8yws/1277x640/TACR-Limon-28.jpg]]></picture>
           <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D6kOy7/7xvqqqxwm/1277x640/TACR-Limon-34.jpg]]></picture>
           <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D6kOy7/zajuaiwud/1277x640/TACR-Limon-35.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D6kOy7/zw5ze7xgk/1277x640/TACR-Limon-37.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D6kOy7/25bawwwoh/1277x640/TACR-Limon-18.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D6kOy7/l26lmwf9x/1277x640/TACR-Limon-19.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D6kOy7/6n78c3oal/1277x640/TACR-Limon-23.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000D6kOy7/5yqrjnets/1277x640/TACR-Limon-33.jpg]]></picture>
           <lotsize><![CDATA[1062]]></lotsize>
           <swimmingpool><![CDATA[si]]></swimmingpool>
           <balcon><![CDATA[balcón]]></balcon>
@@ -11377,51 +11384,6 @@
     <item>
       <required>
         <ad>
-          <sourceid><![CDATA[LXHL14083]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[178]]></categoryid>
-          <regionid><![CDATA[2138]]></regionid>
-          <type><![CDATA[lot]]></type>
-          <title><![CDATA[Lote Vista al Parque en Hacienda Espinal]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <price><![CDATA[315000]]></price>
-          <lotsize><![CDATA[1082]]></lotsize>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[vicki@lxcostarica.com]]></email>
-          <phone><![CDATA[+506 8922-1173]]></phone>
-          <contact><![CDATA[Vicki Klunk]]></contact>
-          <city><![CDATA[Alajuela]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Parkview lot @ Hacienda Espinal]]></title1>
-          <descr><![CDATA[Lote Vista al Parque en Hacienda Espinal. Ubicación: Hacienda Espinal, Alajuela, San Jose. Terreno de 1082 m². MLS LXHL14083 The Agency Costa Rica.]]></descr>
-          <descr1><![CDATA[Parkview lot @ Hacienda Espinal. Location: Hacienda Espinal, Alajuela, San Jose. Lot size: 1082 m². MLS LXHL14083 The Agency Costa Rica.]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000B2s9Pu/q674h2tzi/1277x640/Aerial-7.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000B2s9Pu/0gtpbwdjz/1277x640/Aerial-9.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000B2s9Pu/fxptifpvr/1277x640/Aerial-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000B2s9Pu/p0jsi7bte/1277x640/Aerial-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000B2s9Pu/aeum26i9z/1277x640/Aerial-4.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000B2s9Pu/g8bd91d70/1277x640/Aerial-6.jpg]]></picture>
-          <location-lat><![CDATA[9.9515311]]></location-lat>
-          <location-long><![CDATA[-84.2498806]]></location-long>
-          <location-zoom><![CDATA[15]]></location-zoom>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXHL14083]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <phone2><![CDATA[+506 8512-9333]]></phone2>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
           <sourceid><![CDATA[LXCL12833]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[178]]></categoryid>
@@ -13871,6 +13833,53 @@
     <item>
       <required>
         <ad>
+          <sourceid><![CDATA[LXEF13843]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[176]]></categoryid>
+          <regionid><![CDATA[26]]></regionid>
+          <type><![CDATA[lot]]></type>
+          <title><![CDATA[Finca Verde en Orosi, Cartago]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[3500000]]></price>
+          <lotsize><![CDATA[4432570]]></lotsize>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[alfonso.sancho@theagencyre.com]]></email>
+          <phone><![CDATA[+506 8328-1689]]></phone>
+          <contact><![CDATA[Alfonso Sancho]]></contact>
+          <city><![CDATA[Cartago]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Finca Verde in Orosi, Cartago]]></title1>
+          <descr><![CDATA[Finca Verde en Orosi, Cartago. Ubicación: Cartago, Cartago. Terreno de 4432570 m². Exteriores: Green / Forest views, Mountain views, Mountain Living. MLS LXEF13843 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Finca Verde in Orosi, Cartago. Location: Cartago, Cartago. Lot size: 4432570 m². Exterior: Green / Forest views, Mountain views, Mountain Living. MLS LXEF13843 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/wvie81ugn/1277x640/Hacienda-Orosi-Verde-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/qgy5bm2rc/1277x640/Hacienda-Orosi-Verde-6.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/4ixzmarev/1277x640/Hacienda-Orosi-Verde-9.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/9a04gzs3c/1277x640/Hacienda-Orosi-Verde-15.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/kp96kokd9/1277x640/Hacienda-Orosi-Verde-14.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/iy8h6lg16/1277x640/Hacienda-Orosi-Verde-12.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/xdwjd4cnp/1277x640/Hacienda-Orosi-Verde-16.jpg]]></picture>
+          <benefits><![CDATA[Vista a las Montañas]]></benefits>
+          <location-lat><![CDATA[9.7973692]]></location-lat>
+          <location-long><![CDATA[-83.8545227]]></location-long>
+          <location-zoom><![CDATA[15]]></location-zoom>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXEF13843]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <phone2><![CDATA[+506 8512-9333]]></phone2>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
           <sourceid><![CDATA[LXEF13978]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[176]]></categoryid>
@@ -13908,53 +13917,6 @@
           <location-zoom><![CDATA[15]]></location-zoom>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXEF13978]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <phone2><![CDATA[+506 8512-9333]]></phone2>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
-          <sourceid><![CDATA[LXEF13843]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[176]]></categoryid>
-          <regionid><![CDATA[26]]></regionid>
-          <type><![CDATA[lot]]></type>
-          <title><![CDATA[Finca Verde en Orosi, Cartago]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <price><![CDATA[3500000]]></price>
-          <lotsize><![CDATA[4432570]]></lotsize>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[alfonso.sancho@theagencyre.com]]></email>
-          <phone><![CDATA[+506 8328-1689]]></phone>
-          <contact><![CDATA[Alfonso Sancho]]></contact>
-          <city><![CDATA[Cartago]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Finca Verde in Orosi, Cartago]]></title1>
-          <descr><![CDATA[Finca Verde en Orosi, Cartago. Ubicación: Cartago, Cartago. Terreno de 4432570 m². Exteriores: Green / Forest views, Mountain views, Mountain Living. MLS LXEF13843 The Agency Costa Rica.]]></descr>
-          <descr1><![CDATA[Finca Verde in Orosi, Cartago. Location: Cartago, Cartago. Lot size: 4432570 m². Exterior: Green / Forest views, Mountain views, Mountain Living. MLS LXEF13843 The Agency Costa Rica.]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/wvie81ugn/1277x640/Hacienda-Orosi-Verde-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/qgy5bm2rc/1277x640/Hacienda-Orosi-Verde-6.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/4ixzmarev/1277x640/Hacienda-Orosi-Verde-9.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/9a04gzs3c/1277x640/Hacienda-Orosi-Verde-15.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/kp96kokd9/1277x640/Hacienda-Orosi-Verde-14.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/iy8h6lg16/1277x640/Hacienda-Orosi-Verde-12.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O42Yr/xdwjd4cnp/1277x640/Hacienda-Orosi-Verde-16.jpg]]></picture>
-          <benefits><![CDATA[Vista a las Montañas]]></benefits>
-          <location-lat><![CDATA[9.7973692]]></location-lat>
-          <location-long><![CDATA[-83.8545227]]></location-long>
-          <location-zoom><![CDATA[15]]></location-zoom>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXEF13843]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
@@ -14696,6 +14658,56 @@
           <location-zoom><![CDATA[15]]></location-zoom>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXEF14187]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <phone2><![CDATA[+506 8512-9333]]></phone2>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
+          <sourceid><![CDATA[LXSL13737]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[178]]></categoryid>
+          <regionid><![CDATA[61]]></regionid>
+          <type><![CDATA[lot]]></type>
+          <title><![CDATA[Lote frente al mar en Playa Hermosa]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[14000000]]></price>
+          <lotsize><![CDATA[0]]></lotsize>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[melissa.grace@theagencyre.com]]></email>
+          <phone><![CDATA[+506 8501-3680]]></phone>
+          <contact><![CDATA[Melissa Grace]]></contact>
+          <city><![CDATA[Santa Teresa]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Distinguished Playa Hermosa Beachfront Lot]]></title1>
+          <descr><![CDATA[Lote frente al mar en Playa Hermosa. Ubicación: Santa Teresa, Puntarenas. Área construida: 13000 m². Exteriores: Ocean views, Beach & Coastal Living. MLS LXSL13737 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Distinguished Playa Hermosa Beachfront Lot. Location: Santa Teresa, Puntarenas. Built area: 13000 m². Exterior: Ocean views, Beach & Coastal Living. MLS LXSL13737 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/exowjtki8/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-8.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/08c3w0j0h/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-7.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/s099fxgza/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/x7cyeo5yf/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/p3qo56akg/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/pcqxdfif9/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-4.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/3o0sswx78/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-5.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/mer5ozjvf/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-6.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/nf88qci5j/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-9.jpg]]></picture>
+          <m2><![CDATA[13000]]></m2>
+          <benefits><![CDATA[Vista al Mar]]></benefits>
+          <location-lat><![CDATA[9.6665845]]></location-lat>
+          <location-long><![CDATA[-85.1924944]]></location-long>
+          <location-zoom><![CDATA[15]]></location-zoom>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXSL13737]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
