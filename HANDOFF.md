@@ -52,12 +52,17 @@ To optimize the listings for Encuentra24's search algorithms and user behavior, 
 
 **Caching:** To prevent redundant API calls and LLM costs, the enriched titles and descriptions are saved to `enrichment_cache.json`. The LLM only runs for listings that are entirely new or whose `lastmodifieddate` has changed since the last run.
 
+### Images and Photo Rotation
+The feed uses images flagged `isonwebsite = true`, sorted by `sortonwebsite`, so it follows the photo order curated by the listing agent in the CRM. The generator sends a maximum of **6 photos per property** (`MAX_PHOTOS = 6`). Friday/Sunday rotation can swap the first two images for unchanged listings according to `photo_rotation_state.json`; the six-photo cap remains in effect.
+
 ## 4. Architecture & Infrastructure
 
 ### Files
 - `genera_feed.py`: The core Python script that handles API fetching, tier logic, LLM enrichment, and XML generation.
 - `enrichment_cache.json`: Stores the LLM-generated titles and descriptions.
 - `api_snapshot.json`: A local copy of the bulk API response, cached for 23 hours to prevent hammering the LX API.
+- `coord_snapshot.json`: GPS-coordinate fallback map keyed by MLS ID; the feed refreshes it from the public coordinates endpoint when available.
+- `photo_rotation_state.json`: Records the last Friday/Sunday photo swap for each MLS ID.
 - `.github/workflows/generate_feed.yml`: The GitHub Actions workflow file that orchestrates the daily run.
 
 ### GitHub Actions Workflow
@@ -69,12 +74,14 @@ The workflow requires one GitHub Secret:
 
 ## 5. How to Update or Modify
 
-**To change the 100-listing cap or price limits:**
+**To change the listing cap, price limits, or photo limit:**
 Edit the configuration section at the top of `genera_feed.py`:
 ```python
-MAX_LISTINGS = 100
-EXCLUSIVE_PRICE_CAP = 1_100_000
-RENTAL_PRICE_CAP = 4_750
+MAX_LISTINGS = 250
+MAX_PHOTOS = 6
+EXCLUSIVE_PRICE_CAP = 1_250_000
+RENTAL_PRICE_CAP = 4_950
+SALE_PRICE_CAP = 980_000
 ```
 
 **To force a complete LLM regeneration:**

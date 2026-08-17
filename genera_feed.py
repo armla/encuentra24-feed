@@ -53,8 +53,8 @@ ADVERTISER_TYPE = "Agente"
 
 LANGUAGE = "es"  # Primary language for Encuentra24 settings block
 
-# Maximum number of photos per listing
-MAX_PHOTOS = 25
+# Maximum number of photos per listing — Encuentra24 feed limit
+MAX_PHOTOS = 6
 
 # Maximum number of listings in the feed (Encuentra24 plan limit)
 MAX_LISTINGS = 250
