@@ -1232,7 +1232,7 @@
           <type><![CDATA[rent]]></type>
           <title><![CDATA[Apartamento Vista al Cielo en Escazú Village]]></title>
           <currency><![CDATA[USD]]></currency>
-          <rent><![CDATA[3000]]></rent>
+          <rent><![CDATA[2900]]></rent>
           <rooms><![CDATA[2]]></rooms>
           <bath><![CDATA[2]]></bath>
           <parking><![CDATA[2]]></parking>
@@ -3016,6 +3016,55 @@
           <location-zoom><![CDATA[15]]></location-zoom>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXCR13200]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <phone2><![CDATA[+506 8512-9333]]></phone2>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
+          <sourceid><![CDATA[LXAR14331]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[173]]></categoryid>
+          <regionid><![CDATA[111]]></regionid>
+          <type><![CDATA[property]]></type>
+          <title><![CDATA[ËKË Villa de Lujo en Puerto Viejo]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[450000]]></price>
+          <rooms><![CDATA[2]]></rooms>
+          <bath><![CDATA[2]]></bath>
+          <square><![CDATA[144]]></square>
+          <parking><![CDATA[0]]></parking>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[terri.kaminski@theagencyre.com]]></email>
+          <phone><![CDATA[+506 8512-9333]]></phone>
+          <contact><![CDATA[Terri Kaminski]]></contact>
+          <city><![CDATA[Limón]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Eke Luxury Villa in Puerto Viejo]]></title1>
+          <descr><![CDATA[ËKË Villa de Lujo en Puerto Viejo. Ubicación: Limón, Limon. 2 habitaciones | 2 baños | 144 m² de construcción | 670 m² de terreno. Características: Brick/Stone detailing, Contemporary Design, Cross-ventilation, High-ceilings, Natural light, Furnished, A/C Splits, Single-level. Exteriores: Terrace/Patio, Contemporary design, Landscaped Gardens, Pool, Green / Forest views, Beach & Coastal Living, Walking distance to beach. MLS LXAR14331 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Eke Luxury Villa in Puerto Viejo. Location: Limón, Limon. 2 bedrooms | 2 bathrooms | 144 m² built area | 670 m² lot. Features: Brick/Stone detailing, Contemporary Design, Cross-ventilation, High-ceilings, Natural light, Furnished, A/C Splits, Single-level. Exterior: Terrace/Patio, Contemporary design, Landscaped Gardens, Pool, Green / Forest views, Beach & Coastal Living, Walking distance to beach. MLS LXAR14331 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000Dm5xgh/qu3bzziob/1277x640/TACR-22.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000Dm5xgh/jsu120mm6/1277x640/TACR-11.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000Dm5xgh/v938fhmjv/1277x640/TACR-13.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000Dm5xgh/oqkpqbx44/1277x640/TACR-12.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000Dm5xgh/i7e52k6gy/1277x640/TACR-16.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000Dm5xgh/t953t5srq/1277x640/TACR-14.jpg]]></picture>
+          <lotsize><![CDATA[670]]></lotsize>
+          <swimmingpool><![CDATA[si]]></swimmingpool>
+          <balcon><![CDATA[terraza]]></balcon>
+          <benefits><![CDATA[Patio]]></benefits>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXAR14331]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
@@ -12510,53 +12559,6 @@
           <location-zoom><![CDATA[15]]></location-zoom>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXEF14187]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <phone2><![CDATA[+506 8512-9333]]></phone2>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
-          <sourceid><![CDATA[LXSL13737]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[178]]></categoryid>
-          <regionid><![CDATA[61]]></regionid>
-          <type><![CDATA[lot]]></type>
-          <title><![CDATA[Lote frente al mar en Playa Hermosa]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <price><![CDATA[14000000]]></price>
-          <lotsize><![CDATA[0]]></lotsize>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[melissa.grace@theagencyre.com]]></email>
-          <phone><![CDATA[+506 8501-3680]]></phone>
-          <contact><![CDATA[Melissa Grace]]></contact>
-          <city><![CDATA[Santa Teresa]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Distinguished Playa Hermosa Beachfront Lot]]></title1>
-          <descr><![CDATA[Lote frente al mar en Playa Hermosa. Ubicación: Santa Teresa, Puntarenas. Área construida: 13000 m². Exteriores: Ocean views, Beach & Coastal Living. MLS LXSL13737 The Agency Costa Rica.]]></descr>
-          <descr1><![CDATA[Distinguished Playa Hermosa Beachfront Lot. Location: Santa Teresa, Puntarenas. Built area: 13000 m². Exterior: Ocean views, Beach & Coastal Living. MLS LXSL13737 The Agency Costa Rica.]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/exowjtki8/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-8.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/08c3w0j0h/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-7.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/s099fxgza/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/x7cyeo5yf/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/p3qo56akg/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/pcqxdfif9/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-4.jpg]]></picture>
-          <m2><![CDATA[13000]]></m2>
-          <benefits><![CDATA[Vista al Mar]]></benefits>
-          <location-lat><![CDATA[9.6665845]]></location-lat>
-          <location-long><![CDATA[-85.1924944]]></location-long>
-          <location-zoom><![CDATA[15]]></location-zoom>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXSL13737]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
