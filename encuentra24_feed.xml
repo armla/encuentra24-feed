@@ -1014,112 +1014,6 @@
     <item>
       <required>
         <ad>
-          <sourceid><![CDATA[LXER24032]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[156]]></categoryid>
-          <regionid><![CDATA[117]]></regionid>
-          <type><![CDATA[rent]]></type>
-          <title><![CDATA[Apartamento con Vista a la Piscina, en Escazú Village]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <rent><![CDATA[2300]]></rent>
-          <rooms><![CDATA[2]]></rooms>
-          <bath><![CDATA[2]]></bath>
-          <parking><![CDATA[2]]></parking>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[paola.mazzara@theagencyre.com]]></email>
-          <phone><![CDATA[+506 8330-4507]]></phone>
-          <contact><![CDATA[Paola Mazzara]]></contact>
-          <city><![CDATA[Escazú]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Escazú Village Apartment with Great View to the Pool]]></title1>
-          <descr><![CDATA[Apartamento con Vista a la Piscina, en Escazú Village. Ubicación: Escazú Village, Escazú, San Jose. 2 habitaciones | 2 baños | 93 m² de construcción | 123 m² de terreno. Características: Contemporary Design, High-ceilings, Natural light, Open Design, Furnished, Balcony, A/C Splits. Exteriores: Panoramic views, Backup Electric Generator, City views, Mountain views. MLS LXER24032 The Agency Costa Rica.]]></descr>
-          <descr1><![CDATA[Escazú Village Apartment with Great View to the Pool. Location: Escazú Village, Escazú, San Jose. 2 bedrooms | 2 bathrooms | 93 m² built area | 123 m² lot. Features: Contemporary Design, High-ceilings, Natural light, Open Design, Furnished, Balcony, A/C Splits. Exterior: Panoramic views, Backup Electric Generator, City views, Mountain views. MLS LXER24032 The Agency Costa Rica.]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000ARwK1i/it2z8r5wi/1277x640/Escazu-Village-Apartment-with-Great-view-to-the-Pool-5.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000ARwK1i/og0mc0u6m/1277x640/Escazu-Village-Apartment-with-Great-view-to-the-Pool-7.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000ARwK1i/jgkss468o/1277x640/Escazu-Village-Apartment-with-Great-view-to-the-Pool-8.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000ARwK1i/yefao6hc7/1277x640/Escazu-Village-Apartment-with-Great-view-to-the-Pool-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000ARwK1i/udokikz7j/1277x640/Escazu-Village-Apartment-with-Great-view-to-the-Pool-4.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000ARwK1i/r18dhqbip/1277x640/Escazu-Village-Apartment-with-Great-view-to-the-Pool-1.jpg]]></picture>
-          <lotsize><![CDATA[123]]></lotsize>
-          <square><![CDATA[93]]></square>
-          <swimmingpool><![CDATA[si]]></swimmingpool>
-          <balcon><![CDATA[balcón]]></balcon>
-          <benefits><![CDATA[Vista a las Montañas,Gimnasio,Área de BBQ,Parque Infantil]]></benefits>
-          <building><![CDATA[Escazú Village]]></building>
-          <location-lat><![CDATA[9.9342318]]></location-lat>
-          <location-long><![CDATA[-84.1298354]]></location-long>
-          <location-zoom><![CDATA[15]]></location-zoom>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXER24032]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <phone2><![CDATA[+506 8512-9333]]></phone2>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
-          <sourceid><![CDATA[LXER24219]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[156]]></categoryid>
-          <regionid><![CDATA[2138]]></regionid>
-          <type><![CDATA[rent]]></type>
-          <title><![CDATA[Apartamento Nido Urbano]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <rent><![CDATA[2700]]></rent>
-          <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[2]]></bath>
-          <parking><![CDATA[2]]></parking>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[melissa@lxcostarica.com]]></email>
-          <phone><![CDATA[+506 6027-2747]]></phone>
-          <contact><![CDATA[Melissa Lacayo]]></contact>
-          <city><![CDATA[Escazu]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Urban Nest Apartment]]></title1>
-          <descr><![CDATA[Apartamento Nido Urbano. Ubicación: MID 102, Escazu, San Jose. 3 habitaciones | 2 baños + 1 medio baño | 149 m² de construcción | 182 m² de terreno. Características: Contemporary Design, Natural light, Open Design, A/C Splits, Single-level. Exteriores: Contemporary design, City Living, High-rise Living. MLS LXER24219 The Agency Costa Rica.]]></descr>
-          <descr1><![CDATA[Urban Nest Apartment. Location: MID 102, Escazu, San Jose. 3 bedrooms | 2 bathrooms + 1 half bath | 149 m² built area | 182 m² lot. Features: Contemporary Design, Natural light, Open Design, A/C Splits, Single-level. Exterior: Contemporary design, City Living, High-rise Living. MLS LXER24219 The Agency Costa Rica.]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CMCSfJ/sbimd34cl/1277x640/Living-room-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CMCSfJ/xe4cgjis5/1277x640/Living-room-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CMCSfJ/d5c4mrzpc/1277x640/Kitchen-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CMCSfJ/x1ggqgg41/1277x640/Master-Bedroom-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CMCSfJ/9rjts9h8m/1277x640/Secondary-bedroom-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CMCSfJ/ugty0so8b/1277x640/Social-Area-2.jpg]]></picture>
-          <lotsize><![CDATA[182]]></lotsize>
-          <square><![CDATA[149]]></square>
-          <swimmingpool><![CDATA[si]]></swimmingpool>
-          <benefits><![CDATA[Seguridad 24 Horas,Gimnasio,Área de BBQ]]></benefits>
-          <building><![CDATA[MID 102]]></building>
-          <youtube1><![CDATA[https://www.youtube.com/embed/4RGs4J7ZvZQ]]></youtube1>
-          <location-lat><![CDATA[9.9302476]]></location-lat>
-          <location-long><![CDATA[-84.1400498]]></location-long>
-          <location-zoom><![CDATA[15]]></location-zoom>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXER24219]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <phone2><![CDATA[+506 8512-9333]]></phone2>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
           <sourceid><![CDATA[LXHR24273]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[156]]></categoryid>
@@ -1161,59 +1055,6 @@
           <location-zoom><![CDATA[15]]></location-zoom>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXHR24273]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <phone2><![CDATA[+506 8512-9333]]></phone2>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
-          <sourceid><![CDATA[LXER24275]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[156]]></categoryid>
-          <regionid><![CDATA[117]]></regionid>
-          <type><![CDATA[rent]]></type>
-          <title><![CDATA[Apartamento Esquinero con Vistas en Escazú Village]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <rent><![CDATA[2900]]></rent>
-          <rooms><![CDATA[2]]></rooms>
-          <bath><![CDATA[2]]></bath>
-          <parking><![CDATA[2]]></parking>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[paola.mazzara@theagencyre.com]]></email>
-          <phone><![CDATA[+506 8330-4507]]></phone>
-          <contact><![CDATA[Paola Mazzara]]></contact>
-          <city><![CDATA[Escazu]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Corner Apartment with Panoramic Views for Rent at Escazú Village]]></title1>
-          <descr><![CDATA[Apartamento Esquinero con Vistas en Escazú Village. Ubicación: Escazu Village, Escazu, San Jose. 2 habitaciones | 2 baños | 122 m² de construcción | 156 m² de terreno. Características: Contemporary Design, Cross-ventilation, High-ceilings, Natural light, Storage Area, Balcony, A/C Splits, Single-level, Full Bedroom on 1st floor. Exteriores: City views, Mountain views, City Living. MLS LXER24275 The Agency Costa Rica.]]></descr>
-          <descr1><![CDATA[Corner Apartment with Panoramic Views for Rent at Escazú Village. Location: Escazu Village, Escazu, San Jose. 2 bedrooms | 2 bathrooms | 122 m² built area | 156 m² lot. Features: Contemporary Design, Cross-ventilation, High-ceilings, Natural light, Storage Area, Balcony, A/C Splits, Single-level, Full Bedroom on 1st floor. Exterior: City views, Mountain views, City Living. MLS LXER24275 The Agency Costa Rica.]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000ChQRov/3l3pfto69/1277x640/Living-room-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000ChQRov/3pryv7vh2/1277x640/Terrace-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000ChQRov/s4eogghgu/1277x640/Living-room-4.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000ChQRov/kq9cwufz0/1277x640/Kitchen-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000ChQRov/9z4fd15wx/1277x640/Living-room-5.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000ChQRov/9z3acdxv2/1277x640/Living-room-2.jpg]]></picture>
-          <lotsize><![CDATA[156]]></lotsize>
-          <square><![CDATA[122]]></square>
-          <swimmingpool><![CDATA[si]]></swimmingpool>
-          <balcon><![CDATA[balcón]]></balcon>
-          <benefits><![CDATA[Vista a las Montañas,Seguridad 24 Horas,Área de BBQ,Parque Infantil]]></benefits>
-          <building><![CDATA[Escazu Village]]></building>
-          <location-lat><![CDATA[9.93369]]></location-lat>
-          <location-long><![CDATA[-84.12974]]></location-long>
-          <location-zoom><![CDATA[15]]></location-zoom>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXER24275]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
@@ -2444,60 +2285,6 @@
           <location-zoom><![CDATA[15]]></location-zoom>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXSR14126]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <phone2><![CDATA[+506 8512-9333]]></phone2>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
-          <sourceid><![CDATA[LXER14110]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[179]]></categoryid>
-          <regionid><![CDATA[117]]></regionid>
-          <type><![CDATA[property]]></type>
-          <title><![CDATA[Apartamento amoblado en  Escazú Village]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <price><![CDATA[315000]]></price>
-          <rooms><![CDATA[2]]></rooms>
-          <bath><![CDATA[2]]></bath>
-          <square><![CDATA[93]]></square>
-          <parking><![CDATA[2]]></parking>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[paola.mazzara@theagencyre.com]]></email>
-          <phone><![CDATA[+506 8330-4507]]></phone>
-          <contact><![CDATA[Paola Mazzara]]></contact>
-          <city><![CDATA[Escazu]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Furnished Apartment at Escazú Village]]></title1>
-          <descr><![CDATA[Apartamento amoblado en  Escazú Village. Ubicación: Escazu Village, Escazu, San Jose. 2 habitaciones | 2 baños | 93 m² de construcción | 127 m² de terreno. Características: Contemporary Design, Natural light, Furnished, Storage Area, Balcony, A/C Splits, Single-level, Full Bedroom on 1st floor. Exteriores: Contemporary design, Mountain views, City Living. MLS LXER14110 The Agency Costa Rica.]]></descr>
-          <descr1><![CDATA[Furnished Apartment at Escazú Village. Location: Escazu Village, Escazu, San Jose. 2 bedrooms | 2 bathrooms | 93 m² built area | 127 m² lot. Features: Contemporary Design, Natural light, Furnished, Storage Area, Balcony, A/C Splits, Single-level, Full Bedroom on 1st floor. Exterior: Contemporary design, Mountain views, City Living. MLS LXER14110 The Agency Costa Rica.]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDICmD/ecilzbqzw/1277x640/Kitchen-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDICmD/bzh3wb6kd/1277x640/Living-room-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDICmD/uxd35rbd1/1277x640/Terrace-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDICmD/ne763vnkc/1277x640/Living-room-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDICmD/vep27tci1/1277x640/Social-Areas-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BDICmD/n4r7pcjwm/1277x640/Master-Bedroom-1.jpg]]></picture>
-          <lotsize><![CDATA[127]]></lotsize>
-          <swimmingpool><![CDATA[si]]></swimmingpool>
-          <balcon><![CDATA[balcón]]></balcon>
-          <benefits><![CDATA[Vista a las Montañas,Seguridad 24 Horas,Pet Friendly,Gimnasio,Área de BBQ,Parque Infantil]]></benefits>
-          <building><![CDATA[Escazu Village]]></building>
-          <youtube1><![CDATA[https://www.youtube.com/embed/5X2iDeVBrvU]]></youtube1>
-          <location-lat><![CDATA[9.9340415]]></location-lat>
-          <location-long><![CDATA[-84.1300071]]></location-long>
-          <location-zoom><![CDATA[15]]></location-zoom>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXER14110]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
@@ -9627,49 +9414,6 @@
     <item>
       <required>
         <ad>
-          <sourceid><![CDATA[LXEL13480]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[178]]></categoryid>
-          <regionid><![CDATA[5179]]></regionid>
-          <type><![CDATA[lot]]></type>
-          <title><![CDATA[Lote El Jardín en Santa Ana]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <price><![CDATA[325000]]></price>
-          <lotsize><![CDATA[696]]></lotsize>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[melissa@lxcostarica.com]]></email>
-          <phone><![CDATA[+506 6027-2747]]></phone>
-          <contact><![CDATA[Melissa Lacayo]]></contact>
-          <city><![CDATA[Santa Ana]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[The Yard Lot Santa Ana]]></title1>
-          <descr><![CDATA[Lote El Jardín en Santa Ana. Ubicación: Latitud, Santa Ana, San Jose. Terreno de 696 m². MLS LXEL13480 The Agency Costa Rica.]]></descr>
-          <descr1><![CDATA[The Yard Lot Santa Ana. Location: Latitud, Santa Ana, San Jose. Lot size: 696 m². MLS LXEL13480 The Agency Costa Rica.]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006GIiUu/jln3nci6y/1277x640/Aerial-2.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006GIiUu/gczmrcb2s/1277x640/Aerial-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00006GIiUu/9udbbhsoa/1277x640/LX-1.jpg]]></picture>
-          <benefits><![CDATA[Seguridad 24 Horas,Pet Friendly,Gimnasio,Área de BBQ,Parque Infantil]]></benefits>
-          <location-lat><![CDATA[9.9517319]]></location-lat>
-          <location-long><![CDATA[-84.2030811]]></location-long>
-          <location-zoom><![CDATA[15]]></location-zoom>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXEL13480]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <phone2><![CDATA[+506 8512-9333]]></phone2>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
           <sourceid><![CDATA[LXHL13043]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[178]]></categoryid>
@@ -11829,6 +11573,51 @@
     <item>
       <required>
         <ad>
+          <sourceid><![CDATA[LXEF13978]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[176]]></categoryid>
+          <regionid><![CDATA[4]]></regionid>
+          <type><![CDATA[lot]]></type>
+          <title><![CDATA[Finca Los Abuelitos en Turrúcares, Alajuela]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[3500000]]></price>
+          <lotsize><![CDATA[47802]]></lotsize>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[alfonso.sancho@theagencyre.com]]></email>
+          <phone><![CDATA[+506 8328-1689]]></phone>
+          <contact><![CDATA[Alfonso Sancho]]></contact>
+          <city><![CDATA[Alajuela]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Los Abuelitos Recreational Farm in Turrucares]]></title1>
+          <descr><![CDATA[Finca Los Abuelitos en Turrúcares, Alajuela. Ubicación: Alajuela, Alajuela. Terreno de 47802 m². MLS LXEF13978 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Los Abuelitos Recreational Farm in Turrucares. Location: Alajuela, Alajuela. Lot size: 47802 m². MLS LXEF13978 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/pypuh6los/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-12.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/ooosae0pm/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-19.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/oz6av5pm5/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-5.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/sanqnx4yp/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/1fgiqn96t/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-11.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/jk8rxzf5n/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-16.jpg]]></picture>
+          <location-lat><![CDATA[9.9611]]></location-lat>
+          <location-long><![CDATA[-84.31919]]></location-long>
+          <location-zoom><![CDATA[15]]></location-zoom>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXEF13978]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <phone2><![CDATA[+506 8512-9333]]></phone2>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
           <sourceid><![CDATA[LXEF13843]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[176]]></categoryid>
@@ -11864,51 +11653,6 @@
           <location-zoom><![CDATA[15]]></location-zoom>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXEF13843]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <phone2><![CDATA[+506 8512-9333]]></phone2>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
-          <sourceid><![CDATA[LXEF13978]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[176]]></categoryid>
-          <regionid><![CDATA[4]]></regionid>
-          <type><![CDATA[lot]]></type>
-          <title><![CDATA[Finca Los Abuelitos en Turrúcares, Alajuela]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <price><![CDATA[3500000]]></price>
-          <lotsize><![CDATA[47802]]></lotsize>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[alfonso.sancho@theagencyre.com]]></email>
-          <phone><![CDATA[+506 8328-1689]]></phone>
-          <contact><![CDATA[Alfonso Sancho]]></contact>
-          <city><![CDATA[Alajuela]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Los Abuelitos Recreational Farm in Turrucares]]></title1>
-          <descr><![CDATA[Finca Los Abuelitos en Turrúcares, Alajuela. Ubicación: Alajuela, Alajuela. Terreno de 47802 m². MLS LXEF13978 The Agency Costa Rica.]]></descr>
-          <descr1><![CDATA[Los Abuelitos Recreational Farm in Turrucares. Location: Alajuela, Alajuela. Lot size: 47802 m². MLS LXEF13978 The Agency Costa Rica.]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/pypuh6los/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-12.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/ooosae0pm/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-19.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/oz6av5pm5/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-5.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/sanqnx4yp/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/1fgiqn96t/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-11.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009ljYqx/jk8rxzf5n/1277x640/Recreational-Estate-Los-Abuelitos-in-Turrucares-de-Alajuela-16.jpg]]></picture>
-          <location-lat><![CDATA[9.9611]]></location-lat>
-          <location-long><![CDATA[-84.31919]]></location-long>
-          <location-zoom><![CDATA[15]]></location-zoom>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXEF13978]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
@@ -12559,6 +12303,99 @@
           <location-zoom><![CDATA[15]]></location-zoom>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXEF14187]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <phone2><![CDATA[+506 8512-9333]]></phone2>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
+          <sourceid><![CDATA[LXSL13737]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[178]]></categoryid>
+          <regionid><![CDATA[61]]></regionid>
+          <type><![CDATA[lot]]></type>
+          <title><![CDATA[Lote frente al mar en Playa Hermosa]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[14000000]]></price>
+          <lotsize><![CDATA[0]]></lotsize>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[melissa.grace@theagencyre.com]]></email>
+          <phone><![CDATA[+506 8501-3680]]></phone>
+          <contact><![CDATA[Melissa Grace]]></contact>
+          <city><![CDATA[Santa Teresa]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Distinguished Playa Hermosa Beachfront Lot]]></title1>
+          <descr><![CDATA[Lote frente al mar en Playa Hermosa. Ubicación: Santa Teresa, Puntarenas. Área construida: 13000 m². Exteriores: Ocean views, Beach & Coastal Living. MLS LXSL13737 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Distinguished Playa Hermosa Beachfront Lot. Location: Santa Teresa, Puntarenas. Built area: 13000 m². Exterior: Ocean views, Beach & Coastal Living. MLS LXSL13737 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/exowjtki8/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-8.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/08c3w0j0h/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-7.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/s099fxgza/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/x7cyeo5yf/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-2.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/p3qo56akg/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00008skl9L/pcqxdfif9/1277x640/The-Ultimate-Beachfront-Location-in-the-Heart-of-the-Renowned-Playa-Hermosa-4.jpg]]></picture>
+          <m2><![CDATA[13000]]></m2>
+          <benefits><![CDATA[Vista al Mar]]></benefits>
+          <location-lat><![CDATA[9.6665845]]></location-lat>
+          <location-long><![CDATA[-85.1924944]]></location-long>
+          <location-zoom><![CDATA[15]]></location-zoom>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXSL13737]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <phone2><![CDATA[+506 8512-9333]]></phone2>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
+          <sourceid><![CDATA[LXEF13852]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[176]]></categoryid>
+          <regionid><![CDATA[1480]]></regionid>
+          <type><![CDATA[lot]]></type>
+          <title><![CDATA[Finca Paraíso Mar y Selva en Garabito, Puntarenas]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[30000000]]></price>
+          <lotsize><![CDATA[995890]]></lotsize>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[alfonso.sancho@theagencyre.com]]></email>
+          <phone><![CDATA[+506 8328-1689]]></phone>
+          <contact><![CDATA[Alfonso Sancho]]></contact>
+          <city><![CDATA[Puntarenas]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Finca Paraíso Mar y Selva in Garabito]]></title1>
+          <descr><![CDATA[Finca Paraíso Mar y Selva en Garabito, Puntarenas. Ubicación: Puntarenas, Puntarenas. Terreno de 995890 m². Exteriores: Panoramic views, Ocean views, Beach & Coastal Living. MLS LXEF13852 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Finca Paraíso Mar y Selva in Garabito. Location: Puntarenas, Puntarenas. Lot size: 995890 m². Exterior: Panoramic views, Ocean views, Beach & Coastal Living. MLS LXEF13852 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O5WRS/9tuwpspc6/1277x640/Sea-and-Mountain-Paradise-in-Garabito-6.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O5WRS/1g4864dkn/1277x640/Sea-and-Mountain-Paradise-in-Garabito-7.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O5WRS/2xhe3z4ro/1277x640/Sea-and-Mountain-Paradise-in-Garabito-8.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O5WRS/wozr2n26g/1277x640/Sea-and-Mountain-Paradise-in-Garabito-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O5WRS/y8jmp82r0/1277x640/Sea-and-Mountain-Paradise-in-Garabito-12.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg00009O5WRS/jvv6sjfbe/1277x640/Sea-and-Mountain-Paradise-in-Garabito-13.jpg]]></picture>
+          <benefits><![CDATA[Vista al Mar]]></benefits>
+          <location-lat><![CDATA[9.6826604]]></location-lat>
+          <location-long><![CDATA[-84.6515465]]></location-long>
+          <location-zoom><![CDATA[15]]></location-zoom>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXEF13852]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
