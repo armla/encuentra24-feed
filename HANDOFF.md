@@ -126,3 +126,56 @@ Override at runtime via the `ZAPIER_WEBHOOK_URL` environment variable.
 - **Encuentra24 Import Modes:** When uploading the feed manually for testing, always use **Demo Mode** first. A live upload will deactivate any existing listings on your account that are not present in the XML.
 - **Single YouTube Video:** Encuentra24 only supports one YouTube video per listing. The script prioritizes the `virtual_tour_video_url`, followed by the `live_tour_url`, and finally `vertical_video_1`.
 - **Bathrooms must be whole integers:** Encuentra24 rejects fractional bath values (e.g. `3.25`) with a field validation error. The LX API can return quarter-bath values from its internal counting system. The `format_bathrooms()` function rounds to the nearest integer using `round()` to prevent this. Fixed April 2026 after import error on listing LXER13507.
+
+
+## 8. Encuentra24 Lead Webhook — Real-Time Inbound Leads
+
+Encuentra24 supports a **real-time inbound-lead webhook**. Once configured in the advertiser account, Encuentra24 sends a POST request to a URL chosen by The Agency Costa Rica whenever an ad generates a lead. This is separate from the existing outbound Zapier notification, which records a listing when it first enters the feed.
+
+### Why this is the preferred lead integration
+
+The payload contains both `sourceid` and `adid`. The feed writes the Agency MLS ID into `<sourceid>`, so an inbound lead can be matched reliably to the related Agency listing, agent, and location without parsing the ad title. The data can then be sent to Zapier and mapped to Salesforce in real time.
+
+### Payload schema
+
+| Field | Meaning | Recommended Salesforce use |
+|---|---|---|
+| `createdat` | Lead creation date and time | Lead Created Date / activity timestamp |
+| `sourceid` | Source-system ad ID supplied through XML import | Agency MLS ID; primary listing-match key |
+| `adid` | Encuentra24 ad ID | External Ad ID; secondary reconciliation key |
+| `id` | Encuentra24 lead ID | External Lead ID; idempotency/deduplication key |
+| `title` | Lead title | Lead subject or activity title |
+| `message` | Buyer inquiry message | Description / inquiry body |
+| `contact` | Contact details, when available | Raw-contact payload / audit record |
+| `name` | Prospect name | Lead Name |
+| `email` | Prospect email | Lead Email |
+| `phone` | Prospect phone | Lead Phone |
+| `leadadditionaldata` | Extra lead data that varies by lead type | Store as structured/raw supplemental data |
+| `addetails.title` | Published ad title | Listing title at time of inquiry |
+| `addetails.category` | Encuentra24 ad category | Listing category |
+| `addetails.price` | Ad price | Price at time of inquiry |
+| `addetails.currency` | Ad currency | Price currency |
+| `addetails.square` | Built area | Property reference data |
+| `addetails.rooms` | Bedrooms | Property reference data |
+| `addetails.baths` | Bathrooms | Property reference data |
+| `addetails.parking` | Parking spaces | Property reference data |
+| `addetails.lotsize` | Lot size | Property reference data |
+| `addetails.status` | Ad/property status | Property reference data |
+| `addetails.rentday` | Daily rent | Rental reference data |
+| `addetails.rent` | Rental amount | Rental reference data |
+
+### Implementation standard
+
+1. Use a dedicated, secure inbound webhook URL (Zapier Catch Hook or a custom endpoint) in the Encuentra24 advertiser configuration.
+2. Deduplicate using `id` as the Encuentra24 external-lead ID. A retry of the same webhook must update or ignore the existing Salesforce record, not create a duplicate.
+3. Match the associated property by `sourceid` first; use `adid` only as a secondary identifier.
+4. Create a Salesforce Lead or custom inquiry record with the buyer contact details, original message, source = `Encuentra24`, the two external IDs, and the complete payload retained for audit.
+5. Route the new record to the listing agent using the MLS ID / source listing lookup. Use The Agency Costa Rica as a fallback owner when no match is found.
+6. Return a successful HTTP 2xx response promptly; logging or downstream enrichment should run after capture so an operational issue does not cause lead loss.
+
+### Relationship to existing Zapier automation
+
+- **Existing Zapier webhook:** outbound; triggered by the feed generator when a listing enters the Encuentra24 feed.
+- **New Encuentra24 lead webhook:** inbound; triggered by Encuentra24 when a prospect submits an inquiry.
+
+Both automations should remain separate and use different endpoints so that listing-publication events and buyer-lead events cannot be confused.
