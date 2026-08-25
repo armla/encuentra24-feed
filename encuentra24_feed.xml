@@ -1014,6 +1014,56 @@
     <item>
       <required>
         <ad>
+          <sourceid><![CDATA[LXER22999]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[156]]></categoryid>
+          <regionid><![CDATA[38]]></regionid>
+          <type><![CDATA[rent]]></type>
+          <title><![CDATA[Casa Armonía en Heredia]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <rent><![CDATA[2500]]></rent>
+          <rooms><![CDATA[3]]></rooms>
+          <bath><![CDATA[3]]></bath>
+          <parking><![CDATA[2]]></parking>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[vicki.klunk@theagencyre.com]]></email>
+          <phone><![CDATA[+506 8922-1173]]></phone>
+          <contact><![CDATA[Vicki Klunk]]></contact>
+          <city><![CDATA[Heredia]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Casa Armonía in Heredia]]></title1>
+          <descr><![CDATA[Casa Armonía en Heredia. Ubicación: Condominio Los Hidalgos, Heredia, Heredia. 3 habitaciones | 3 baños | 283 m² de construcción | 527 m² de terreno. Características: Brick/Stone detailing, Colonial Design, Cross-ventilation, Fireplace / Chimney, Multi-level distribution, Natural light, Office Space, Wood detailing. Exteriores: Terrace/Patio, Landscaped Gardens, Classical design. MLS LXER22999 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Casa Armonía in Heredia. Location: Condominio Los Hidalgos, Heredia, Heredia. 3 bedrooms | 3 bathrooms | 283 m² built area | 527 m² lot. Features: Brick/Stone detailing, Colonial Design, Cross-ventilation, Fireplace / Chimney, Multi-level distribution, Natural light, Office Space, Wood detailing. Exterior: Terrace/Patio, Landscaped Gardens, Classical design. MLS LXER22999 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000mveRL/edbn8cm49/1277x640/Garden-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000mveRL/puamtu07m/1277x640/Kitchen-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000mveRL/r03y85p9k/1277x640/Living-room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000mveRL/w0jeqpli8/1277x640/Living-room-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000mveRL/4zkcuph5m/1277x640/Hallway-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0C3m00000mveRL/nlgb2gady/1277x640/Fountain-1.jpg]]></picture>
+          <lotsize><![CDATA[527]]></lotsize>
+          <square><![CDATA[283]]></square>
+          <balcon><![CDATA[terraza]]></balcon>
+          <benefits><![CDATA[Patio,Seguridad 24 Horas,Pet Friendly,Área de BBQ,Parque Infantil]]></benefits>
+          <building><![CDATA[Condominio Los Hidalgos]]></building>
+          <youtube1><![CDATA[https://www.youtube.com/embed/vVWu1F-E-os]]></youtube1>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXER22999]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <phone2><![CDATA[+506 8512-9333]]></phone2>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
           <sourceid><![CDATA[LXHR24273]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[156]]></categoryid>
@@ -1329,6 +1379,58 @@
     <item>
       <required>
         <ad>
+          <sourceid><![CDATA[LXER24210]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[156]]></categoryid>
+          <regionid><![CDATA[2138]]></regionid>
+          <type><![CDATA[rent]]></type>
+          <title><![CDATA[Furnished Glow Apartment]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <rent><![CDATA[4000]]></rent>
+          <rooms><![CDATA[3]]></rooms>
+          <bath><![CDATA[4]]></bath>
+          <parking><![CDATA[2]]></parking>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[melissa@lxcostarica.com]]></email>
+          <phone><![CDATA[+506 6027-2747]]></phone>
+          <contact><![CDATA[Melissa Lacayo]]></contact>
+          <city><![CDATA[Escazu]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Furnished Glow Apartment]]></title1>
+          <descr><![CDATA[Furnished Glow Apartment. Ubicación: Portofino, Escazu, San Jose. 3 habitaciones | 3 baños + 1 medio baño | 342 m² de construcción. Características: Classical Design, Cross-ventilation, Marble Floors, Natural light, Furnished, Maid’s Quarters, A/C Splits, Single-level. Exteriores: Panoramic views, Pool, City views, City Living, High-rise Living, Classical design. MLS LXER24210 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Furnished Glow Apartment. Location: Portofino, Escazu, San Jose. 3 bedrooms | 3 bathrooms + 1 half bath | 342 m² built area. Features: Classical Design, Cross-ventilation, Marble Floors, Natural light, Furnished, Maid’s Quarters, A/C Splits, Single-level. Exterior: Panoramic views, Pool, City views, City Living, High-rise Living, Classical design. MLS LXER24210 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CFlp7G/qga3ypypc/1277x640/Dining-room-3.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CFlp7G/qbqwhims0/1277x640/Kitchen-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CFlp7G/rcvsjbtnq/1277x640/Dining-room-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CFlp7G/y8d2taxrx/1277x640/Master-Bedroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CFlp7G/pk5t9h5wo/1277x640/Master-Bathroom-1.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CFlp7G/m1w56wd6b/1277x640/Secondary-bedroom-1.jpg]]></picture>
+          <square><![CDATA[342]]></square>
+          <swimmingpool><![CDATA[si]]></swimmingpool>
+          <benefits><![CDATA[Seguridad 24 Horas]]></benefits>
+          <building><![CDATA[Portofino]]></building>
+          <youtube1><![CDATA[https://www.youtube.com/embed/oIkHESWSiJM]]></youtube1>
+          <location-lat><![CDATA[9.92999]]></location-lat>
+          <location-long><![CDATA[-84.13288]]></location-long>
+          <location-zoom><![CDATA[15]]></location-zoom>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXER24210]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <phone2><![CDATA[+506 8512-9333]]></phone2>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
           <sourceid><![CDATA[LXCR23269]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[156]]></categoryid>
@@ -1478,58 +1580,6 @@
           <location-zoom><![CDATA[15]]></location-zoom>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXCR20771]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <phone2><![CDATA[+506 8512-9333]]></phone2>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
-          <sourceid><![CDATA[LXER24210]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[156]]></categoryid>
-          <regionid><![CDATA[2138]]></regionid>
-          <type><![CDATA[rent]]></type>
-          <title><![CDATA[Furnished Glow Apartment]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <rent><![CDATA[4900]]></rent>
-          <rooms><![CDATA[3]]></rooms>
-          <bath><![CDATA[4]]></bath>
-          <parking><![CDATA[2]]></parking>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[melissa@lxcostarica.com]]></email>
-          <phone><![CDATA[+506 6027-2747]]></phone>
-          <contact><![CDATA[Melissa Lacayo]]></contact>
-          <city><![CDATA[Escazu]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Furnished Glow Apartment]]></title1>
-          <descr><![CDATA[Furnished Glow Apartment. Ubicación: Portofino, Escazu, San Jose. 3 habitaciones | 3 baños + 1 medio baño | 342 m² de construcción. Características: Classical Design, Cross-ventilation, Marble Floors, Natural light, Furnished, Maid’s Quarters, A/C Splits, Single-level. Exteriores: Panoramic views, Pool, City views, City Living, High-rise Living, Classical design. MLS LXER24210 The Agency Costa Rica.]]></descr>
-          <descr1><![CDATA[Furnished Glow Apartment. Location: Portofino, Escazu, San Jose. 3 bedrooms | 3 bathrooms + 1 half bath | 342 m² built area. Features: Classical Design, Cross-ventilation, Marble Floors, Natural light, Furnished, Maid’s Quarters, A/C Splits, Single-level. Exterior: Panoramic views, Pool, City views, City Living, High-rise Living, Classical design. MLS LXER24210 The Agency Costa Rica.]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CFlp7G/qga3ypypc/1277x640/Dining-room-3.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CFlp7G/qbqwhims0/1277x640/Kitchen-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CFlp7G/rcvsjbtnq/1277x640/Dining-room-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CFlp7G/y8d2taxrx/1277x640/Master-Bedroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CFlp7G/pk5t9h5wo/1277x640/Master-Bathroom-1.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000CFlp7G/m1w56wd6b/1277x640/Secondary-bedroom-1.jpg]]></picture>
-          <square><![CDATA[342]]></square>
-          <swimmingpool><![CDATA[si]]></swimmingpool>
-          <benefits><![CDATA[Seguridad 24 Horas]]></benefits>
-          <building><![CDATA[Portofino]]></building>
-          <youtube1><![CDATA[https://www.youtube.com/embed/oIkHESWSiJM]]></youtube1>
-          <location-lat><![CDATA[9.92999]]></location-lat>
-          <location-long><![CDATA[-84.13288]]></location-long>
-          <location-zoom><![CDATA[15]]></location-zoom>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXER24210]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
@@ -4797,6 +4847,58 @@
     <item>
       <required>
         <ad>
+          <sourceid><![CDATA[LXAC14100]]></sourceid>
+          <countryid><![CDATA[2]]></countryid>
+          <categoryid><![CDATA[173]]></categoryid>
+          <regionid><![CDATA[111]]></regionid>
+          <type><![CDATA[property]]></type>
+          <title><![CDATA[Escondido Retreat | Puerto Viejo, Costa Caribe, Costa Rica]]></title>
+          <currency><![CDATA[USD]]></currency>
+          <price><![CDATA[649000]]></price>
+          <rooms><![CDATA[8]]></rooms>
+          <bath><![CDATA[6]]></bath>
+          <square><![CDATA[0]]></square>
+          <parking><![CDATA[0]]></parking>
+          <advertiser><![CDATA[Agente]]></advertiser>
+        </ad>
+        <contact>
+          <email><![CDATA[terri.kaminski@theagencyre.com]]></email>
+          <phone><![CDATA[+506 8512-9333]]></phone>
+          <contact><![CDATA[Terri Kaminski]]></contact>
+          <city><![CDATA[Talamanca]]></city>
+        </contact>
+      </required>
+      <optional>
+        <ad>
+          <title1><![CDATA[Escondido Retreat at Puerto Viejo]]></title1>
+          <descr><![CDATA[Escondido Retreat | Puerto Viejo, Costa Caribe, Costa Rica. Ubicación: Talamanca, Limon. 8 habitaciones | 6 baños | 2500 m² de terreno. Características: Bar Area, Brick/Stone detailing, Central A/C, Contemporary Design, Cross-ventilation, High-ceilings, Multi-level distribution, Natural light, Office Space, Play room, Furnished, Wood Floors, Balcony, Cinema, A/C Splits, Guest Annex, Double-height ceilings, Full Bedroom on 1st floor. Exteriores: Terrace/Patio, Contemporary design, Bar Area, BBQ, Landscaped Gardens, Pool, Private Water Source, Green / Forest views, Mountain views, Beach & Coastal Living, Walking distance to beach. MLS LXAC14100 The Agency Costa Rica.]]></descr>
+          <descr1><![CDATA[Escondido Retreat at Puerto Viejo. Location: Talamanca, Limon. 8 bedrooms | 6 bathrooms | 2500 m² lot. Features: Bar Area, Brick/Stone detailing, Central A/C, Contemporary Design, Cross-ventilation, High-ceilings, Multi-level distribution, Natural light, Office Space, Play room, Furnished, Wood Floors, Balcony, Cinema, A/C Splits, Guest Annex, Double-height ceilings, Full Bedroom on 1st floor. Exterior: Terrace/Patio, Contemporary design, Bar Area, BBQ, Landscaped Gardens, Pool, Private Water Source, Green / Forest views, Mountain views, Beach & Coastal Living, Walking distance to beach. MLS LXAC14100 The Agency Costa Rica.]]></descr1>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BAZSVw/buex6eybt/1277x640/TACR-5.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BAZSVw/4z0lmttm2/1277x640/TACR-7.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BAZSVw/kvac159ba/1277x640/TACR-8.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BAZSVw/oeb7bgt6o/1277x640/TACR-18.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BAZSVw/2scavwy32/1277x640/TACR-19.jpg]]></picture>
+          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BAZSVw/qetlbyuqi/1277x640/TACR-31.jpg]]></picture>
+          <lotsize><![CDATA[2500]]></lotsize>
+          <swimmingpool><![CDATA[si]]></swimmingpool>
+          <balcon><![CDATA[balcón]]></balcon>
+          <benefits><![CDATA[Bar,A/C central,Patio,Vista a las Montañas]]></benefits>
+          <location-lat><![CDATA[9.65595]]></location-lat>
+          <location-long><![CDATA[-82.75204]]></location-long>
+          <location-zoom><![CDATA[15]]></location-zoom>
+          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
+          <sourceid><![CDATA[LXAC14100]]></sourceid>
+        </ad>
+        <contact>
+          <company><![CDATA[The Agency Costa Rica]]></company>
+          <phone2><![CDATA[+506 8512-9333]]></phone2>
+          <url><![CDATA[https://theagency.cr]]></url>
+        </contact>
+      </optional>
+    </item>
+    <item>
+      <required>
+        <ad>
           <sourceid><![CDATA[LXER13113]]></sourceid>
           <countryid><![CDATA[2]]></countryid>
           <categoryid><![CDATA[179]]></categoryid>
@@ -5529,58 +5631,6 @@
           <location-zoom><![CDATA[15]]></location-zoom>
           <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
           <sourceid><![CDATA[LXER12922]]></sourceid>
-        </ad>
-        <contact>
-          <company><![CDATA[The Agency Costa Rica]]></company>
-          <phone2><![CDATA[+506 8512-9333]]></phone2>
-          <url><![CDATA[https://theagency.cr]]></url>
-        </contact>
-      </optional>
-    </item>
-    <item>
-      <required>
-        <ad>
-          <sourceid><![CDATA[LXAC14100]]></sourceid>
-          <countryid><![CDATA[2]]></countryid>
-          <categoryid><![CDATA[173]]></categoryid>
-          <regionid><![CDATA[111]]></regionid>
-          <type><![CDATA[property]]></type>
-          <title><![CDATA[Escondido Retreat | Puerto Viejo, Costa Caribe, Costa Rica]]></title>
-          <currency><![CDATA[USD]]></currency>
-          <price><![CDATA[729000]]></price>
-          <rooms><![CDATA[8]]></rooms>
-          <bath><![CDATA[6]]></bath>
-          <square><![CDATA[0]]></square>
-          <parking><![CDATA[0]]></parking>
-          <advertiser><![CDATA[Agente]]></advertiser>
-        </ad>
-        <contact>
-          <email><![CDATA[terri.kaminski@theagencyre.com]]></email>
-          <phone><![CDATA[+506 8512-9333]]></phone>
-          <contact><![CDATA[Terri Kaminski]]></contact>
-          <city><![CDATA[Talamanca]]></city>
-        </contact>
-      </required>
-      <optional>
-        <ad>
-          <title1><![CDATA[Escondido Retreat at Puerto Viejo]]></title1>
-          <descr><![CDATA[Escondido Retreat | Puerto Viejo, Costa Caribe, Costa Rica. Ubicación: Talamanca, Limon. 8 habitaciones | 6 baños | 2500 m² de terreno. Características: Bar Area, Brick/Stone detailing, Central A/C, Contemporary Design, Cross-ventilation, High-ceilings, Multi-level distribution, Natural light, Office Space, Play room, Furnished, Wood Floors, Balcony, Cinema, A/C Splits, Guest Annex, Double-height ceilings, Full Bedroom on 1st floor. Exteriores: Terrace/Patio, Contemporary design, Bar Area, BBQ, Landscaped Gardens, Pool, Private Water Source, Green / Forest views, Mountain views, Beach & Coastal Living, Walking distance to beach. MLS LXAC14100 The Agency Costa Rica.]]></descr>
-          <descr1><![CDATA[Escondido Retreat at Puerto Viejo. Location: Talamanca, Limon. 8 bedrooms | 6 bathrooms | 2500 m² lot. Features: Bar Area, Brick/Stone detailing, Central A/C, Contemporary Design, Cross-ventilation, High-ceilings, Multi-level distribution, Natural light, Office Space, Play room, Furnished, Wood Floors, Balcony, Cinema, A/C Splits, Guest Annex, Double-height ceilings, Full Bedroom on 1st floor. Exterior: Terrace/Patio, Contemporary design, Bar Area, BBQ, Landscaped Gardens, Pool, Private Water Source, Green / Forest views, Mountain views, Beach & Coastal Living, Walking distance to beach. MLS LXAC14100 The Agency Costa Rica.]]></descr1>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BAZSVw/buex6eybt/1277x640/TACR-5.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BAZSVw/4z0lmttm2/1277x640/TACR-7.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BAZSVw/kvac159ba/1277x640/TACR-8.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BAZSVw/oeb7bgt6o/1277x640/TACR-18.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BAZSVw/2scavwy32/1277x640/TACR-19.jpg]]></picture>
-          <picture><![CDATA[https://s3.amazonaws.com/propertybase-clients/00Do0000000aICGEA2/a0CQg0000BAZSVw/qetlbyuqi/1277x640/TACR-31.jpg]]></picture>
-          <lotsize><![CDATA[2500]]></lotsize>
-          <swimmingpool><![CDATA[si]]></swimmingpool>
-          <balcon><![CDATA[balcón]]></balcon>
-          <benefits><![CDATA[Bar,A/C central,Patio,Vista a las Montañas]]></benefits>
-          <location-lat><![CDATA[9.65595]]></location-lat>
-          <location-long><![CDATA[-82.75204]]></location-long>
-          <location-zoom><![CDATA[15]]></location-zoom>
-          <uhaschat><![CDATA[Quiero recibir chats]]></uhaschat>
-          <sourceid><![CDATA[LXAC14100]]></sourceid>
         </ad>
         <contact>
           <company><![CDATA[The Agency Costa Rica]]></company>
