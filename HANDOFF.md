@@ -179,3 +179,13 @@ The payload contains both `sourceid` and `adid`. The feed writes the Agency MLS 
 - **New Encuentra24 lead webhook:** inbound; triggered by Encuentra24 when a prospect submits an inquiry.
 
 Both automations should remain separate and use different endpoints so that listing-publication events and buyer-lead events cannot be confused.
+
+### Inventory API Resilience and Verified Snapshot Fallback
+
+The inventory source at `https://api.lxcostarica.com/api/v1/listings` is the canonical feed input. A source outage, timeout, invalid payload, or TLS certificate error must never replace the current XML with partial or empty data.
+
+- GitHub Actions persists `api_snapshot.json` in its workflow cache alongside the enrichment and photo-rotation state files.
+- Under normal conditions, the generator refreshes the inventory snapshot at most once every 23 hours.
+- If a fresh API request fails, the generator uses the most recent verified `api_snapshot.json` for up to **7 days**. The run completes and rebuilds the feed from that known-good inventory.
+- If no verified snapshot exists, or it is more than 7 days old, the generator exits successfully **without writing a new XML**. The previously published `encuentra24_feed.xml` remains intact, and no new-listing Zapier notifications are sent.
+- The underlying API certificate or availability incident must still be corrected; the fallback is business-continuity protection, not a replacement for a healthy source API.

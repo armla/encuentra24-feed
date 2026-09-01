@@ -1803,6 +1803,13 @@ def notify_zapier_new_listings(new_listings, webhook_url):
 
 API_SNAPSHOT_FILE = "api_snapshot.json"
 API_SNAPSHOT_MAX_AGE = 23 * 3600  # 23 hours
+# On source API failure, a verified snapshot may be used for up to seven days.
+# Beyond this limit, preserve the already-published XML rather than regenerate from stale inventory.
+API_SNAPSHOT_FALLBACK_MAX_AGE = 7 * 24 * 3600
+
+
+class SourceAPIUnavailable(RuntimeError):
+    """Raised when fresh inventory cannot be fetched and no safe snapshot is available."""
 
 
 def fetch_properties(force_refresh=False):
@@ -1821,12 +1828,30 @@ def fetch_properties(force_refresh=False):
             return data
 
     print(f"Fetching properties from {API_URL} ...")
-    req = urllib.request.Request(API_URL)
-    req.add_header("User-Agent", "Encuentra24FeedGenerator/1.0")
-    with urllib.request.urlopen(req, timeout=120) as resp:
-        data = json.loads(resp.read().decode("utf-8"))
-    print(f"  Received {len(data)} properties from API.")
+    try:
+        req = urllib.request.Request(API_URL)
+        req.add_header("User-Agent", "Encuentra24FeedGenerator/1.0")
+        with urllib.request.urlopen(req, timeout=120) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+    except Exception as exc:
+        # Source availability must never replace a known-good feed with partial data.
+        # A cached raw inventory snapshot is safe only for a limited, explicit window.
+        if os.path.exists(API_SNAPSHOT_FILE):
+            age = time.time() - os.path.getmtime(API_SNAPSHOT_FILE)
+            if age <= API_SNAPSHOT_FALLBACK_MAX_AGE:
+                print(
+                    f"  WARNING: Inventory API unavailable ({exc}). "
+                    f"Using last verified snapshot ({int(age / 3600)}h old).",
+                    file=sys.stderr,
+                )
+                with open(API_SNAPSHOT_FILE, encoding="utf-8") as f:
+                    return json.load(f)
+        raise SourceAPIUnavailable(
+            f"Inventory API unavailable and no verified snapshot under "
+            f"{API_SNAPSHOT_FALLBACK_MAX_AGE // 86400} days is available: {exc}"
+        ) from exc
 
+    print(f"  Received {len(data)} properties from API.")
     with open(API_SNAPSHOT_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False)
     print(f"  Saved API snapshot to {API_SNAPSHOT_FILE}.")
@@ -1915,7 +1940,20 @@ def main():
             properties = json.load(f)
         print(f"  Loaded {len(properties)} properties.")
     else:
-        properties = fetch_properties(force_refresh=args.refresh_api)
+        try:
+            properties = fetch_properties(force_refresh=args.refresh_api)
+        except SourceAPIUnavailable as exc:
+            # On a clean runner with no safe snapshot, preserve the last known-good XML.
+            # This keeps the public feed available and prevents false "new listing" events.
+            if os.path.exists(args.output):
+                print(f"WARNING: {exc}", file=sys.stderr)
+                print(
+                    "Keeping the existing verified XML unchanged; no listings or Zapier "
+                    "notifications will be generated this run.",
+                    file=sys.stderr,
+                )
+                return
+            raise
 
     # Fetch GPS coordinates from backup API (graceful — returns {} if unreachable)
     coord_map = fetch_coordinates(force_refresh=args.refresh_api)
